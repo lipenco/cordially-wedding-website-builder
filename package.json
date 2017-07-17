@@ -1,0 +1,53 @@
+{
+  "name": "gatsby-starter-material",
+  "description": "GatsbyJS Material Blog theme.",
+  "version": "0.1.7",
+  "author": "Ruben Harutyunyan",
+  "dependencies": {
+    "babel-plugin-lodash": "^3.2.11",
+    "font-awesome": "^4.7.0",
+    "gatsby": "^1.0.2",
+    "gatsby-link": "^1.0.1",
+    "gatsby-plugin-catch-links": "^1.0.1",
+    "gatsby-plugin-google-analytics": "^1.0.1",
+    "gatsby-plugin-react-helmet": "^1.0.1",
+    "gatsby-plugin-sass": "^1.0.0-beta.1",
+    "gatsby-plugin-sharp": "^1.0.1",
+    "gatsby-remark-copy-linked-files": "^1.0.1",
+    "gatsby-remark-images": "^1.0.1",
+    "gatsby-remark-prismjs": "^1.0.1",
+    "gatsby-remark-responsive-iframe": "^1.0.1",
+    "gatsby-remark-smartypants": "^1.0.1",
+    "gatsby-source-filesystem": "^1.0.1",
+    "gatsby-transformer-remark": "^1.0.1",
+    "lodash": "^4.17.4",
+    "lodash-webpack-plugin": "^0.11.4",
+    "react-disqus-comments": "^1.0.3",
+    "react-md": "^1.1.0-alpha-5"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-import-resolver-webpack": "^0.8.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.1.0",
+    "gh-pages": "^1.0.0",
+    "stylefmt": "^6.0.0",
+    "stylelint": "^7.11.0",
+    "stylelint-config-standard": "^16.0.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "serve": "gatsby develop",
+    "build": "gatsby build",
+    "build-pl": "gatsby build --prefix-paths",
+    "clean": "rm -rf public",
+    "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
+    "gh-deploy": "npm run clean && npm run build-pl && gh-pages -d public"
+  }
+}

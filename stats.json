@@ -21,12 +21,16 @@
       "page-component---src-pages-about-jsx-5d884edb853f45c7a46c.js.map"
     ],
     "path---tags-tag": [
-      "path---tags-tag-b3f2d54a1c7a4370d562.js",
-      "path---tags-tag-b3f2d54a1c7a4370d562.js.map"
+      "path---tags-tag-fe6e63f0dc5dde32bd4d.js",
+      "path---tags-tag-fe6e63f0dc5dde32bd4d.js.map"
     ],
     "path---rustic-wedding-website": [
       "path---rustic-wedding-website-4b2f7b21f3a42591ce85.js",
       "path---rustic-wedding-website-4b2f7b21f3a42591ce85.js.map"
+    ],
+    "path---online-wedding-invitations": [
+      "path---online-wedding-invitations-cb6384664bfdd84982d1.js",
+      "path---online-wedding-invitations-cb6384664bfdd84982d1.js.map"
     ],
     "path---marriage-websites": [
       "path---marriage-websites-da265175d446c120eb2d.js",
@@ -41,12 +45,12 @@
       "path---free-marriage-sites-26c66340c931dd814a72.js.map"
     ],
     "path---categories-tech": [
-      "path---categories-tech-e9801abaa637784e6304.js",
-      "path---categories-tech-e9801abaa637784e6304.js.map"
+      "path---categories-tech-d301df9268c10c35df7b.js",
+      "path---categories-tech-d301df9268c10c35df7b.js.map"
     ],
     "path---blog": [
-      "path---blog-cf4f0676e54a30a6b0a6.js",
-      "path---blog-cf4f0676e54a30a6b0a6.js.map"
+      "path---blog-1f10ae5ab0e79a909de7.js",
+      "path---blog-1f10ae5ab0e79a909de7.js.map"
     ],
     "path---best-wedding-website-cordially": [
       "path---best-wedding-website-cordially-61e7e03c649973b0d7e9.js",
@@ -73,8 +77,8 @@
       "page-component---src-pages-blog-jsx-1903c909bcbe224e9364.js.map"
     ],
     "app": [
-      "app-9b8ee8a1e0d99e31fe1b.js",
-      "app-9b8ee8a1e0d99e31fe1b.js.map"
+      "app-23bc07a9227314e0b09c.js",
+      "app-23bc07a9227314e0b09c.js.map"
     ]
   }
 }

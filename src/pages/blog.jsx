@@ -8,7 +8,7 @@ class Blog extends React.Component {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <div className="index-container">
-        <Helmet title={`Blog | ${config.siteTitle}`}  />
+        <Helmet title={`Cordially Wedding Website Blog | ${config.siteTitle}`}  />
         <PostListing postEdges={postEdges} />
       </div>
     );

@@ -8,9 +8,7 @@ class Index extends React.Component {
   render() {
     return (
       <div className="index-container">
-        <Helmet title={config.siteTitle} >
-          <script src="/static/new-all.js"/>
-          </Helmet>
+        <Helmet title={config.siteTitle} />
         <Landing/>
       </div>
     );

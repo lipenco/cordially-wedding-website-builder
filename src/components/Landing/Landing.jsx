@@ -3,6 +3,16 @@ import './Landing.scss';
 
 
 class Landing extends React.Component {
+
+  componentDidMount() {
+     const script = document.createElement("script");
+
+     script.src = "static/cordially-landing.js";
+     script.async = true;
+
+     document.body.appendChild(script);
+ }
+
   render() {
     return (
       <div>
@@ -451,10 +461,10 @@ class Landing extends React.Component {
                      <img class="twitter" onerror="this.src = this.src.replace(/svg/g,'png')" src="static/img/twitter.svg" />
                      </a> */}
                 <a target="_blank" href="https://www.pinterest.com/cordiallyco/">
-                  <img className="fb" src="static/img/pinterest.svg" />
+                  <img className="fb" src="static/img/pinterest.png" />
                 </a>
                 <a target="_blank" href="https://www.facebook.com/cordially.co">
-                  <img className="fb" src="static/img/fb.svg" />
+                  <img className="fb" src="static/img/facebook.png" />
                 </a>
               </div>
               <div className="credits">

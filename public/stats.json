@@ -1,0 +1,76 @@
+{
+  "assetsByChunkName": {
+    "commons": [
+      "commons-ee6ee3732d6e1262d123.js",
+      "commons-ee6ee3732d6e1262d123.js.map"
+    ],
+    "layout-component---index": [
+      "layout-component---index-09ab3b1fa4fec0eb3597.js",
+      "layout-component---index-09ab3b1fa4fec0eb3597.js.map"
+    ],
+    "page-component---src-templates-post-jsx": [
+      "page-component---src-templates-post-jsx-e0643b2eff7a42ee50a3.js",
+      "page-component---src-templates-post-jsx-e0643b2eff7a42ee50a3.js.map"
+    ],
+    "page-component---src-pages-index-jsx": [
+      "page-component---src-pages-index-jsx-cb20d6d0d61a3bccb004.js",
+      "page-component---src-pages-index-jsx-cb20d6d0d61a3bccb004.js.map"
+    ],
+    "page-component---src-pages-about-jsx": [
+      "page-component---src-pages-about-jsx-5d884edb853f45c7a46c.js",
+      "page-component---src-pages-about-jsx-5d884edb853f45c7a46c.js.map"
+    ],
+    "path---tags-tag": [
+      "path---tags-tag-98230840d21635fd7547.js",
+      "path---tags-tag-98230840d21635fd7547.js.map"
+    ],
+    "path---rustic-wedding-website": [
+      "path---rustic-wedding-website-4b2f7b21f3a42591ce85.js",
+      "path---rustic-wedding-website-4b2f7b21f3a42591ce85.js.map"
+    ],
+    "path---index": [
+      "path---index-586c7e095e534a3909ec.js",
+      "path---index-586c7e095e534a3909ec.js.map"
+    ],
+    "path---free-marriage-sites": [
+      "path---free-marriage-sites-26c66340c931dd814a72.js",
+      "path---free-marriage-sites-26c66340c931dd814a72.js.map"
+    ],
+    "path---categories-tech": [
+      "path---categories-tech-6de3733d3a5f650c0771.js",
+      "path---categories-tech-6de3733d3a5f650c0771.js.map"
+    ],
+    "path---blog": [
+      "path---blog-89dc26408aed8233be50.js",
+      "path---blog-89dc26408aed8233be50.js.map"
+    ],
+    "path---best-wedding-website-cordially": [
+      "path---best-wedding-website-cordially-61e7e03c649973b0d7e9.js",
+      "path---best-wedding-website-cordially-61e7e03c649973b0d7e9.js.map"
+    ],
+    "path---best-rsvp-website": [
+      "path---best-rsvp-website-25721bb10b2b8f74265d.js",
+      "path---best-rsvp-website-25721bb10b2b8f74265d.js.map"
+    ],
+    "path---about": [
+      "path---about-586c7e095e534a3909ec.js",
+      "path---about-586c7e095e534a3909ec.js.map"
+    ],
+    "page-component---src-templates-tag-jsx": [
+      "page-component---src-templates-tag-jsx-f5db84471279b5c43d03.js",
+      "page-component---src-templates-tag-jsx-f5db84471279b5c43d03.js.map"
+    ],
+    "page-component---src-templates-category-jsx": [
+      "page-component---src-templates-category-jsx-43737f33e25f852268ab.js",
+      "page-component---src-templates-category-jsx-43737f33e25f852268ab.js.map"
+    ],
+    "page-component---src-pages-blog-jsx": [
+      "page-component---src-pages-blog-jsx-1903c909bcbe224e9364.js",
+      "page-component---src-pages-blog-jsx-1903c909bcbe224e9364.js.map"
+    ],
+    "app": [
+      "app-d3b4ce652bc9c13a822c.js",
+      "app-d3b4ce652bc9c13a822c.js.map"
+    ]
+  }
+}

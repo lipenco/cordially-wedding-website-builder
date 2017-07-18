@@ -1,9 +1,9 @@
 module.exports = {
-  siteTitle: 'Gatsby Material Starter', // Site title.
-  pathPrefix: '/gatsby-material-starter', // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
-  disqusShortname: 'https-vagr9k-github-io-gatsby-material-starter', // Disqus shortname.
-  postDefaultCategoryID: 'Tech', // Default category for posts.
-  userName: 'Material User', // Username to display in the author segment.
+  siteTitle: 'Cordially Wedding Website Builder and Top RSVP Website Creator.', // Site title.
+  pathPrefix: '/cordially-wedding-website-builder', // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
+  disqusShortname: 'cordially-co', // Disqus shortname.
+  postDefaultCategoryID: 'tech', // Default category for posts.
+  userName: 'Cordially', // Username to display in the author segment.
   userLocation: 'North Pole, Earth', // User location to display in the author segment.
   userAvatar: 'https://api.adorable.io/avatars/150/test.png', // User avatar to display in the author segment.
   userDescription: "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
@@ -31,7 +31,7 @@ module.exports = {
     // },
     {
       label: 'Facebook',
-      url: '//facebook.com.local/USER',
+      url: 'https://www.facebook.com/cordially.co',
       iconClassName: 'fa fa-facebook',
     },
     // {

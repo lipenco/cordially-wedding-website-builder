@@ -24,8 +24,11 @@ export default class PostTemplate extends React.Component {
       <div className="md-grid post-page-container">
 
         <Helmet
-          title={`${post.title} | ${config.siteTitle}`}
-        />
+          title={`${post.title} | ${config.siteTitle}`}>
+          <base target="_blank" href="http://cordially.co" />
+          <meta name="description" content={`${post.title} | ${config.siteTitle}`} />
+          <meta property="og:type" content="article" />
+        </Helmet>
         <Card className="md-grid md-cell md-cell--12 post">
           <CardText className="post-body">
             <PostCover postNode={postNode} />

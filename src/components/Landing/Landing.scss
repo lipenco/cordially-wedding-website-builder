@@ -963,6 +963,7 @@ body.ready {
 }
 .slipper .description-slipper h2 {
     font-size: 70px;
+    line-height:60px;
     font-family: DidotItalic
 }
 @media screen and (max-width: 768px) and (min-width: 551px) {
@@ -1317,7 +1318,7 @@ body.ready {
         display: none
     }
 }
-.splash h4 {
+.splash h1 {
     position: relative;
     margin: 0 auto;
     top: -60px;
@@ -1327,20 +1328,20 @@ body.ready {
     font-family: DidotItalic;
     line-height: 1;
     color: #70e4d0;
-    opacity: 0
+    opacity: 1
 }
 @media screen and (max-width: 768px) and (min-width: 551px) {
-    .splash h4 {
+    .splash h1 {
         font-size: 70px
     }
 }
 @media screen and (max-width: 550px) {
-    .splash h4 {
+    .splash h1 {
         font-size: 32px
     }
 }
 @media screen and (max-width: 550px) {
-    .splash h4 {
+    .splash h1 {
         top: -15px
     }
 }
@@ -1839,7 +1840,7 @@ body.ready {
 .footer .social-menu a img {
     position: relative;
     display: block;
-    width: 100%
+    width: 27px;
 }
 .footer .credits {
     position: absolute;
@@ -1905,7 +1906,7 @@ body.ready {
         font-size: 80px
     }
 }
-.footer p {
+.footer p, .footer h3 {
     max-width: 600px;
     margin: 0 auto;
     padding: 0 5%;
@@ -1918,12 +1919,12 @@ body.ready {
     color: #1e1a1a
 }
 @media screen and (max-width: 768px) and (min-width: 551px) {
-    .footer p {
+    .footer p, .footer h3 {
         font-size: 14px
     }
 }
 @media screen and (max-width: 550px) {
-    .footer p {
+    .footer p, .footer h3 {
         font-size: 12px
     }
 }

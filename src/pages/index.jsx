@@ -8,7 +8,10 @@ class Index extends React.Component {
   render() {
     return (
       <div className="index-container">
-        <Helmet title={config.siteTitle} />
+        <Helmet title={config.siteTitle}>
+        <base target="_blank" href="http://cordially.co" />
+        <meta name="description" content={`Create best wedding website with top wedding websites creator Coridally`} />
+        </Helmet>
         <Landing/>
       </div>
     );

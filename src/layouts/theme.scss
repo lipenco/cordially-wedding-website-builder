@@ -5,10 +5,13 @@ $md-tertiary-color: $md-grey-300;
 
 .main-container,
 .darker-background {
-    background-color: $md-tertiary-color;
+    background-color: #fff;
 }
 
 a:link {
-    color: $md-secondary-color;
+    // color: $md-secondary-color;
     text-decoration: none;
+}
+.md-paper.md-paper--2.md-toolbar.md-background--primary.md-toolbar--text-white{
+  background: linear-gradient(45deg, rgb(123, 231, 215) 1%, rgb(123, 231, 215) 40%, rgb(123, 231, 215) 40%, rgb(134, 164, 227) 100%);
 }

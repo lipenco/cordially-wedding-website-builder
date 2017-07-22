@@ -21,7 +21,7 @@ class About extends Component {
                 </p>
               </figcaption>
               <div className="drawings mac">
-                <img className="illustration" src="static/img/imac-vintage-wedding-website.png" alt="vintage wedding website" />
+                <img className="illustration" src="/static/img/imac-vintage-wedding-website.png" alt="vintage wedding website" />
               </div>
               <figcaption>
                 <p style={{paddingTop:60}}>
@@ -41,7 +41,7 @@ class About extends Component {
             </figure>
             <figure>
               <div className="drawings iphone">
-                <img className="illustration" src="static/img/iphone-rustic-wedding-invitation.png" alt="wedding website creator" />
+                <img className="illustration" src="/static/img/iphone-rustic-wedding-invitation.png" alt="wedding website creator" />
               </div>
               <figcaption>
                 <p>

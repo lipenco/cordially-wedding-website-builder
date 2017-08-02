@@ -3,6 +3,7 @@ import 'font-awesome/scss/font-awesome.scss';
 import Navigation from '../components/Navigation/Navigation.jsx';
 import config from '../../data/SiteConfig';
 import './index.scss';
+import ReactGA from 'react-ga';
 
 export default class MainLayout extends React.Component {
   getLocalTitle(currentPath) {
@@ -32,6 +33,13 @@ export default class MainLayout extends React.Component {
     }
     return title;
   }
+
+  componentDidMount() {
+    ReactGA.initialize('UA-84206959-1');
+    ReactGA.set({ page: window.location.pathname });
+    ReactGA.pageview(window.location.pathname);
+  }
+
   render() {
     const { children } = this.props;
     const pathPrefix = config.pathPrefix ? config.pathPrefix : '/';

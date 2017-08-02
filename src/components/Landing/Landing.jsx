@@ -128,7 +128,7 @@ class Landing extends React.Component {
               <div className="baseline">
                 <div className="desktop-lookbook">
                   <div className="sprite-lookbook">
-                    <img width={1614} height={16800} src="static/img/sprite-lookbook2.png" />
+                    <img width={1614} height={16800} src="static/img/sprite-lookbook2ab.png" />
                   </div>
                 </div>
                 <div className="mobile-lookbook">
@@ -540,6 +540,7 @@ class Landing extends React.Component {
         <noscript>&lt;img height="1" width="1" style="display:none"
           src="https://www.facebook.com/tr?id=680330822129856&amp;ev=PageView&amp;noscript=1"
           /&gt;</noscript>
+
       </div>
     );
   }

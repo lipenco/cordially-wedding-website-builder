@@ -1294,6 +1294,10 @@ body.ready {
     }
 }
 @media screen and (max-width: 550px) {
+  .splash .mobile-lookbook h3 {
+    top:-100px;
+  }
+
     .splash .mobile-lookbook h3 span, .splash .mobile-lookbook-mock h3 span {
         font-size: 80px
     }
@@ -1337,14 +1341,11 @@ body.ready {
 }
 @media screen and (max-width: 550px) {
     .splash h1 {
-        font-size: 32px
+        font-size: 32px;
+        top: -105px
     }
 }
-@media screen and (max-width: 550px) {
-    .splash h1 {
-        top: -15px
-    }
-}
+
 .logo-wrapper {
   position: fixed;
   height: 20%;
@@ -1893,17 +1894,17 @@ body.ready {
     text-transform: uppercase;
     font-family: DidotItalic;
     line-height: .9;
-    font-size: 180px;
+    font-size: 117px;
     color: #1e1a1a
 }
 @media screen and (max-width: 768px) and (min-width: 551px) {
     .footer h2 {
-        font-size: 140px
+        font-size: 110px
     }
 }
 @media screen and (max-width: 550px) {
     .footer h2 {
-        font-size: 80px
+        font-size: 50px
     }
 }
 .footer p, .footer h3 {

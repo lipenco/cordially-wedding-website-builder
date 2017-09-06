@@ -423,10 +423,10 @@ class Landing extends React.Component {
               <div className="gradient-footer" />
               <div className="wrapper-footer">
                 <div className="footer-shop">
-                  <h2>It is Free</h2>
+                  <h2>Try It For Free</h2>
                   <h3>Create your stunning wedding website using top - notch websites creator.</h3>
                   <p>Do it. With Love. Make your wedding planing easier with Cordially!</p>
-                  <a target="_blank" href="https://app.cordially.co/template/vintage" className="link-footer" data-color="#000000">
+                  <a target="_blank" href="https://app.cordially.co/template/vintage" className="link-footer" style={{fontWeight:600}} data-color="#000000">
                     <div className="overlay-color" />
                     <span>C</span>
                     <span>r</span>
@@ -502,7 +502,7 @@ class Landing extends React.Component {
             </div>
           </section>
           <a href="https://app.cordially.co/admin/guest-list" className="nav-login"
-          style={{marginRight: 20, width: 150, display: 'block', opacity: 1}}>
+          style={{marginRight: 20, width: 150, display: 'block', opacity: 1, fontWeight:600}}>
             <span className="wrapper-letters">
               <span>L</span>
               <span>o</span>
@@ -513,7 +513,7 @@ class Landing extends React.Component {
             <div className="line-menu" />
             <div className="line-menu-hover" />
           </a>
-          <a href="#" className="nav-menu">
+          <a href="#" className="nav-menu" style={{fontWeight:600}}>
             <span className="wrapper-letters">
               <span>m</span>
               <span>e</span>
@@ -526,7 +526,7 @@ class Landing extends React.Component {
         </div>
         <div className="logo-wrapper">
           <style dangerouslySetInnerHTML={{__html: "\n            .header-link {\n            border: 1px solid #84ACE1;\n            position: relative;\n            text-decoration: none;\n            padding:11px 50px;\n            border-radius: 25px;\n            font-size: 18px;\n            font-family: DidotItalic;\n            color: #84ACE1;\n            top: 20px;\n            line-height: 40px;\n            transition: all 1s ease;\n            }\n            .header-link:hover {\n            background-color: #84ACE1;\n            color: #fff;\n            z-index: 9\n            }\n         " }} />
-          <a target="_blank" href="https://app.cordially.co/template/vintage" className="header-link">
+          <a target="_blank" style={{fontWeight: 600}} href="https://app.cordially.co/template/vintage" className="header-link">
             Create Your Own
           </a>
           <div className="scroll">

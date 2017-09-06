@@ -835,8 +835,8 @@ body.ready {
 .shapes .shape.circle {
     width: 90px;
     height: 90px;
-    border-radius: 100%;
-    border: 1px solid #3bbda7;
+    // border-radius: 100%;
+    // border: 1px solid #3bbda7;
     top: 75%;
     left: 90%;
     -webkit-transition: border-color .4s ease;
@@ -854,7 +854,7 @@ body.ready {
 .shapes .shape.diamond {
     width: 30px;
     height: 30px;
-    border: 1px solid #3bbda7;
+    // border: 1px solid #3bbda7;
     top: 85%;
     left: 60%;
     -webkit-transform: rotate(-50deg);

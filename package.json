@@ -23,7 +23,6 @@
     "lodash": "^4.17.4",
     "lodash-webpack-plugin": "^0.11.4",
     "react-disqus-comments": "^1.0.3",
-    "react-ga": "2.2.0",
     "react-md": "^1.1.0-alpha-5"
   },
   "devDependencies": {

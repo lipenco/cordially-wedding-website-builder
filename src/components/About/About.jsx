@@ -26,7 +26,7 @@ class About extends Component {
               <figcaption>
                <h2 style={{paddingTop:60}}>Modern wedding website builder.</h2>
 
-                <p >
+                <p>
                   Inspired by my own wedding, Cordially makes creating wedding websites simple.
                   Never compromising on quality and personalization, the site offers couples much more than traditional wedding sites.
                   Offering full control over the look, feel, and style of your wedding site, Cordially really is breaking the mold.

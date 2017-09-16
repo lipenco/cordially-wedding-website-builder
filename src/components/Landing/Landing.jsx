@@ -1,5 +1,6 @@
 import React from 'react';
 import './Landing.scss';
+import Helmet from 'react-helmet';
 
 
 class Landing extends React.Component {
@@ -16,6 +17,14 @@ class Landing extends React.Component {
   render() {
     return (
       <div>
+        <Helmet title={`Boutique Wedding Website Builder`}>
+        <meta property="og:site_name" content="Cordially.co"/>
+        <meta content="http://cordially.co/static/img/cordially-logo-new.jpg" property="og:image"/>
+        <meta content="http://cordially.co/static/img/cordially-logo-new.jpg" property="og:image:url"/>
+        <meta content="image/jpeg" property="og:image:type"/>
+        <link rel="canonical" href="http://cordially.co" />
+        </Helmet>
+
         <div className="usual-nav" />
         <div className="preloader">
           <div className="gradient-wrapper">
@@ -145,7 +154,7 @@ class Landing extends React.Component {
                     <span className="top">Y</span>
                   </h3>
                 </div>
-                <h1>Wedding Website</h1>
+                <h1>Butique Wedding Website Builder</h1>
               </div>
             </div>
           </section>
@@ -466,16 +475,17 @@ class Landing extends React.Component {
             <div className="gradient-menu" />
             <div className="half-screen">
               <div className="left">
-                <a target="_blank" href="https://app.cordially.co/admin/register">
+                <a target="_blank" href="#">
                   <span className="text-link">Features</span>
                   <span className="line-link" />
                 </a>
               </div>
               <div className="right">
-                <a target="_blank" href="https://app.cordially.co/admin/login">
-                  <span className="text-link">Login</span>
+                <a target="_blank" href="http://cordially.co/about">
+                  <span className="text-link">About</span>
                   <span className="line-link" />
                 </a>
+
               </div>
             </div>
             <div className="wrapper-menu">

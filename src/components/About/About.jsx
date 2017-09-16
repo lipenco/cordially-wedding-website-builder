@@ -8,7 +8,7 @@ class About extends Component {
           <div className="inner">
             <figure>
               <figcaption>
-                <h1>Welcome to Codially, the truly personal wedding website creator</h1>
+                <h1>Welcome to Codially, the truly personal wedding website builder</h1>
               <br/>
                 <p>
                   With such busy lives, planning a wedding can take a backseat – or become the chore you never wanted it to be. With so much to consider, plan, and arrange,
@@ -24,7 +24,9 @@ class About extends Component {
                 <img className="illustration" src="/static/img/imac-vintage-wedding-website.png" alt="vintage wedding website" />
               </div>
               <figcaption>
-                <p style={{paddingTop:60}}>
+               <h2 style={{paddingTop:60}}>Modern wedding website builder.</h2>
+
+                <p >
                   Inspired by my own wedding, Cordially makes creating wedding websites simple.
                   Never compromising on quality and personalization, the site offers couples much more than traditional wedding sites.
                   Offering full control over the look, feel, and style of your wedding site, Cordially really is breaking the mold.
@@ -44,6 +46,8 @@ class About extends Component {
                 <img className="illustration" src="/static/img/iphone-rustic-wedding-invitation.png" alt="wedding website creator" />
               </div>
               <figcaption>
+                <h2>Build your truly one-of-a-kind wedding website.</h2>
+
                 <p>
                   Each design has been carefully created to reflect current bridal trends and blend seamlessly with themes.
                   So whether your Big Day is being held in a <a target="_blank" href="http://app.cordially.co/template/rustic">rustic</a> barn in autumn,

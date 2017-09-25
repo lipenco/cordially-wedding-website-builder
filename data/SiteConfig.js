@@ -1,10 +1,10 @@
 module.exports = {
-  siteTitle: 'Cordially Wedding Website Builder and Top RSVP Website Creator.', // Site title.
+  siteTitle: 'Cordially.', // Site title.
   pathPrefix: '/cordially-wedding-website-builder', // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   disqusShortname: 'cordially-co', // Disqus shortname.
   postDefaultCategoryID: 'tech', // Default category for posts.
   userName: 'Cordially', // Username to display in the author segment.
-  userLocation: 'North Pole, Earth', // User location to display in the author segment.
+  userLocation: 'NYC, USA', // User location to display in the author segment.
   userAvatar: 'https://api.adorable.io/avatars/150/test.png', // User avatar to display in the author segment.
   userDescription: "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.

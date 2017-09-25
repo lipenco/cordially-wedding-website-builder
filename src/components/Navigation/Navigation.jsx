@@ -10,13 +10,14 @@ class Navigation extends Component {
     const { children, config, LocalTitle } = this.props;
     return (
       <NavigationDrawer
-        drawerTitle={config.siteTitle}
+        style={{backgroundColor: 'transparent'}}
+        drawerTitle={<a href='/'>Cordially</a>}
         toolbarTitle={LocalTitle}
         contentClassName="main-content"
         navItems={GetNavList(config)}
         mobileDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}
         tabletDrawerType={NavigationDrawer.DrawerTypes.PERSISTENT_MINI}
-        desktopDrawerType={NavigationDrawer.DrawerTypes.PERSISTENT_MINI}
+        desktopDrawerType={NavigationDrawer.DrawerTypes.PERSISTENT_MAX}
         toolbarActions={<ToolbarActions config={config} />}
       >
         <div className="main-container">

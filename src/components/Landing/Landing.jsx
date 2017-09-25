@@ -154,7 +154,7 @@ class Landing extends React.Component {
                     <span className="top">Y</span>
                   </h3>
                 </div>
-                <h1>Butique Wedding Website Builder</h1>
+                <h1>Wedding Website</h1>
               </div>
             </div>
           </section>
@@ -481,7 +481,7 @@ class Landing extends React.Component {
                 </a>
               </div>
               <div className="right">
-                <a target="_blank" href="http://cordially.co/about">
+                <a target="_blank" href="http://cordially.co/wedding-website-builder-about">
                   <span className="text-link">About</span>
                   <span className="line-link" />
                 </a>

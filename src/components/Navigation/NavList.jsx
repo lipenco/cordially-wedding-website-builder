@@ -7,20 +7,19 @@ function GetNavList(config) {
     divider: false,
     subheader: false,
     primaryText: 'Home',
-    leftIcon: <FontIcon>home</FontIcon>,
     component: Link,
     to: '/',
-  }, {
-    divider: true,
   },
+  // {
+  //   divider: false,
+  //   subheader: false,
+  //   primaryText: 'Blog',
+  //   component:  Link,
+  //   to: '/blog',
+  // },
   {
-    divider: false,
-    subheader: false,
-    primaryText: 'Blog',
-    leftIcon: "Blog",
-    component:  Link,
-    to: '/blog',
-  },
+    divider: true,
+  }
   ];
 
   if (config.userLinks) {
@@ -29,9 +28,35 @@ function GetNavList(config) {
         {
           divider: false,
           subheader: false,
+          primaryText: "Login",
+          onClick() { window.location.href = 'https://app.cordially.co/admin/login'; },
+        },
+        {
+          divider: false,
+          subheader: false,
+          primaryText: "Sign Up",
+          onClick() { window.location.href = 'https://app.cordially.co/admin/register'; },
+        },
+        {
+          divider: false,
+          subheader: false,
+          primaryText: "Build your website",
+          onClick() { window.location.href = 'https://app.cordially.co/template/vintage'; },
+        },
+        {
+          divider: true,
+        },
+        {
+          divider: false,
+          subheader: false,
           primaryText: link.label,
-          leftIcon: <FontIcon forceSize iconClassName={link.iconClassName} />,
           onClick() { window.location.href = link.url; },
+        },
+        {
+          divider: false,
+          subheader: false,
+          primaryText: "Pinterest",
+          onClick() { window.location.href = 'https://www.pinterest.com/cordiallyco/'; },
         },
       );
     });
@@ -43,10 +68,16 @@ function GetNavList(config) {
     {
       divider: false,
       subheader: false,
-      primaryText: 'About',
-      leftIcon: "About",
+      primaryText: 'Pricing',
       component: Link,
-      to: '/about/',
+      to: '/wedding-website-builder-pricing/',
+    },
+    {
+      divider: false,
+      subheader: false,
+      primaryText: 'About',
+      component: Link,
+      to: '/wedding-website-builder-about/',
     },
   );
   return NavList;

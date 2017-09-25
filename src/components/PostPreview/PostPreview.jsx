@@ -13,7 +13,7 @@ class PostPreview extends Component {
   render() {
     const { postInfo } = this.props;
     return (
-      <Card key={postInfo.path} raise className="md-grid md-cell md-cell--4">
+      <Card key={postInfo.path} raise className="md-grid md-cell md-cell--12">
         <Link style={{ textDecoration: 'none' }} to={postInfo.path}>
           <Media>
             <img src={postInfo.cover} alt={postInfo.title} />

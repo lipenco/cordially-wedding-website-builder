@@ -15,7 +15,14 @@
 </url>
 
 <url>
-  <loc>http://cordially.co/about/</loc>
+  <loc>http://cordially.co/wedding-website-builder-about/</loc>
+  <lastmod>2017-07-19T03:14:27+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+
+<url>
+  <loc>http://cordially.co/wedding-website-builder-pricing/</loc>
   <lastmod>2017-07-19T03:14:27+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.90</priority>

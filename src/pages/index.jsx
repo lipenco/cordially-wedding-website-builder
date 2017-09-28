@@ -10,7 +10,10 @@ class Index extends React.Component {
       <div className="index-container">
         <Helmet title={config.siteTitle}>
         <base target="_blank" href="http://cordially.co" />
-        <meta name="description" content={`Create best wedding website with top wedding websites creator Coridally`} />
+        <meta name="description" content={`
+          Create truly one-of-the-kind wedding website and make your guests feel special.
+          Collect RSVPs and manage your guests list with the best wedding website creator.`
+        } />
         </Helmet>
         <Landing/>
       </div>

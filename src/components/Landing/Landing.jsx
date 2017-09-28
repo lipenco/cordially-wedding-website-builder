@@ -7,7 +7,6 @@ class Landing extends React.Component {
 
   componentDidMount() {
      const script = document.createElement("script");
-
      script.src = "static/cordially-landing.js";
      script.async = true;
 
@@ -17,7 +16,7 @@ class Landing extends React.Component {
   render() {
     return (
       <div>
-        <Helmet title={`Boutique Wedding Website Builder`}>
+        <Helmet title={`Cordially - Modern Wedding Website Builder`}>
         <meta property="og:site_name" content="Cordially.co"/>
         <meta content="http://cordially.co/static/img/cordially-logo-new.jpg" property="og:image"/>
         <meta content="http://cordially.co/static/img/cordially-logo-new.jpg" property="og:image:url"/>
@@ -272,7 +271,7 @@ class Landing extends React.Component {
           <section className="content-wrapper slipper five">
             <div className="content-slipper">
               <div className="gradient victoria" style={{width: '100%'}} />
-              <iframe className="slipper-object object-video1" src="https://player.vimeo.com/video/223828928?autoplay=1&loop=1&title=0&byline=0&portrait=0" width={640} height={360} frameBorder={0} webkitallowfullscreen mozallowfullscreen allowFullScreen />
+              <iframe className="slipper-object object-video1" src="https://player.vimeo.com/video/223828928?autoplay=1&loop=1&title=0&byline=0&portrait=0" width={640} height={360} frameBorder={0}  />
               <img className="slipper-object object-video2" src="static/img/ekran.png" />
               <div className="description-slipper">
                 <h2>PERSONAL RSVPs</h2>
@@ -301,7 +300,7 @@ class Landing extends React.Component {
             <div className="content-slipper">
               <div className="gradient blue" style={{width: '100%'}} />
               <img className="slipper-object object-video2" src="static/img/ekran.png" />
-              <iframe className="slipper-object object-video1" src="https://player.vimeo.com/video/223817652?autoplay=1&loop=1&title=0&byline=0&portrait=0" width={640} height={320} frameBorder={0} webkitallowfullscreen mozallowfullscreen allowFullScreen />
+              <iframe className="slipper-object object-video1" src="https://player.vimeo.com/video/223817652?autoplay=1&loop=1&title=0&byline=0&portrait=0" width={640} height={320} frameBorder={0} />
               <div className="description-slipper" style={{top: '43%'}}>
                 <h2 style={{color: '#fff'}}>EASY TO SET UP</h2>
                 <p>

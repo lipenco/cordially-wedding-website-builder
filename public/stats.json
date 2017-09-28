@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "commons": [
-      "commons-fb9f24c70f979e25a836.js",
-      "commons-fb9f24c70f979e25a836.js.map"
+      "commons-9dd2b0e9b7ae848c9a7c.js",
+      "commons-9dd2b0e9b7ae848c9a7c.js.map"
     ],
     "layout-component---index": [
       "layout-component---index-fc4307bf5a0728b68bd0.js",
@@ -13,16 +13,16 @@
       "page-component---src-templates-post-jsx-6be789371c651cc9715f.js.map"
     ],
     "page-component---src-pages-wedding-website-builder-pricing-jsx": [
-      "page-component---src-pages-wedding-website-builder-pricing-jsx-c14f2a0caadbaca84a8e.js",
-      "page-component---src-pages-wedding-website-builder-pricing-jsx-c14f2a0caadbaca84a8e.js.map"
+      "page-component---src-pages-wedding-website-builder-pricing-jsx-a186463e5cf7a9105f40.js",
+      "page-component---src-pages-wedding-website-builder-pricing-jsx-a186463e5cf7a9105f40.js.map"
+    ],
+    "page-component---src-pages-pricing-jsx": [
+      "page-component---src-pages-pricing-jsx-09c14a4844d5fd7dccc8.js",
+      "page-component---src-pages-pricing-jsx-09c14a4844d5fd7dccc8.js.map"
     ],
     "page-component---src-pages-index-jsx": [
-      "page-component---src-pages-index-jsx-6ecff003216dd57667a9.js",
-      "page-component---src-pages-index-jsx-6ecff003216dd57667a9.js.map"
-    ],
-    "page-component---src-pages-wedding-website-builder-about-jsx": [
-      "page-component---src-pages-wedding-website-builder-about-jsx-845871b8c57aad00cba7.js",
-      "page-component---src-pages-wedding-website-builder-about-jsx-845871b8c57aad00cba7.js.map"
+      "page-component---src-pages-index-jsx-142f90ab474c2e2035ff.js",
+      "page-component---src-pages-index-jsx-142f90ab474c2e2035ff.js.map"
     ],
     "path---wedding-website-builder-pricing": [
       "path---wedding-website-builder-pricing-586c7e095e534a3909ec.js",
@@ -47,6 +47,10 @@
     "path---rustic-wedding-website": [
       "path---rustic-wedding-website-4b2f7b21f3a42591ce85.js",
       "path---rustic-wedding-website-4b2f7b21f3a42591ce85.js.map"
+    ],
+    "path---pricing": [
+      "path---pricing-586c7e095e534a3909ec.js",
+      "path---pricing-586c7e095e534a3909ec.js.map"
     ],
     "path---online-wedding-invitations": [
       "path---online-wedding-invitations-cb6384664bfdd84982d1.js",
@@ -88,6 +92,10 @@
       "path---best-rsvp-website-25721bb10b2b8f74265d.js",
       "path---best-rsvp-website-25721bb10b2b8f74265d.js.map"
     ],
+    "path---about": [
+      "path---about-586c7e095e534a3909ec.js",
+      "path---about-586c7e095e534a3909ec.js.map"
+    ],
     "page-component---src-templates-tag-jsx": [
       "page-component---src-templates-tag-jsx-f5db84471279b5c43d03.js",
       "page-component---src-templates-tag-jsx-f5db84471279b5c43d03.js.map"
@@ -96,13 +104,21 @@
       "page-component---src-templates-category-jsx-43737f33e25f852268ab.js",
       "page-component---src-templates-category-jsx-43737f33e25f852268ab.js.map"
     ],
+    "page-component---src-pages-wedding-website-builder-about-jsx": [
+      "page-component---src-pages-wedding-website-builder-about-jsx-430826c04bba26f25802.js",
+      "page-component---src-pages-wedding-website-builder-about-jsx-430826c04bba26f25802.js.map"
+    ],
     "page-component---src-pages-blog-jsx": [
       "page-component---src-pages-blog-jsx-1903c909bcbe224e9364.js",
       "page-component---src-pages-blog-jsx-1903c909bcbe224e9364.js.map"
     ],
+    "page-component---src-pages-about-jsx": [
+      "page-component---src-pages-about-jsx-adb722fa53ae37971b8d.js",
+      "page-component---src-pages-about-jsx-adb722fa53ae37971b8d.js.map"
+    ],
     "app": [
-      "app-626588a578f0dc3896fa.js",
-      "app-626588a578f0dc3896fa.js.map"
+      "app-2f0d95944c5b35e3dcbd.js",
+      "app-2f0d95944c5b35e3dcbd.js.map"
     ]
   }
 }

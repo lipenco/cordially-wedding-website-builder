@@ -10,8 +10,8 @@ class Navigation extends Component {
     const { children, config, LocalTitle } = this.props;
     return (
       <NavigationDrawer
-        style={{backgroundColor: 'transparent'}}
-        drawerTitle={<a href='/'>Cordially</a>}
+        drawerStyle={{backgroundColor: 'transparent'}}
+        drawerHeader={(<a className="logo-cordially" href="/"><img src="https://app.cordially.co/cordially-logo-new.jpg" style={{width: 100, paddingTop:9}}/></a>)}
         toolbarTitle={LocalTitle}
         contentClassName="main-content"
         navItems={GetNavList(config)}

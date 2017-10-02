@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Cordially.', // Site title.
+  siteTitle: 'Cordially. Wedding Website Builder and Top RSVP Website Creator', // Site title.
   pathPrefix: '/cordially-wedding-website-builder', // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   disqusShortname: 'cordially-co', // Disqus shortname.
   postDefaultCategoryID: 'tech', // Default category for posts.

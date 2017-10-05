@@ -1,6 +1,12 @@
 @import '~react-md/src/scss/react-md';
 $phone-status-bar-height: 24px - 12px;
 
+.post-page-container .md-card-text p {
+  img {
+    max-width: 100%
+  }
+}
+
 .post-page-container {
     justify-content: center;
     width: 100%;
@@ -16,9 +22,19 @@ $phone-status-bar-height: 24px - 12px;
     .post {
         display: flex;
         justify-content: center;
+        text-align: center;
+
+        p {
+          font-size: 17px;
+        }
 
         .post-body {
             max-width: 100%;
+
+            div p img {
+              max-width: 100%;
+              margin: 30px auto;
+            }
 
             /**
              * Based on MUICSS's Table Component

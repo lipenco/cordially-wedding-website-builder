@@ -1,5 +1,21 @@
+.post-page-container .post-header {
+  font-size: 50px;
+  line-height: 55px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .post-cover-img {
     min-height: 200px;
+    height: auto;
+    position: relative;
+    height: auto;
+
+    img {
+      max-width: 100%;
+      position: relative;
+    }
+
 
     .post-info {
         display: flex;

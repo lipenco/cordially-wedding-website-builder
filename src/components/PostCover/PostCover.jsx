@@ -12,8 +12,8 @@ class PostCover extends Component {
     const { postNode } = this.props;
     const post = postNode.frontmatter;
     return (
-      <Media forceAspect={false} className="post-cover-img" style={{overflow: 'visible'}}>
-        <img src={post.cover} style={{height: 'auto'}} alt={post.title} />
+      <Media forceAspect={false} className="post-cover-img" style={{height: 'auto'}}>
+        <img src={post.cover} style={{height: 'auto', position:'relative'}} alt={post.title} />
         <MediaOverlay className="post-info">
           <CardTitle
             avatar={<Avatar icon={<FontIcon iconClassName="fa fa-calendar" />} />}

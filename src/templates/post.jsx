@@ -33,7 +33,7 @@ export default class PostTemplate extends React.Component {
           <CardText className="post-body">
             <PostCover postNode={postNode} />
             <h1 className="md-display-3 post-header">{post.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
+            <div style={{maxWidth: '100%'}} dangerouslySetInnerHTML={{ __html: postNode.html }} />
           </CardText>
           <PostTags tags={post.tags} />
         </Card>

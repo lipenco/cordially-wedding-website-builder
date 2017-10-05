@@ -5,12 +5,12 @@
       "commons-c686a98e3609b5987db8.js.map"
     ],
     "layout-component---index": [
-      "layout-component---index-6bc5dfcb4b2b0b4cd0ab.js",
-      "layout-component---index-6bc5dfcb4b2b0b4cd0ab.js.map"
+      "layout-component---index-2ef8a8307684b5ab781f.js",
+      "layout-component---index-2ef8a8307684b5ab781f.js.map"
     ],
     "page-component---src-templates-post-jsx": [
-      "page-component---src-templates-post-jsx-6be789371c651cc9715f.js",
-      "page-component---src-templates-post-jsx-6be789371c651cc9715f.js.map"
+      "page-component---src-templates-post-jsx-8477d5489e526379ae37.js",
+      "page-component---src-templates-post-jsx-8477d5489e526379ae37.js.map"
     ],
     "page-component---src-pages-wedding-website-builder-pricing-jsx": [
       "page-component---src-pages-wedding-website-builder-pricing-jsx-a186463e5cf7a9105f40.js",
@@ -64,6 +64,10 @@
       "path---index-586c7e095e534a3909ec.js",
       "path---index-586c7e095e534a3909ec.js.map"
     ],
+    "path---greenery-wedding-website-template": [
+      "path---greenery-wedding-website-template-1b90ce3ac41215e1afab.js",
+      "path---greenery-wedding-website-template-1b90ce3ac41215e1afab.js.map"
+    ],
     "path---free-marriage-sites": [
       "path---free-marriage-sites-26c66340c931dd814a72.js",
       "path---free-marriage-sites-26c66340c931dd814a72.js.map"
@@ -76,9 +80,13 @@
       "path---categories-tech-64d8c5ad752d224d1ea7.js",
       "path---categories-tech-64d8c5ad752d224d1ea7.js.map"
     ],
+    "path---categories-greenery-wedding": [
+      "path---categories-greenery-wedding-7af346ab3633fdfdf2dc.js",
+      "path---categories-greenery-wedding-7af346ab3633fdfdf2dc.js.map"
+    ],
     "path---blog": [
-      "path---blog-8b880e16c34e5ec22bf5.js",
-      "path---blog-8b880e16c34e5ec22bf5.js.map"
+      "path---blog-cb1653faa12a682387c6.js",
+      "path---blog-cb1653faa12a682387c6.js.map"
     ],
     "path---best-wedding-website-creator": [
       "path---best-wedding-website-creator-4cb6257bdfc6735c0150.js",
@@ -117,8 +125,8 @@
       "page-component---src-pages-about-jsx-adb722fa53ae37971b8d.js.map"
     ],
     "app": [
-      "app-2f0d95944c5b35e3dcbd.js",
-      "app-2f0d95944c5b35e3dcbd.js.map"
+      "app-ee12c0d6deeb9b3cddac.js",
+      "app-ee12c0d6deeb9b3cddac.js.map"
     ]
   }
 }

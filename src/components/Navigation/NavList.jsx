@@ -68,6 +68,16 @@ function GetNavList(config) {
     {
       divider: false,
       subheader: false,
+      primaryText: 'Greenery Wedding Website Template',
+      component: Link,
+      to: '/greenery-wedding-website-template/',
+    },
+    {
+      divider: true,
+    },
+    {
+      divider: false,
+      subheader: false,
       primaryText: 'Pricing',
       component: Link,
       to: '/wedding-website-builder-pricing/',
@@ -78,7 +88,7 @@ function GetNavList(config) {
       primaryText: 'About',
       component: Link,
       to: '/wedding-website-builder-about/',
-    },
+    }
   );
   return NavList;
 }

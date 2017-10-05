@@ -64,6 +64,10 @@
       "path---index-586c7e095e534a3909ec.js",
       "path---index-586c7e095e534a3909ec.js.map"
     ],
+    "path---greenery-wedding-website-template": [
+      "path---greenery-wedding-website-template-2a28a554a052b53667fa.js",
+      "path---greenery-wedding-website-template-2a28a554a052b53667fa.js.map"
+    ],
     "path---free-marriage-sites": [
       "path---free-marriage-sites-26c66340c931dd814a72.js",
       "path---free-marriage-sites-26c66340c931dd814a72.js.map"
@@ -76,9 +80,13 @@
       "path---categories-tech-64d8c5ad752d224d1ea7.js",
       "path---categories-tech-64d8c5ad752d224d1ea7.js.map"
     ],
+    "path---categories-greenery-wedding": [
+      "path---categories-greenery-wedding-2e983ea9f0c268c7997c.js",
+      "path---categories-greenery-wedding-2e983ea9f0c268c7997c.js.map"
+    ],
     "path---blog": [
-      "path---blog-8b880e16c34e5ec22bf5.js",
-      "path---blog-8b880e16c34e5ec22bf5.js.map"
+      "path---blog-81a8504ecae0de0c5f2b.js",
+      "path---blog-81a8504ecae0de0c5f2b.js.map"
     ],
     "path---best-wedding-website-creator": [
       "path---best-wedding-website-creator-4cb6257bdfc6735c0150.js",
@@ -117,8 +125,8 @@
       "page-component---src-pages-about-jsx-adb722fa53ae37971b8d.js.map"
     ],
     "app": [
-      "app-2f0d95944c5b35e3dcbd.js",
-      "app-2f0d95944c5b35e3dcbd.js.map"
+      "app-ee12c0d6deeb9b3cddac.js",
+      "app-ee12c0d6deeb9b3cddac.js.map"
     ]
   }
 }

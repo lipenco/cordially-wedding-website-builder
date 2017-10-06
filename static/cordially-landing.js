@@ -3090,37 +3090,7 @@
     e.ActiveXObject && re(e).on("unload", function() {
         for (var e in Zt) Zt[e](void 0, !0)
     }), ie.cors = !!Kt && "withCredentials" in Kt, Kt = ie.ajax = !!Kt, Kt && re.ajaxTransport(function(e) {
-        if (!e.crossDomain || ie.cors) {
-            var t;
-            return {
-                send: function(i, n) {
-                    var r, s = e.xhr(),
-                        a = ++Gt;
-                    if (s.open(e.type, e.url, e.async, e.username, e.password), e.xhrFields)
-                        for (r in e.xhrFields) s[r] = e.xhrFields[r];
-                    e.mimeType && s.overrideMimeType && s.overrideMimeType(e.mimeType), e.crossDomain || i["X-Requested-With"] || (i["X-Requested-With"] = "XMLHttpRequest");
-                    for (r in i) void 0 !== i[r] && s.setRequestHeader(r, i[r] + "");
-                    s.send(e.hasContent && e.data || null), t = function(i, r) {
-                        var o, l, u;
-                        if (t && (r || 4 === s.readyState))
-                            if (delete Zt[a], t = void 0, s.onreadystatechange = re.noop, r) 4 !== s.readyState && s.abort();
-                            else {
-                                u = {}, o = s.status, "string" == typeof s.responseText && (u.text = s.responseText);
-                                try {
-                                    l = s.statusText
-                                } catch (c) {
-                                    l = ""
-                                }
-                                o || !e.isLocal || e.crossDomain ? 1223 === o && (o = 204) : o = u.text ? 200 : 404
-                            }
-                        u && n(o, l, u, s.getAllResponseHeaders())
-                    }, e.async ? 4 === s.readyState ? setTimeout(t) : s.onreadystatechange = Zt[a] = t : t()
-                },
-                abort: function() {
-                    t && t(void 0, !0)
-                }
-            }
-        }
+      return;
     }), re.ajaxSetup({
         accepts: {
             script: "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript"
@@ -6003,129 +5973,129 @@ var _gsScope = "undefined" != typeof module && module.exports && "undefined" != 
             return "[PreloadJS TagLoader]"
         }, createjs.TagLoader = e
     }(), this.createjs = this.createjs || {},
-    function() {
-        "use strict";
-        var e = function(e, t) {
-                this.init(e, t)
-            },
-            t = e.prototype = new createjs.AbstractLoader;
-        t._request = null, t._loadTimeout = null, t._xhrLevel = 1, t._response = null, t._rawResponse = null, t._crossOrigin = "", t.init = function(e, t) {
-            this._item = e, this._crossOrigin = t, !this._createXHR(e)
-        }, t.getResult = function(e) {
-            return e && this._rawResponse ? this._rawResponse : this._response
-        }, t.cancel = function() {
-            this.canceled = !0, this._clean(), this._request.abort()
-        }, t.load = function() {
-            if (null == this._request) return void this._handleError();
-            if (this._request.onloadstart = createjs.proxy(this._handleLoadStart, this), this._request.onprogress = createjs.proxy(this._handleProgress, this), this._request.onabort = createjs.proxy(this._handleAbort, this), this._request.onerror = createjs.proxy(this._handleError, this), this._request.ontimeout = createjs.proxy(this._handleTimeout, this), 1 == this._xhrLevel) {
-                var e = createjs.LoadQueue.LOAD_TIMEOUT;
-                if (0 == e) e = createjs.LoadQueue.loadTimeout;
-                else try {
-                    console.warn("LoadQueue.LOAD_TIMEOUT has been deprecated in favor of LoadQueue.loadTimeout")
-                } catch (t) {}
-                this._loadTimeout = setTimeout(createjs.proxy(this._handleTimeout, this), e)
-            }
-            this._request.onload = createjs.proxy(this._handleLoad, this), this._request.onreadystatechange = createjs.proxy(this._handleReadyStateChange, this);
-            try {
-                this._item.values && this._item.method != createjs.LoadQueue.GET ? this._item.method == createjs.LoadQueue.POST && this._request.send(this._formatQueryString(this._item.values)) : this._request.send()
-            } catch (i) {
-                var n = new createjs.Event("error");
-                n.error = i, this._sendError(n)
-            }
-        }, t.getAllResponseHeaders = function() {
-            return this._request.getAllResponseHeaders instanceof Function ? this._request.getAllResponseHeaders() : null
-        }, t.getResponseHeader = function(e) {
-            return this._request.getResponseHeader instanceof Function ? this._request.getResponseHeader(e) : null
-        }, t._handleProgress = function(e) {
-            if (e && !(e.loaded > 0 && 0 == e.total)) {
-                var t = new createjs.Event("progress");
-                t.loaded = e.loaded, t.total = e.total, this._sendProgress(t)
-            }
-        }, t._handleLoadStart = function() {
-            clearTimeout(this._loadTimeout), this._sendLoadStart()
-        }, t._handleAbort = function() {
-            this._clean();
-            var e = new createjs.Event("error");
-            e.text = "XHR_ABORTED", this._sendError(e)
-        }, t._handleError = function() {
-            this._clean();
-            var e = new createjs.Event("error");
-            this._sendError(e)
-        }, t._handleReadyStateChange = function() {
-            4 == this._request.readyState && this._handleLoad()
-        }, t._handleLoad = function() {
-            if (!this.loaded) {
-                if (this.loaded = !0, !this._checkError()) return void this._handleError();
-                this._response = this._getResponse(), this._clean();
-                var e = this._generateTag();
-                e && this._sendComplete()
-            }
-        }, t._handleTimeout = function(e) {
-            this._clean();
-            var t = new createjs.Event("error");
-            t.text = "PRELOAD_TIMEOUT", this._sendError(e)
-        }, t._checkError = function() {
-            var e = parseInt(this._request.status);
-            switch (e) {
-                case 404:
-                case 0:
-                    return !1
-            }
-            return !0
-        }, t._getResponse = function() {
-            if (null != this._response) return this._response;
-            if (null != this._request.response) return this._request.response;
-            try {
-                if (null != this._request.responseText) return this._request.responseText
-            } catch (e) {}
-            try {
-                if (null != this._request.responseXML) return this._request.responseXML
-            } catch (e) {}
-            return null
-        }, t._createXHR = function(e) {
-            var t = this._isCrossDomain(e),
-                i = null;
-            if (t && window.XDomainRequest) i = new XDomainRequest;
-            else if (window.XMLHttpRequest) i = new XMLHttpRequest;
-            else try {
-                i = new ActiveXObject("Msxml2.XMLHTTP.6.0")
-            } catch (n) {
-                try {
-                    i = new ActiveXObject("Msxml2.XMLHTTP.3.0")
-                } catch (n) {
-                    try {
-                        i = new ActiveXObject("Msxml2.XMLHTTP")
-                    } catch (n) {
-                        return !1
-                    }
-                }
-            }
-            createjs.LoadQueue.isText(e.type) && i.overrideMimeType && i.overrideMimeType("text/plain; charset=utf-8"), this._xhrLevel = "string" == typeof i.responseType ? 2 : 1;
-            var r = null;
-            return r = e.method == createjs.LoadQueue.GET ? this.buildPath(e.src, e.values) : e.src, i.open(e.method || createjs.LoadQueue.GET, r, !0), t && i instanceof XMLHttpRequest && 1 == this._xhrLevel && i.setRequestHeader("Origin", location.origin), e.values && e.method == createjs.LoadQueue.POST && i.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"), createjs.LoadQueue.isBinary(e.type) && (i.responseType = "arraybuffer"), this._request = i, !0
-        }, t._clean = function() {
-            clearTimeout(this._loadTimeout);
-            var e = this._request;
-            e.onloadstart = null, e.onprogress = null, e.onabort = null, e.onerror = null, e.onload = null, e.ontimeout = null, e.onloadend = null, e.onreadystatechange = null
-        }, t._generateTag = function() {
-            var e = this._item.type,
-                t = this._item.tag;
-            return !0
-        }, t._parseXML = function(e, t) {
-            var i = null;
-            try {
-                if (window.DOMParser) {
-                    var n = new DOMParser;
-                    i = n.parseFromString(e, t)
-                } else i = new ActiveXObject("Microsoft.XMLDOM"), i.async = !1, i.loadXML(e)
-            } catch (r) {}
-            return i
-        }, t._handleTagReady = function() {
-            this._sendComplete()
-        }, t.toString = function() {
-            return "[PreloadJS XHRLoader]"
-        }, createjs.XHRLoader = e
-    }(), "object" != typeof JSON && (JSON = {}),
+    // function() {
+    //     "use strict";
+    //     var e = function(e, t) {
+    //             this.init(e, t)
+    //         },
+    //         t = e.prototype = new createjs.AbstractLoader;
+    //     t._request = null, t._loadTimeout = null, t._xhrLevel = 1, t._response = null, t._rawResponse = null, t._crossOrigin = "", t.init = function(e, t) {
+    //         this._item = e, this._crossOrigin = t, !this._createXHR(e)
+    //     }, t.getResult = function(e) {
+    //         return e && this._rawResponse ? this._rawResponse : this._response
+    //     }, t.cancel = function() {
+    //         this.canceled = !0, this._clean(), this._request.abort()
+    //     }, t.load = function() {
+    //         if (null == this._request) return void this._handleError();
+    //         if (this._request.onloadstart = createjs.proxy(this._handleLoadStart, this), this._request.onprogress = createjs.proxy(this._handleProgress, this), this._request.onabort = createjs.proxy(this._handleAbort, this), this._request.onerror = createjs.proxy(this._handleError, this), this._request.ontimeout = createjs.proxy(this._handleTimeout, this), 1 == this._xhrLevel) {
+    //             var e = createjs.LoadQueue.LOAD_TIMEOUT;
+    //             if (0 == e) e = createjs.LoadQueue.loadTimeout;
+    //             else try {
+    //                 console.warn("LoadQueue.LOAD_TIMEOUT has been deprecated in favor of LoadQueue.loadTimeout")
+    //             } catch (t) {}
+    //             this._loadTimeout = setTimeout(createjs.proxy(this._handleTimeout, this), e)
+    //         }
+    //         this._request.onload = createjs.proxy(this._handleLoad, this), this._request.onreadystatechange = createjs.proxy(this._handleReadyStateChange, this);
+    //         try {
+    //             this._item.values && this._item.method != createjs.LoadQueue.GET ? this._item.method == createjs.LoadQueue.POST && this._request.send(this._formatQueryString(this._item.values)) : this._request.send()
+    //         } catch (i) {
+    //             var n = new createjs.Event("error");
+    //             n.error = i, this._sendError(n)
+    //         }
+    //     }, t.getAllResponseHeaders = function() {
+    //         return this._request.getAllResponseHeaders instanceof Function ? this._request.getAllResponseHeaders() : null
+    //     }, t.getResponseHeader = function(e) {
+    //         return this._request.getResponseHeader instanceof Function ? this._request.getResponseHeader(e) : null
+    //     }, t._handleProgress = function(e) {
+    //         if (e && !(e.loaded > 0 && 0 == e.total)) {
+    //             var t = new createjs.Event("progress");
+    //             t.loaded = e.loaded, t.total = e.total, this._sendProgress(t)
+    //         }
+    //     }, t._handleLoadStart = function() {
+    //         clearTimeout(this._loadTimeout), this._sendLoadStart()
+    //     }, t._handleAbort = function() {
+    //         this._clean();
+    //         var e = new createjs.Event("error");
+    //         e.text = "XHR_ABORTED", this._sendError(e)
+    //     }, t._handleError = function() {
+    //         this._clean();
+    //         var e = new createjs.Event("error");
+    //         this._sendError(e)
+    //     }, t._handleReadyStateChange = function() {
+    //         4 == this._request.readyState && this._handleLoad()
+    //     }, t._handleLoad = function() {
+    //         if (!this.loaded) {
+    //             if (this.loaded = !0, !this._checkError()) return void this._handleError();
+    //             this._response = this._getResponse(), this._clean();
+    //             var e = this._generateTag();
+    //             e && this._sendComplete()
+    //         }
+    //     }, t._handleTimeout = function(e) {
+    //         this._clean();
+    //         var t = new createjs.Event("error");
+    //         t.text = "PRELOAD_TIMEOUT", this._sendError(e)
+    //     }, t._checkError = function() {
+    //         var e = parseInt(this._request.status);
+    //         switch (e) {
+    //             case 404:
+    //             case 0:
+    //                 return !1
+    //         }
+    //         return !0
+    //     }, t._getResponse = function() {
+    //         if (null != this._response) return this._response;
+    //         if (null != this._request.response) return this._request.response;
+    //         try {
+    //             if (null != this._request.responseText) return this._request.responseText
+    //         } catch (e) {}
+    //         try {
+    //             if (null != this._request.responseXML) return this._request.responseXML
+    //         } catch (e) {}
+    //         return null
+    //     }, t._createXHR = function(e) {
+    //         var t = this._isCrossDomain(e),
+    //             i = null;
+    //         if (t && window.XDomainRequest) i = new XDomainRequest;
+    //         else if (window.XMLHttpRequest) i = new XMLHttpRequest;
+    //         else try {
+    //             i = new ActiveXObject("Msxml2.XMLHTTP.6.0")
+    //         } catch (n) {
+    //             try {
+    //                 i = new ActiveXObject("Msxml2.XMLHTTP.3.0")
+    //             } catch (n) {
+    //                 try {
+    //                     i = new ActiveXObject("Msxml2.XMLHTTP")
+    //                 } catch (n) {
+    //                     return !1
+    //                 }
+    //             }
+    //         }
+    //         createjs.LoadQueue.isText(e.type) && i.overrideMimeType && i.overrideMimeType("text/plain; charset=utf-8"), this._xhrLevel = "string" == typeof i.responseType ? 2 : 1;
+    //         var r = null;
+    //         return r = e.method == createjs.LoadQueue.GET ? this.buildPath(e.src, e.values) : e.src, i.open(e.method || createjs.LoadQueue.GET, r, !0), t && i instanceof XMLHttpRequest && 1 == this._xhrLevel && i.setRequestHeader("Origin", location.origin), e.values && e.method == createjs.LoadQueue.POST && i.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"), createjs.LoadQueue.isBinary(e.type) && (i.responseType = "arraybuffer"), this._request = i, !0
+    //     }, t._clean = function() {
+    //         clearTimeout(this._loadTimeout);
+    //         var e = this._request;
+    //         e.onloadstart = null, e.onprogress = null, e.onabort = null, e.onerror = null, e.onload = null, e.ontimeout = null, e.onloadend = null, e.onreadystatechange = null
+    //     }, t._generateTag = function() {
+    //         var e = this._item.type,
+    //             t = this._item.tag;
+    //         return !0
+    //     }, t._parseXML = function(e, t) {
+    //         var i = null;
+    //         try {
+    //             if (window.DOMParser) {
+    //                 var n = new DOMParser;
+    //                 i = n.parseFromString(e, t)
+    //             } else i = new ActiveXObject("Microsoft.XMLDOM"), i.async = !1, i.loadXML(e)
+    //         } catch (r) {}
+    //         return i
+    //     }, t._handleTagReady = function() {
+    //         this._sendComplete()
+    //     }, t.toString = function() {
+    //         return "[PreloadJS XHRLoader]"
+    //     }, createjs.XHRLoader = e
+    // }(), "object" != typeof JSON && (JSON = {}),
     function() {
         "use strict";
 

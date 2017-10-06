@@ -431,7 +431,9 @@ class Landing extends React.Component {
               <div className="wrapper-footer">
                 <div className="footer-shop">
                   <h2>Try It For Free</h2>
-                  <h3>Create your stunning wedding website using top - notch websites creator.</h3>
+                  <h3 style={{ whiteSpace: 'inherit'}}>
+                  Create your stunning wedding website using top - notch websites creator.</h3>
+                    <h3>
                     <a style={{
                         position: 'relative',
                         fontSize: 18,
@@ -442,6 +444,8 @@ class Landing extends React.Component {
                       <span className="text-link">See Pricing</span>
                       <span className="line-link" />
                     </a>
+                    <br/>
+                    </h3>
                   <p>Do it. With Love. Make your wedding planing easier with Cordially!</p>
                   <a target="_blank" href="https://app.cordially.co/template/vintage" className="link-footer" style={{fontWeight:600}} data-color="#000000">
                     <div className="overlay-color" />

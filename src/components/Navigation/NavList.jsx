@@ -73,6 +73,13 @@ function GetNavList(config) {
       to: '/greenery-wedding-website-template/',
     },
     {
+      divider: false,
+      subheader: false,
+      primaryText: 'Best Wedding Website Builder',
+      component: Link,
+      to: '/best-wedding-website-builder/',
+    },
+    {
       divider: true,
     },
     {

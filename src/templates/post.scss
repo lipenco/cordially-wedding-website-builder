@@ -24,8 +24,21 @@ $phone-status-bar-height: 24px - 12px;
         justify-content: center;
         text-align: center;
 
-        p {
-          font-size: 17px;
+        .postContent {
+          p {
+            font-size: 17px;
+          }
+
+          h2 {
+            padding-top: 40px;
+            padding-bottom: 20px;
+            font-size: 30px;
+          }
+        }
+
+        .md-card-title--title h2  {
+          font-size: 15px;
+          padding:10px;
         }
 
         .post-body {

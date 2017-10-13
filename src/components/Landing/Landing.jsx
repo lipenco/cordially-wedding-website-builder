@@ -7,7 +7,7 @@ class Landing extends React.Component {
 
   componentDidMount() {
      const script = document.createElement("script");
-     script.src = "static/cordially-landing.js";
+     script.src = "static/cordially-landing-min.js";
      script.async = true;
 
      document.body.appendChild(script);
@@ -135,7 +135,7 @@ class Landing extends React.Component {
               <div className="baseline">
                 <div className="desktop-lookbook">
                   <div className="sprite-lookbook">
-                    <img width={1614} height={16800} src="static/img/sprite-lookbook2ab.png" />
+                    <img width={1614} height={16800} src="static/img/sprite-lookbook2abc.png" />
                   </div>
                 </div>
                 <div className="mobile-lookbook">
@@ -300,7 +300,7 @@ class Landing extends React.Component {
             <div className="content-slipper">
               <div className="gradient blue" style={{width: '100%'}} />
               <img className="slipper-object object-video2" src="static/img/ekran.png" />
-              <iframe className="slipper-object object-video1" src="https://player.vimeo.com/video/223817652?autoplay=1&loop=1&title=0&byline=0&portrait=0" width={640} height={320} frameBorder={0} />
+              <iframe className="slipper-object object-video1" src="https://player.vimeo.com/video/237052963?title=0&byline=0&portrait=0" width={640} height={320} frameBorder={0} />
               <div className="description-slipper" style={{top: '43%'}}>
                 <h2 style={{color: '#fff'}}>EASY TO SET UP</h2>
                 <p>
@@ -440,14 +440,14 @@ class Landing extends React.Component {
                         fontFamily: 'DidotItalic',
                         color: '#000',
                         fontWeight: 'bold'
-                      }} href="/wedding-website-builder-pricing">
+                      }} href={`/wedding-website-builder-pricing`} >
                       <span className="text-link">See Pricing</span>
                       <span className="line-link" />
                     </a>
                     <br/>
                     </h3>
                   <p>Do it. With Love. Make your wedding planing easier with Cordially!</p>
-                  <a target="_blank" href="https://app.cordially.co/template/vintage" className="link-footer" style={{fontWeight:600}} data-color="#000000">
+                  <a target="_blank" href="https://app.cordially.co/template/modern" className="link-footer" style={{fontWeight:600}} data-color="#000000">
                     <div className="overlay-color" />
                     <span>C</span>
                     <span>r</span>
@@ -551,8 +551,8 @@ class Landing extends React.Component {
         </div>
         <div className="logo-wrapper">
           <style dangerouslySetInnerHTML={{__html: "\n            .header-link {\n            border: 1px solid #84ACE1;\n            position: relative;\n            text-decoration: none;\n            padding:11px 50px;\n            border-radius: 25px;\n            font-size: 18px;\n            font-family: DidotItalic;\n            color: #84ACE1;\n            top: 20px;\n            line-height: 40px;\n            transition: all 1s ease;\n            }\n            .header-link:hover {\n            background-color: #84ACE1;\n            color: #fff;\n            z-index: 9\n            }\n         " }} />
-          <a target="_blank" style={{fontWeight: 600}} href="https://app.cordially.co/template/vintage" className="header-link">
-            Create Your Own
+          <a target="_blank" style={{fontWeight: 600}} href="https://app.cordially.co/template/modern" className="header-link">
+            Browse Templates
           </a>
           <div className="scroll">
             <div className="scroll-text">or</div>

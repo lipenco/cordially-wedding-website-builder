@@ -10,6 +10,8 @@ tags:
 
 For modern brides, it’s increasingly difficult to organize the big day without a wedding invitation website—an online destination where guests can find all the information they need about the wedding. From your gift registry to your guests’ RSVPs and the location details—the convenience of having a wedding website for you and your attendees cannot be understated.
 
+[![wedding website creator builder](http://cordially.co/static/img/wedding-website-play.png)](https://player.vimeo.com/video/237052963?title=0&byline=0&portrait=0)
+
 But how do you build a truly personal online invitation without years of programming experience, compromising on your design tastes, or your guests feeling unimpressed by a mass-produced invitation?
 
 ## Your guests play an important role in your website design
@@ -39,5 +41,6 @@ The information function needs to be well-executed too. Add location pins to the
 ![wedding website creator](http://cordially.co/static/img/wedding-website-creator.png)
 
 There are many wedding website creators out there, but they all seem to forget the important role of guest personalization. Not to mention their mass-produced designs. Here comes Cordially—fresh and brand new. We’d be happy to hear your feedback and product suggestions. Drop us a line at: support@cordially.co.
+
 
 ##[Build your stunning wedding website](https://app.cordially.co/template/modern)

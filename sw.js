@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/gatsby-material-starter/app-0c5b7b84b46755b11234.js","1430ebb77bb39929f6743f2f80c3aaa4"],["/gatsby-material-starter/app-b01fb6c06743892ae50b.js","04e17a4d34bc91ad5ec947fe8649c193"],["/gatsby-material-starter/commons-b8b5be230e3ca81e265e.js","3ff06b25a5b951146947bc86cdce60d5"],["/gatsby-material-starter/index.html","009ca74851c3873d726878552dce73dd"],["/gatsby-material-starter/manifest.json","cb6cf0b63f5850b256957c56135cbcb3"],["/gatsby-material-starter/offline-plugin-app-shell-fallback/index.html","8a6eb1e7369ace5d0f21811714dc1c3c"]];
+var precacheConfig = [["/app-0c5b7b84b46755b11234.js","82b6419926470ce44600e2cde4ac1301"],["/app-b01fb6c06743892ae50b.js","04e17a4d34bc91ad5ec947fe8649c193"],["/commons-b8b5be230e3ca81e265e.js","0d9c07236d4b601c3a5ef78671b7010f"],["/index.html","4334a826bebfc59a81898608186301d6"],["/manifest.json","cb6cf0b63f5850b256957c56135cbcb3"],["/offline-plugin-app-shell-fallback/index.html","0a3d316b30a6387dcad0f085b296e86a"]];
 var cacheName = 'sw-precache-v3-gatsby-plugin-offline-' + (self.registration ? self.registration.scope : '');
 
 

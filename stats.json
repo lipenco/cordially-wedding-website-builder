@@ -25,8 +25,8 @@
       "path---meet-truly-personal-wedding-website-builder-a60c39ee0f194a33f4bf.js.map"
     ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-747e87119d89360e47e8.js",
-      "component---src-layouts-index-jsx-747e87119d89360e47e8.js.map"
+      "component---src-layouts-index-jsx-1c00e686fd0217a2dbf3.js",
+      "component---src-layouts-index-jsx-1c00e686fd0217a2dbf3.js.map"
     ],
     "path---create-your-own-wedding-website-for-free": [
       "path---create-your-own-wedding-website-for-free-99490f3dbd2a1418509a.js",
@@ -93,10 +93,8 @@
       "path---online-wedding-invitations-that-impress-your-guests-fe01fbe4790c57a84a86.js.map"
     ],
     "commons": [
-      "commons-62c8efe4b759da38cb5e.js",
-      "build-js-styles.css",
-      "commons-62c8efe4b759da38cb5e.js.map",
-      "build-js-styles.css.map"
+      "commons-9e0c952011bfe2c828bf.js",
+      "commons-9e0c952011bfe2c828bf.js.map"
     ],
     "path---wedding-website-builder-pricing": [
       "path---wedding-website-builder-pricing-a0e39f21c11f6a62c5ab.js",
@@ -127,8 +125,8 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-templates-post-jsx": [
-      "component---src-templates-post-jsx-daa7b37f1342f863c344.js",
-      "component---src-templates-post-jsx-daa7b37f1342f863c344.js.map"
+      "component---src-templates-post-jsx-528e785fc65689133568.js",
+      "component---src-templates-post-jsx-528e785fc65689133568.js.map"
     ],
     "component---src-pages-index-jsx": [
       "component---src-pages-index-jsx-9b7832ad9a8cdd067407.js",
@@ -144,9 +142,7 @@
     ],
     "app": [
       "app-782763bfcd85ad1cd644.js",
-      "build-js-styles.css",
-      "app-782763bfcd85ad1cd644.js.map",
-      "build-js-styles.css.map"
+      "app-782763bfcd85ad1cd644.js.map"
     ],
     "component---src-pages-wedding-website-builder-pricing-jsx": [
       "component---src-pages-wedding-website-builder-pricing-jsx-841f526cbc51aa1c5528.js",

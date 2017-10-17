@@ -1,9 +1,5 @@
 {
   "assetsByChunkName": {
-    "path---tags-other": [
-      "path---tags-other-fdb766d348e77ddeb9fc.js",
-      "path---tags-other-fdb766d348e77ddeb9fc.js.map"
-    ],
     "path---tags-greenery": [
       "path---tags-greenery-2de503bd842feb71b8ee.js",
       "path---tags-greenery-2de503bd842feb71b8ee.js.map"
@@ -13,8 +9,8 @@
       "component---src-pages-pricing-jsx-6f147b069dffc98bd3c6.js.map"
     ],
     "path---blog": [
-      "path---blog-ed285b8e67bcf3cffab0.js",
-      "path---blog-ed285b8e67bcf3cffab0.js.map"
+      "path---blog-c27a67c8c397e1a901f7.js",
+      "path---blog-c27a67c8c397e1a901f7.js.map"
     ],
     "path---personalized-wedding-invitation-website": [
       "path---personalized-wedding-invitation-website-708501942dbac8679ff3.js",
@@ -25,12 +21,12 @@
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---meet-truly-personal-wedding-website-builder": [
-      "path---meet-truly-personal-wedding-website-builder-bb368629b28147eaaf41.js",
-      "path---meet-truly-personal-wedding-website-builder-bb368629b28147eaaf41.js.map"
+      "path---meet-truly-personal-wedding-website-builder-8c8922c6ef6fde356500.js",
+      "path---meet-truly-personal-wedding-website-builder-8c8922c6ef6fde356500.js.map"
     ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-1355fbbe04470b5b9596.js",
-      "component---src-layouts-index-jsx-1355fbbe04470b5b9596.js.map"
+      "component---src-layouts-index-jsx-881acf2d8370c49162a4.js",
+      "component---src-layouts-index-jsx-881acf2d8370c49162a4.js.map"
     ],
     "path---create-your-own-wedding-website-for-free": [
       "path---create-your-own-wedding-website-for-free-99490f3dbd2a1418509a.js",
@@ -45,8 +41,8 @@
       "path---categories-tech-4bd66d5515a4e6137403.js.map"
     ],
     "path---categories-wedding-website": [
-      "path---categories-wedding-website-a095054d09c3eb100d35.js",
-      "path---categories-wedding-website-a095054d09c3eb100d35.js.map"
+      "path---categories-wedding-website-f607729512b9058464e0.js",
+      "path---categories-wedding-website-f607729512b9058464e0.js.map"
     ],
     "path---pricing": [
       "path---pricing-a0e39f21c11f6a62c5ab.js",
@@ -75,6 +71,10 @@
     "component---src-templates-category-jsx": [
       "component---src-templates-category-jsx-ff1e4e5076ebfe00f3d4.js",
       "component---src-templates-category-jsx-ff1e4e5076ebfe00f3d4.js.map"
+    ],
+    "path---tags-wedding-website": [
+      "path---tags-wedding-website-3dfca00debcf0c105465.js",
+      "path---tags-wedding-website-3dfca00debcf0c105465.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -133,8 +133,8 @@
       "component---src-pages-wedding-website-builder-about-jsx-188815ad9e317633b5ce.js.map"
     ],
     "app": [
-      "app-666128460c7c869de7c6.js",
-      "app-666128460c7c869de7c6.js.map"
+      "app-b9280c642a576f0ee486.js",
+      "app-b9280c642a576f0ee486.js.map"
     ],
     "component---src-pages-wedding-website-builder-pricing-jsx": [
       "component---src-pages-wedding-website-builder-pricing-jsx-841f526cbc51aa1c5528.js",

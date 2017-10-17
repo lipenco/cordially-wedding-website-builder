@@ -9,8 +9,8 @@
       "component---src-pages-pricing-jsx-6f147b069dffc98bd3c6.js.map"
     ],
     "path---blog": [
-      "path---blog-c27a67c8c397e1a901f7.js",
-      "path---blog-c27a67c8c397e1a901f7.js.map"
+      "path---blog-237f3bb2ca21e7664f9b.js",
+      "path---blog-237f3bb2ca21e7664f9b.js.map"
     ],
     "path---personalized-wedding-invitation-website": [
       "path---personalized-wedding-invitation-website-708501942dbac8679ff3.js",
@@ -41,8 +41,8 @@
       "path---categories-tech-4bd66d5515a4e6137403.js.map"
     ],
     "path---categories-wedding-website": [
-      "path---categories-wedding-website-f607729512b9058464e0.js",
-      "path---categories-wedding-website-f607729512b9058464e0.js.map"
+      "path---categories-wedding-website-7ccd0f6e2a5282b78610.js",
+      "path---categories-wedding-website-7ccd0f6e2a5282b78610.js.map"
     ],
     "path---pricing": [
       "path---pricing-a0e39f21c11f6a62c5ab.js",
@@ -77,12 +77,16 @@
       "path---tags-wedding-website-3dfca00debcf0c105465.js.map"
     ],
     "path---index": [
-      "path---index-a0e39f21c11f6a62c5ab.js",
-      "path---index-a0e39f21c11f6a62c5ab.js.map"
+      "path---index-b96e56839aec5403b972.js",
+      "path---index-b96e56839aec5403b972.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-151e32c55ee212391fb3.js",
       "component---src-pages-about-jsx-151e32c55ee212391fb3.js.map"
+    ],
+    "path---tags-free-wedding-websites": [
+      "path---tags-free-wedding-websites-fef5f3002765b8e82eff.js",
+      "path---tags-free-wedding-websites-fef5f3002765b8e82eff.js.map"
     ],
     "path---best-wedding-website-creator-cordially": [
       "path---best-wedding-website-creator-cordially-ad308e855dd3753dc1e5.js",
@@ -133,8 +137,12 @@
       "component---src-pages-wedding-website-builder-about-jsx-188815ad9e317633b5ce.js.map"
     ],
     "app": [
-      "app-b9280c642a576f0ee486.js",
-      "app-b9280c642a576f0ee486.js.map"
+      "app-e7159da1901a1d8c80c3.js",
+      "app-e7159da1901a1d8c80c3.js.map"
+    ],
+    "path---hidden-cost-of-free-wedding-websites": [
+      "path---hidden-cost-of-free-wedding-websites-c3ebd05ed1a97f18a16f.js",
+      "path---hidden-cost-of-free-wedding-websites-c3ebd05ed1a97f18a16f.js.map"
     ],
     "component---src-pages-wedding-website-builder-pricing-jsx": [
       "component---src-pages-wedding-website-builder-pricing-jsx-841f526cbc51aa1c5528.js",

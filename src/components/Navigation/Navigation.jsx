@@ -10,9 +10,12 @@ class Navigation extends Component {
     const { children, config, LocalTitle } = this.props;
     return (
       <NavigationDrawer
-        drawerStyle={{backgroundColor: 'transparent'}}
+        drawerStyle={{backgroundColor: 'rgb(123, 231, 215)'}}
         drawerHeader={(<a className="logo-cordially" href="/"><img src="https://app.cordially.co/cordially-logo-new.jpg" style={{width: 100, paddingTop:9}}/></a>)}
         toolbarTitle={LocalTitle}
+        toolbarStyle={{
+          background:'linear-gradient(45deg, rgb(123, 231, 215) 1%, rgb(123, 231, 215) 40%, rgb(123, 231, 215) 40%, rgb(134, 164, 227) 100%)'
+        }}
         contentClassName="main-content"
         navItems={GetNavList(config)}
         mobileDrawerType={NavigationDrawer.DrawerTypes.TEMPORARY}

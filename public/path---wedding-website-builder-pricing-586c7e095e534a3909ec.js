@@ -1,2 +1,0 @@
-webpackJsonp([6],{"./node_modules/json-loader/index.js!./.cache/json/wedding-website-builder-pricing.json":function(e,n){e.exports={pathContext:{}}}});
-//# sourceMappingURL=path---wedding-website-builder-pricing-586c7e095e534a3909ec.js.map

@@ -1,34 +1,20 @@
-import React, { Component } from 'react';
-import CardTitle from 'react-md/lib/Cards/CardTitle';
-import Avatar from 'react-md/lib/Avatars';
-import FontIcon from 'react-md/lib/FontIcons';
-import Link from 'gatsby-link';
-import _ from 'lodash';
-import Media, { MediaOverlay } from 'react-md/lib/Media';
-import './PostCover.scss';
+import React, { Component } from "react";
+import "./PostCover.scss";
 
 class PostCover extends Component {
   render() {
-    const { postNode } = this.props;
+    const { postNode, mobile } = this.props;
     const post = postNode.frontmatter;
+    /* eslint no-undef: "off"*/
+    const cover = post.cover.startsWith("/")
+      ? __PATH_PREFIX__ + post.cover
+      : post.cover;
+    const coverHeight = mobile ? 180 : 350;
     return (
-      <Media forceAspect={false} className="post-cover-img" style={{height: 'auto'}}>
-        <img src={post.cover} style={{height: 'auto', position:'relative'}} alt={post.title} />
-        <MediaOverlay className="post-info">
-          <CardTitle
-            avatar={<Avatar icon={<FontIcon iconClassName="fa fa-calendar" />} />}
-            title={`Published on ${post.date}`}
-            subtitle={`${postNode.timeToRead} min read`}
-          />
-          <Link to={`/categories/${_.kebabCase(post.category)}`}>
-            <CardTitle
-              avatar={<Avatar icon={<FontIcon iconClassName="fa fa-folder-open" />} />}
-              title={'In category'}
-              subtitle={post.category}
-            />
-          </Link>
-        </MediaOverlay>
-      </Media>
+      <div
+        style={{ backgroundImage: `url(${cover})`, height: `${coverHeight}px` }}
+        className="md-grid md-cell--9 post-cover"
+      />
     );
   }
 }

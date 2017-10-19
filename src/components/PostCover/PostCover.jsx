@@ -9,11 +9,11 @@ class PostCover extends Component {
     const cover = post.cover.startsWith("/")
       ? __PATH_PREFIX__ + post.cover
       : post.cover;
-    const coverHeight = mobile ? 180 : 350;
+    const coverHeight = mobile ? 280 : 450;
     return (
       <div
         style={{ backgroundImage: `url(${cover})`, height: `${coverHeight}px` }}
-        className="md-grid md-cell--9 post-cover"
+        className="md-grid md-cell--10 post-cover"
       />
     );
   }

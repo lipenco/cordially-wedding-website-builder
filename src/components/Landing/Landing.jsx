@@ -300,7 +300,8 @@ class Landing extends React.Component {
             <div className="content-slipper">
               <div className="gradient blue" style={{width: '100%'}} />
               <img className="slipper-object object-video2" src="static/img/ekran.png" />
-              <iframe className="slipper-object object-video1" src="https://player.vimeo.com/video/237052963?title=0&byline=0&portrait=0" width={640} height={320} frameBorder={0} />
+                        <style dangerouslySetInnerHTML={{__html: "\n            .slipper-object.object-video2 {\n            margin-top: -120px;\n            }\n            .slipper-object.object-video2 {\n            margin-top: -80px;\n            }\n            .description-slipper  {\n            top:40%;\n            }\n            .slipper.five .description-slipper h2 {\n            color: #fff;\n            }\n            #player {\n            background-color: #fff;\n            }\n            @media screen and (max-width: 550px) {\n            .slipper.six .slipper-object.object-video1, .slipper.six .slipper-object.object-video2 {\n            top: 30%;\n            width: 90%;\n            left: 5%;\n            }\n            .slipper.six .description-slipper h2 {\n            color: inherit;\n            }\n            }\n         " }} />
+              <iframe className="slipper-object object-video2" src="https://player.vimeo.com/video/237052963?title=0&byline=0&portrait=0" width={640} height={320} frameBorder={0} />
               <div className="description-slipper" style={{top: '43%'}}>
                 <h2 style={{color: '#fff'}}>EASY TO SET UP</h2>
                 <p>

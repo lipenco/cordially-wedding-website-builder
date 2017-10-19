@@ -8,7 +8,7 @@ class PricingPage extends Component {
   render() {
     return (
       <div className="about-container">
-        <Helmet title={`Cordially Wedding Website Builder | ${config.siteTitle}`} />
+        <Helmet title={`Pricing | ${config.siteTitle}`} />
         <Pricing />
       </div>
     );

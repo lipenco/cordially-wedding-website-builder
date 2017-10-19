@@ -2,7 +2,7 @@ module.exports = {
   blogPostDir: "sample-posts", // The name of directory that contains your posts.
   siteTitle: 'Cordially. Wedding Website Builder and Top RSVP Website Creator', // Site title.
   siteTitleAlt: "Boutique Wedding Website Builder", // Alternative site title for SEO.
-  siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
+  siteLogo: "/img/favicons/ms-icon-310x310.png", // Logo used for SEO and manifest.
   siteUrl: "http://cordially.co", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   siteDescription: "Build and create a beautiful, one-of-a-kind wedding website invitation and collect RSVPs", // Website description used for RSS feeds/meta description tag.

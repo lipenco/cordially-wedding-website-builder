@@ -44,6 +44,14 @@ function GetNavList(config) {
         }
       );
     });
+    NavList.push(
+      {
+        divider: false,
+        subheader: false,
+        primaryText: "Our blog",
+        to: "/blog",
+      }
+    );
   }
 
   NavList.push({ divider: true });
@@ -52,16 +60,37 @@ function GetNavList(config) {
     {
       divider: false,
       subheader: false,
-      primaryText: 'Greenery Wedding Website Template',
+      primaryText: 'Preview Greenery Theme',
       component: Link,
-      to: '/all-about-a-greenery-wedding-theme',
+      onClick() { window.location.href = 'http://app.cordially.co/template/greenery'; },
     },
     {
       divider: false,
       subheader: false,
-      primaryText: 'Best Wedding Website Builder',
+      primaryText: 'Preview Vintage Theme',
       component: Link,
-      to: '/meet-truly-personal-wedding-website-builder',
+      onClick() { window.location.href = 'http://app.cordially.co/template/vintage'; },
+    },
+    {
+      divider: false,
+      subheader: false,
+      primaryText: 'Preview Modern Theme',
+      component: Link,
+      onClick() { window.location.href = 'http://app.cordially.co/template/modern'; },
+    },
+    {
+      divider: false,
+      subheader: false,
+      primaryText: 'Preview Rustic Theme',
+      component: Link,
+      onClick() { window.location.href = 'http://app.cordially.co/template/rustic'; },
+    },
+    {
+      divider: false,
+      subheader: false,
+      primaryText: 'Preview Romantic Theme',
+      component: Link,
+      onClick() { window.location.href = 'http://app.cordially.co/template/romantic'; },
     },
     {
       divider: true,
@@ -79,6 +108,13 @@ function GetNavList(config) {
       primaryText: 'About',
       component: Link,
       to: '/wedding-website-builder-about/',
+    },
+    {
+      divider: false,
+      subheader: false,
+      primaryText: 'All Themes',
+      component: Link,
+      to: '/wedding-website-themes/'
     }
   );
   return NavList;

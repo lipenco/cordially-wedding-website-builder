@@ -1,14 +1,14 @@
 module.exports = {
   blogPostDir: "sample-posts", // The name of directory that contains your posts.
   siteTitle: 'Cordially. Wedding Website Builder and Top RSVP Website Creator', // Site title.
-  siteTitleAlt: "GatsbyJS Material Starter", // Alternative site title for SEO.
+  siteTitleAlt: "Boutique Wedding Website Builder", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "http://cordially.co", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
-  siteDescription: "A GatsbyJS stater with Material design in mind.", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "Build and create a beautiful, one-of-a-kind wedding website invitation and collect RSVPs", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
-  siteFBAppID: "", // FB Application ID for using app insights
-  // siteGATrackingID: "UA-47311644-4", // Tracking code ID for google analytics.
+  siteFBAppID: "10214332377725883", // FB Application ID for using app insights
+  siteGATrackingID: "UA-84206959-1", // Tracking code ID for google analytics.
   disqusShortname: 'cordially-co', // Disqus shortname.
   postDefaultCategoryID: "Tech", // Default category for posts.
   userName: "Cordially", // Username to display in the author segment.

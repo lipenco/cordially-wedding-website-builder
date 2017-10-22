@@ -1,5 +1,9 @@
 {
   "assetsByChunkName": {
+    "path---categories-online-wedding-invitations": [
+      "path---categories-online-wedding-invitations-d2079fad8fef889c2fb3.js",
+      "path---categories-online-wedding-invitations-d2079fad8fef889c2fb3.js.map"
+    ],
     "path---tags-greenery": [
       "path---tags-greenery-2de503bd842feb71b8ee.js",
       "path---tags-greenery-2de503bd842feb71b8ee.js.map"
@@ -9,8 +13,12 @@
       "component---src-pages-pricing-jsx-d049afa6c2fe30c9ff81.js.map"
     ],
     "path---blog": [
-      "path---blog-0b9946e1a9d2a961c6bf.js",
-      "path---blog-0b9946e1a9d2a961c6bf.js.map"
+      "path---blog-8d6d80d024d1f7762d11.js",
+      "path---blog-8d6d80d024d1f7762d11.js.map"
+    ],
+    "path---online-wedding-invitations-how-to-choose-the-best-one-for-you": [
+      "path---online-wedding-invitations-how-to-choose-the-best-one-for-you-9a21631efb37cd29a1b1.js",
+      "path---online-wedding-invitations-how-to-choose-the-best-one-for-you-9a21631efb37cd29a1b1.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -35,6 +43,10 @@
     "path---pricing": [
       "path---pricing-a0e39f21c11f6a62c5ab.js",
       "path---pricing-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---tags-online-wedding-invitations": [
+      "path---tags-online-wedding-invitations-6f51016d77d41b7e11a7.js",
+      "path---tags-online-wedding-invitations-6f51016d77d41b7e11a7.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -109,8 +121,8 @@
       "component---src-pages-wedding-website-builder-about-jsx-c6aed1a447f8824dbdea.js.map"
     ],
     "app": [
-      "app-a90fe6647ceb13b264ca.js",
-      "app-a90fe6647ceb13b264ca.js.map"
+      "app-86acad0b5e8161e387f7.js",
+      "app-86acad0b5e8161e387f7.js.map"
     ],
     "path---hidden-cost-of-free-wedding-websites": [
       "path---hidden-cost-of-free-wedding-websites-9f458d0ed5e292fc0a0c.js",

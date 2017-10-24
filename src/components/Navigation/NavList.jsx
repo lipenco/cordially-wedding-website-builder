@@ -44,14 +44,6 @@ function GetNavList(config) {
         }
       );
     });
-    NavList.push(
-      {
-        divider: false,
-        subheader: false,
-        primaryText: "Our blog",
-        to: "/blog",
-      }
-    );
   }
 
   NavList.push({ divider: true });
@@ -112,9 +104,15 @@ function GetNavList(config) {
     {
       divider: false,
       subheader: false,
-      primaryText: 'All Themes',
+      primaryText: 'See All Themes',
       component: Link,
       to: '/wedding-website-themes/'
+    },
+    {
+      divider: false,
+      subheader: false,
+      primaryText: "Our blog",
+      to: "/blog/",
     }
   );
   return NavList;

@@ -12,7 +12,7 @@ class Pricing extends Component {
                  <div className="pricing__item md-grid md-cell md-cell--6">
                      <h3 className="pricing__title">Discounted</h3>
                      <p className="pricing__sentence">With branding</p>
-                     <div className="pricing__price"><span className="pricing__currency">$</span>49<span className="pricing__period">/ donation</span></div>
+                     <div className="pricing__price"><span className="pricing__currency">$</span>49<span className="pricing__period">/ 1 website</span></div>
                      <ul className="pricing__feature-list">
                          <li className="pricing__feature">Unlimited invitations</li>
                          <li className="pricing__feature">No time limit</li>

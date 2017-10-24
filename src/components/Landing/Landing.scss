@@ -268,9 +268,10 @@ body {
 }
 body {
     // overflow: hidden
+    overflow: auto;
 }
 body.ready {
-    overflow: visible
+    overflow: visible;
 }
 .usual-nav {
     position: relative;
@@ -1348,10 +1349,22 @@ body.ready {
     }
 }
 
+.video-wrapper video {
+  background: '#fff' !important;
+}
+
+
+@media screen and (max-width: 568px) {
+  .slipper-object.object-video2.vimeo,.slipper-object.object-video1.vimeo  {
+    height: 230px;
+  }
+}
+
 .logo-wrapper {
   position: fixed;
   height: 20%;
-  width: 240px;
+  width: 260px;
+  min-width: 260px;
   text-align: center;
   left: 50%;
   top: 0;
@@ -1393,7 +1406,7 @@ body.ready {
     width: 2px;
     height: 100%;
     left: 50%;
-    top: 20%;
+    top: 60%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);

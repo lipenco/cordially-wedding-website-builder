@@ -16,8 +16,9 @@ class Landing extends React.Component {
   render() {
     return (
       <div>
-        <Helmet title={`Cordially - Modern Wedding Website Builder`}>
+        <Helmet title={`Cordially Creator - Boutique Wedding Website Builder.`}>
         <meta property="og:site_name" content="Cordially.co"/>
+        <meta name="description" content="Build your personal wedding website with the best creator. Collect RSVPs online and choose from modern wedding websites templates available on Cordially builder."/>
         <meta content="http://cordially.co/static/img/cordially-logo-new.jpg" property="og:image"/>
         <meta content="http://cordially.co/static/img/cordially-logo-new.jpg" property="og:image:url"/>
         <meta content="image/jpeg" property="og:image:type"/>
@@ -271,7 +272,7 @@ class Landing extends React.Component {
           <section className="content-wrapper slipper five">
             <div className="content-slipper">
               <div className="gradient victoria" style={{width: '100%'}} />
-              <iframe className="slipper-object object-video1" src="https://player.vimeo.com/video/223828928?autoplay=1&loop=1&title=0&byline=0&portrait=0" width={640} height={360} frameBorder={0}  />
+              <iframe className="slipper-object object-video1 vimeo" src="https://player.vimeo.com/video/223828928?autoplay=1&loop=1&title=0&byline=0&portrait=0" width={640} height={360} frameBorder={0}  />
               <img className="slipper-object object-video2" src="static/img/ekran.png" />
               <div className="description-slipper">
                 <h2>PERSONAL RSVPs</h2>
@@ -299,9 +300,10 @@ class Landing extends React.Component {
           <section className="content-wrapper slipper six">
             <div className="content-slipper">
               <div className="gradient blue" style={{width: '100%'}} />
+              <style dangerouslySetInnerHTML={{__html: "\n            .slipper-object.object-video2 {\n            margin-top: -140px;\n            }\n            .slipper-object.object-video2 {\n            margin-top: -80px;\n            }\n            .description-slipper  {\n            top:40%;\n            }\n            .slipper.five .description-slipper h2 {\n            color: #fff;\n            }\n            #player {\n            background-color: #fff;\n            }\n            @media screen and (max-width: 550px) {\n            .slipper.six .slipper-object.object-video2, .slipper.six .slipper-object.object-video2 {\n            top: 30%;\n            width: 90%;\n            left: 5%;\n            }\n            .slipper.six .description-slipper h2 {\n            color: inherit;\n            }\n            }\n         " }} />
               <img className="slipper-object object-video2" src="static/img/ekran.png" />
-                        <style dangerouslySetInnerHTML={{__html: "\n            .slipper-object.object-video2 {\n            margin-top: -120px;\n            }\n            .slipper-object.object-video2 {\n            margin-top: -80px;\n            }\n            .description-slipper  {\n            top:40%;\n            }\n            .slipper.five .description-slipper h2 {\n            color: #fff;\n            }\n            #player {\n            background-color: #fff;\n            }\n            @media screen and (max-width: 550px) {\n            .slipper.six .slipper-object.object-video1, .slipper.six .slipper-object.object-video2 {\n            top: 30%;\n            width: 90%;\n            left: 5%;\n            }\n            .slipper.six .description-slipper h2 {\n            color: inherit;\n            }\n            }\n         " }} />
-              <iframe className="slipper-object object-video2" src="https://player.vimeo.com/video/237052963?title=0&byline=0&portrait=0" width={640} height={320} frameBorder={0} />
+
+              <iframe style={{marginTop: -120}} className="slipper-object object-video2 vimeo" src="https://player.vimeo.com/video/237052963?autoplay=0&loop=1&title=0&byline=0&portrait=0" width={640} height={340} frameBorder={0}  />
               <div className="description-slipper" style={{top: '43%'}}>
                 <h2 style={{color: '#fff'}}>EASY TO SET UP</h2>
                 <p>
@@ -423,7 +425,7 @@ class Landing extends React.Component {
                 </h3>
                 <p>
                   Beautifully subtle and finely tailored design, bespoke to suit you.  You will find our schemes pixel perfect, wonderfully crafted and sensitively and skillfully drawn.
-                  No two weddings are the same and neither are our websites; it really is all about you.
+                  No two weddings are the same and neither are our websites. Cordially wedding website builder it really is all about you.
                 </p>
               </div>
             </div>
@@ -433,9 +435,9 @@ class Landing extends React.Component {
                 <div className="footer-shop">
                   <h2>Try It For Free</h2>
                   <h3 style={{ whiteSpace: 'inherit'}}>
-                  Create your stunning wedding website using top - notch websites creator.</h3>
+                  Create your stunning wedding website with the best builder using top online RSVP websites creator.</h3>
                     <h3>
-                    <a style={{
+                    <a target="_blank" style={{
                         position: 'relative',
                         fontSize: 18,
                         fontFamily: 'DidotItalic',
@@ -447,7 +449,7 @@ class Landing extends React.Component {
                     </a>
                     <br/>
                     </h3>
-                  <p>Do it. With Love. Make your wedding planing easier with Cordially!</p>
+                  <p>Do it. With Love. Make your wedding planing easier with Cordially wedding website builder!</p>
                   <a target="_blank" href="https://app.cordially.co/template/modern" className="link-footer" style={{fontWeight:600}} data-color="#000000">
                     <div className="overlay-color" />
                     <span>C</span>
@@ -481,7 +483,7 @@ class Landing extends React.Component {
                 </a>
               </div>
               <div className="credits">
-                Cordially  ©  Cordially Wedding Website
+                Cordially  ©  Cordially Wedding Website Builder
               </div>
             </section>
           </section>
@@ -495,11 +497,11 @@ class Landing extends React.Component {
                 </a>
               </div>
               <div className="right">
-                <a href="/wedding-website-builder-about">
+                <a target="_blank" href="/wedding-website-builder-about">
                   <span className="text-link">About</span>
                   <span className="line-link" />
                 </a>
-                <a href="/wedding-website-builder-pricing">
+                <a target="_blank" href="/wedding-website-builder-pricing">
                   <span className="text-link">Pricing</span>
                   <span className="line-link" />
                 </a>
@@ -527,7 +529,7 @@ class Landing extends React.Component {
                   </span> */}
             </div>
           </section>
-          <a href="https://app.cordially.co/admin/guest-list" className="nav-login"
+          <a target="_blank" href="https://app.cordially.co/admin/guest-list" className="nav-login"
           style={{marginRight: 20, width: 150, display: 'block', opacity: 1, fontWeight:600}}>
             <span className="wrapper-letters">
               <span>L</span>

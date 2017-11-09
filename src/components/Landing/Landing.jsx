@@ -530,7 +530,7 @@ class Landing extends React.Component {
             </div>
           </section>
           <a target="_blank" href="https://app.cordially.co/admin/guest-list" className="nav-login"
-          style={{marginRight: 20, width: 150, display: 'block', opacity: 1, fontWeight:600}}>
+          style={{paddingRight: 80, width: 150, display: 'block', opacity: 1, fontWeight:600}}>
             <span className="wrapper-letters">
               <span>L</span>
               <span>o</span>
@@ -541,7 +541,7 @@ class Landing extends React.Component {
             <div className="line-menu" />
             <div className="line-menu-hover" />
           </a>
-          <a href="#" className="nav-menu" style={{fontWeight:600}}>
+          <a href="#" className="nav-menu" style={{fontWeight:600, minWidth: 70}}>
             <span className="wrapper-letters">
               <span>m</span>
               <span>e</span>

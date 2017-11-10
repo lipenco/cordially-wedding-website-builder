@@ -44,6 +44,17 @@ export default class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
+          <script
+            dangerouslySetInnerHTML={{ __html: `
+              !function(w,d,l){
+                script = d.createElement("script");
+                script.src = l;
+                script.async = true;
+                d.body.appendChild(script);
+              }(window, document,'//cordially-wedding-website.refersion.com/tracker/v3/pub_4ea2ddb407e82eb17d96.js');
+              _refersion();
+            `}}
+          />
         </body>
       </html>
     );

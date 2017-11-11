@@ -6267,20 +6267,23 @@ var _gsScope = "undefined" != typeof module && module.exports && "undefined" != 
                     force3D: !0,
                     onComplete: function() {
                         $(".preloader").remove(), window.melanieClient.mobile ? e.animTypoMobile() : $(window).width() <= 1024 ? e.animTypoMobile() : e.animTypo()
-                    }
+                    },
+                    delay: 0
                 }), s.to(".gradient-splash", .2, {
                     alpha: 1,
                     delay: 0.9
                 })
             }, e.prototype.animTypo = function() {
-                $(".mobile-lookbook").addClass("no-anim"), this.spriteAnim(".sprite-lookbook img", 400, 807, 2, 84, k), s.to(".baseline h4", 1, {
+                // $(".mobile-lookbook").addClass("no-anim"),
+                // this.spriteAnim(".sprite-lookbook img", 400, 807, 2, 84, k, 50),
+                s.to(".baseline h4", 1, {
                     alpha: 1,
                     ease: "easeOut",
-                    delay: 2.5
+                    delay: 0.5
                 }), s.to(".scroll-text", .8, {
                     alpha: 1,
                     ease: "easeOut",
-                    delay: 2.8
+                    delay: 0.8
                 }), s.to(".line", 1, {
                     yPercent: 100,
                     ease: "easeOut",
@@ -6297,7 +6300,7 @@ var _gsScope = "undefined" != typeof module && module.exports && "undefined" != 
                 }), s.to(".scroll-text", .8, {
                     alpha: 1,
                     ease: "easeOut",
-                    delay: 1
+                    delay: 0.2
                 }), s.to(".line", 1, {
                     yPercent: 100,
                     ease: "easeOut",

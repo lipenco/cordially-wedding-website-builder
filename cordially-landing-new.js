@@ -171,10 +171,7 @@ function() {
             $(".mobile-lookbook").addClass("no-anim"), this.spriteAnim(".sprite-lookbook img", 400, 807, 2, 84, B), f.to(".baseline h4", 1, {
                 alpha: 1,
                 ease: "easeOut",
-                delay: 2.5
-            }), f.to(this.languageMenu, .3, {
-                alpha: 1,
-                delay: 2.8
+                delay: 0.5
             }), f.to(".scroll-text", .8, {
                 alpha: 1,
                 ease: "easeOut",

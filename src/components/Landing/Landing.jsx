@@ -7,7 +7,7 @@ class Landing extends React.Component {
 
   componentDidMount() {
      const script = document.createElement("script");
-     script.src = "static/cordially-landing-min.js";
+     script.src = "cordially-landing.js";
      script.async = true;
 
      document.body.appendChild(script);
@@ -19,8 +19,8 @@ class Landing extends React.Component {
         <Helmet title={`Cordially Creator - Boutique Wedding Website Builder.`}>
         <meta property="og:site_name" content="Cordially.co"/>
         <meta name="description" content="Build your personal wedding website with the best creator. Collect RSVPs online and choose from modern wedding websites templates available on Cordially builder."/>
-        <meta content="http://cordially.co/static/img/cordially-logo-new.jpg" property="og:image"/>
-        <meta content="http://cordially.co/static/img/cordially-logo-new.jpg" property="og:image:url"/>
+        <meta content="http://cordially.co/img/cordially-logo-new.jpg" property="og:image"/>
+        <meta content="http://cordially.co/img/cordially-logo-new.jpg" property="og:image:url"/>
         <meta content="image/jpeg" property="og:image:type"/>
         <link rel="canonical" href="http://cordially.co" />
         </Helmet>
@@ -134,19 +134,19 @@ class Landing extends React.Component {
             <div className="gradient-splash green" />
             <div className="content-splash">
               <div className="baseline">
-                <div className="desktop-lookbook">
+               {/*
+                  <div className="desktop-lookbook">
                   <div className="sprite-lookbook">
-                    <img width={1614} height={16800} src="static/img/sprite-lookbook2abc.png" />
+                    <img width={1614} height={16800} src="img/sprite-lookbook2abc.png" />
                   </div>
                 </div>
+                */}
                 <div className="mobile-lookbook">
                   <h3>
                     <span className="top">C</span>
                     <span className="bottom">O</span>
                     <span className="top">R</span>
                     <span className="bottom">D</span>
-                  </h3>
-                  <h3 className="second">
                     <span className="top">I</span>
                     <span className="bottom">A</span>
                     <span className="top">L</span>
@@ -154,14 +154,14 @@ class Landing extends React.Component {
                     <span className="top">Y</span>
                   </h3>
                 </div>
-                <h1>Wedding Website</h1>
+                <h1>Create your <br/> wedding  website <br/> with love</h1>
               </div>
             </div>
           </section>
           <section className="content-wrapper slipper one">
             <div className="content-slipper">
               <div className="gradient red" />
-              <img className="slipper-object" src="static/img/vintage-wedding-website2.png" />
+              <img className="slipper-object" src="img/vintage-wedding-website2.png" />
               <div className="description-slipper">
                 <span>like</span>
                 <h2>Vintage</h2>
@@ -181,15 +181,15 @@ class Landing extends React.Component {
               </div>
             </div>
             <span className="letter">
-              {/* <img class="sprite-letter" width="1716" height="4158" src="static/img/sprite-b.png" /> */}
-              <img className="sprite-letter" width={1716} height={4158} src="static/img/sprite-v2.png" />
+              {/* <img class="sprite-letter" width="1716" height="4158" src="img/sprite-b.png" /> */}
+              <img className="sprite-letter" width={1716} height={4158} src="img/sprite-v2.png" />
               <span>V</span>
             </span>
           </section>
           <section className="content-wrapper slipper two">
             <div className="content-slipper">
               <div className="gradient grey" />
-              <img className="slipper-object" src="static/img/greenery-wedding-website.png" />
+              <img className="slipper-object" src="img/greenery-wedding-website.png" />
               <div className="description-slipper">
                 <span>like</span>
                 <h2>Greenery</h2>
@@ -209,14 +209,14 @@ class Landing extends React.Component {
               </div>
             </div>
             <span className="letter">
-              <img className="sprite-letter" width={1716} height={4158} src="static/img/sprite-g.png" />
+              <img className="sprite-letter" width={1716} height={4158} src="img/sprite-g.png" />
               <span>G</span>
             </span>
           </section>
           <section className="content-wrapper slipper three">
             <div className="content-slipper">
               <div className="gradient yellow" />
-              <img className="slipper-object" src="static/img/modern-wedding-website.png" />
+              <img className="slipper-object" src="img/modern-wedding-website.png" />
               <div className="description-slipper">
                 <span>like</span>
                 <h2>Modern</h2>
@@ -237,14 +237,14 @@ class Landing extends React.Component {
               </div>
             </div>
             <span className="letter">
-              <img className="sprite-letter" width={1716} height={4158} src="static/img/sprite-m.png" />
+              <img className="sprite-letter" width={1716} height={4158} src="img/sprite-m.png" />
               <span>M</span>
             </span>
           </section>
           <section className="content-wrapper slipper four">
             <div className="content-slipper">
               <div className="gradient pink" />
-              <img className="slipper-object" src="static/img/rustic-wedding-website.png" />
+              <img className="slipper-object" src="img/rustic-wedding-website.png" />
               <div className="description-slipper">
                 <span>like</span>
                 <h2>Rustic</h2>
@@ -264,23 +264,22 @@ class Landing extends React.Component {
               </div>
             </div>
             <span className="letter">
-              <img className="sprite-letter" width={1716} height={4158} src="static/img/sprite-r.png" />
+              <img className="sprite-letter" width={1716} height={4158} src="img/sprite-r.png" />
               <span>R</span>
             </span>
           </section>
-          <style dangerouslySetInnerHTML={{__html: "\n            .slipper-object.object-video1 {\n            margin-top: -120px;\n            }\n            .slipper-object.object-video2 {\n            margin-top: -80px;\n            }\n            .description-slipper  {\n            top:40%;\n            }\n            .slipper.five .description-slipper h2 {\n            color: #fff;\n            }\n            #player {\n            background-color: #fff;\n            }\n            @media screen and (max-width: 550px) {\n            .slipper.five .slipper-object.object-video1, .slipper.five .slipper-object.object-video2 {\n            top: 30%;\n            width: 90%;\n            left: 5%;\n            }\n            .slipper.five .description-slipper h2 {\n            color: inherit;\n            }\n            }\n         " }} />
+          <style dangerouslySetInnerHTML={{__html: "\n  .slipper-object.object-video1 {\n            margin-top: -120px;\n            }\n            .slipper-object.object-video2 {\n            margin-top: -80px;\n            }\n            .description-slipper  {\n            top:40%;\n            }\n            .slipper.five .description-slipper h2 {\n            color: #fff;\n            }\n            #player {\n            background-color: #fff;\n            }\n            @media screen and (max-width: 550px) {\n            .slipper.five .slipper-object.object-video1, .slipper.five .slipper-object.object-video2 {\n            top: 20%;\n            width: 90%;\n            left: 5%;\n            }\n            .slipper.five .description-slipper h2 {\n            color: inherit;\n            }\n            }\n         " }} />
           <section className="content-wrapper slipper five">
             <div className="content-slipper">
               <div className="gradient victoria" style={{width: '100%'}} />
               <iframe className="slipper-object object-video1 vimeo" src="https://player.vimeo.com/video/223828928?autoplay=1&loop=1&title=0&byline=0&portrait=0" width={640} height={360} frameBorder={0}  />
-              <img className="slipper-object object-video2" src="static/img/ekran.png" />
+                {/*<img className="slipper-object object-video2" src="img/ekran.png" />*/}
               <div className="description-slipper">
-                <h2>PERSONAL RSVPs</h2>
+                <h2>Advanced RSVPs</h2>
                 <p>
                   What better way of keeping track of your guests and the RSVPs than using our
                   personalized online invitations? Each one gets sent by email incorporating your wedding
-                  details and with the guest’s name included in the design. Make your guests feel
-                  as special as if a beautifully calligraphed paper invitation had landed through their letterbox.
+                  details and with the guest’s name included in the design. Custome RSVP questions and +1 options are all here.
                 </p>
                 {/* <a href="http://store.melanie-f.com/product/victoria" target="_blank" class="link-shop" data-color="#296269">
                      <div class="overlay-color"></div>
@@ -293,18 +292,18 @@ class Landing extends React.Component {
               </div>
             </div>
             {/* <span class="letter">
-               <img class="sprite-letter" width="1716" height="3780" src="static/img/sprite-v.png" />
+               <img class="sprite-letter" width="1716" height="3780" src="img/sprite-v.png" />
                <span>V</span>
                </span> */}
           </section>
           <section className="content-wrapper slipper six">
             <div className="content-slipper">
               <div className="gradient blue" style={{width: '100%'}} />
-              <style dangerouslySetInnerHTML={{__html: "\n            .slipper-object.object-video2 {\n            margin-top: -140px;\n            }\n            .slipper-object.object-video2 {\n            margin-top: -80px;\n            }\n            .description-slipper  {\n            top:40%;\n            }\n            .slipper.five .description-slipper h2 {\n            color: #fff;\n            }\n            #player {\n            background-color: #fff;\n            }\n            @media screen and (max-width: 550px) {\n            .slipper.six .slipper-object.object-video2, .slipper.six .slipper-object.object-video2 {\n            top: 30%;\n            width: 90%;\n            left: 5%;\n            }\n            .slipper.six .description-slipper h2 {\n            color: inherit;\n            }\n            }\n         " }} />
-              <img className="slipper-object object-video2" src="static/img/ekran.png" />
+              <style dangerouslySetInnerHTML={{__html: "\n            .slipper-object.object-video2 {\n            margin-top: -140px;\n            }\n            .slipper-object.object-video3 {\n            margin-top: -80px;\n            }\n            .description-slipper  {\n            top:40%;\n            }\n            .slipper.five .description-slipper h2 {\n            color: #fff;\n            }\n            #player {\n            background-color: #fff;\n            }\n            @media screen and (max-width: 550px) {\n            .slipper.six .slipper-object.object-video3, .slipper.six .slipper-object.object-video3 {\n            top: 20%;\n            width: 90%;\n            left: 5%;\n            }\n            .slipper.six .description-slipper h2 {\n            color: inherit;\n            }\n            }\n         " }} />
+              {/*  <img className="slipper-object object-video2" src="img/ekran.png" />*/}
 
-              <iframe style={{marginTop: -120}} className="slipper-object object-video2 vimeo" src="https://player.vimeo.com/video/237052963?autoplay=0&loop=1&title=0&byline=0&portrait=0" width={640} height={340} frameBorder={0}  />
-              <div className="description-slipper" style={{top: '43%'}}>
+              <iframe style={{marginTop: -120}} className="slipper-object object-video3 vimeo" src="https://player.vimeo.com/video/237052963?autoplay=0&loop=1&title=0&byline=0&portrait=0" width={640} height={340} frameBorder={0}  />
+              <div className="description-slipper" style={{top: '50%'}}>
                 <h2 style={{color: '#fff'}}>EASY TO SET UP</h2>
                 <p>
                   You don’t have to be a website whizz to set up your own wedding website.  Each template is super-easy to customize; simply click on text to edit.  Add maps, registries and choose which sections of the page you want to use.  Don’t want something?  Simply hide it.
@@ -320,17 +319,17 @@ class Landing extends React.Component {
               </div>
             </div>
             {/* <span class="letter">
-               <img class="sprite-letter" width="1716" height="4158" src="static/img/sprite-c.png" />
+               <img class="sprite-letter" width="1716" height="4158" src="img/sprite-c.png" />
                <span>C</span>
                </span> */}
           </section>
           <section className="design">
             <h2>FEATURES</h2>
             <div className="wrapper-design">
-              {/* <div class="design-1"></div>
-                  <div class="design-2"></div>
-                  <div class="design-3"></div>
-                  <div class="design-4"></div> */}
+               {/*<div className="design-1"/>
+                  <div className="design-2"/>
+                  <div className="design-3"/>
+                  <div className="design-4"/>*/}
               <div className="block-design style">
                 <h3>
                   <span>R</span>
@@ -473,13 +472,13 @@ class Landing extends React.Component {
               </div>
               <div className="social-menu">
                 {/* <a target="_blank" href="https://twitter.com/miel_anis">
-                     <img class="twitter" onerror="this.src = this.src.replace(/svg/g,'png')" src="static/img/twitter.svg" />
+                     <img class="twitter" onerror="this.src = this.src.replace(/svg/g,'png')" src="""img/twitter.svg" />
                      </a> */}
                 <a target="_blank" href="https://www.pinterest.com/cordiallyco/">
-                  <img className="fb" src="static/img/pinterest.png" />
+                  <img className="fb" src="img/pinterest.png" />
                 </a>
                 <a target="_blank" href="https://www.facebook.com/cordially.co">
-                  <img className="fb" src="static/img/facebook.png" />
+                  <img className="fb" src="img/facebook.png" />
                 </a>
               </div>
               <div className="credits">
@@ -508,7 +507,7 @@ class Landing extends React.Component {
               </div>
             </div>
             <div className="wrapper-menu">
-              {/* <img class="logo-menu" onerror="this.src = this.src.replace(/svg/g,'png')" src="static/img/logo-white.svg" /> */}
+              {/* <img class="logo-menu" onerror="this.src = this.src.replace(/svg/g,'png')" src="img/logo-white.svg" /> */}
               <span className="slipper-link">
                 <span className="text-link">Vintage<span className="line-link" /></span>
               </span>
@@ -557,7 +556,7 @@ class Landing extends React.Component {
           <a target="_blank" style={{fontWeight: 600}} href="https://app.cordially.co/template/modern" className="header-link">
             Browse Templates
           </a>
-          <div className="scroll">
+          <div className="scroll" style={{paddingTop: 40}}>
             <div className="scroll-text">or</div>
             <div className="scroll-text">scroll</div>
             <div className="line-wrapper">

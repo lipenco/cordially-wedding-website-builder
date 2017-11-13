@@ -21,7 +21,7 @@ class About extends Component {
                 </p>
               </figcaption>
               <div className="drawings mac">
-                <img className="illustration" src="/static/img/imac-vintage-wedding-website.png" alt="vintage wedding website" />
+                <img className="illustration" src="img/imac-vintage-wedding-website.png" alt="vintage wedding website" />
               </div>
               <figcaption>
                <h2 style={{paddingTop:60}}>Modern wedding website builder.</h2>

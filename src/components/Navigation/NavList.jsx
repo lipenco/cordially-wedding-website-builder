@@ -33,54 +33,40 @@ function GetNavList(config) {
   }
   ];
 
-  if (config.userLinks) {
-    config.userLinks.forEach((link) => {
-      NavList.push(
-        {
-          divider: false,
-          subheader: false,
-          primaryText: link.label,
-          onClick() { window.location.href = link.url; },
-        }
-      );
-    });
-  }
-
-  NavList.push({ divider: true });
 
   NavList.push(
     {
       divider: false,
       subheader: false,
-      primaryText: 'Preview Greenery Theme',
+      primaryText: 'Greenery Template',
       component: Link,
       onClick() { window.location.href = 'http://app.cordially.co/template/greenery'; },
     },
     {
       divider: false,
       subheader: false,
-      primaryText: 'Preview Vintage Theme',
+      primaryText: 'Vintage Template',
       component: Link,
       onClick() { window.location.href = 'http://app.cordially.co/template/vintage'; },
     },
     {
       divider: false,
       subheader: false,
-      primaryText: 'Preview Modern Theme',
+      primaryText: 'Modern Template',
       component: Link,
       onClick() { window.location.href = 'http://app.cordially.co/template/modern'; },
     },
     {
       divider: false,
       subheader: false,
-      primaryText: 'Preview Rustic Theme',
+      primaryText: 'Rustic Template',
       component: Link,
       onClick() { window.location.href = 'http://app.cordially.co/template/rustic'; },
     },
     {
       divider: false,
       subheader: false,
-      primaryText: 'Preview Romantic Theme',
+      primaryText: 'Romantic Template',
       component: Link,
       onClick() { window.location.href = 'http://app.cordially.co/template/romantic'; },
     },

@@ -1,6 +1,6 @@
 ---
 title: "Online wedding invitations - how to choose the best one for you"
-cover: "http://cordially.co/static/img/online-rsvp-cordially.jpg"
+cover: "http://cordially.co/img/online-rsvp-cordially.jpg"
 date: "22/10/2017"
 category: "online wedding invitations"
 tags:
@@ -27,6 +27,6 @@ At least this is what we believe in. If your goal is to make your guest feel spe
 
 ## RSVP tracking tool should identify the problems
 
-![wedding website creator](http://cordially.co/static/img/wedding-website-creator.png)
+![wedding website creator](http://cordially.co/img/wedding-website-creator.png)
 
 We know that NO information from the invited guest is the WORST information. This is why we build Cordially to avoid this situation. We will let you know if your email was not delivered. A quick glimpse through your guest list will make it clear for you who opened the email, who clicked on the invitation link and who's email was not delivered because the email address was simply not correct. To our knowledge, none of our competitors are tracking the invitation emails for you.

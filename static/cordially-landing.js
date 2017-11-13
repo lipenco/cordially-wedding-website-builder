@@ -2435,11 +2435,13 @@
                 re.fx.step[e.prop] ? re.fx.step[e.prop](e) : e.elem.style && (null != e.elem.style[re.cssProps[e.prop]] || re.cssHooks[e.prop]) ? re.style(e.elem, e.prop, e.now + e.unit) : e.elem[e.prop] = e.now
             }
         }
-    }, O.propHooks.scrollTop = O.propHooks.scrollLeft = {
+    },
+    O.propHooks.scrollTop = O.propHooks.scrollLeft = {
         set: function(e) {
             e.elem.nodeType && e.elem.parentNode && (e.elem[e.prop] = e.now)
         }
-    }, re.easing = {
+    },
+    re.easing = {
         linear: function(e) {
             return e
         },
@@ -3184,7 +3186,7 @@
                 r = this[0],
                 s = r && r.ownerDocument;
             return s ? (t = s.documentElement, re.contains(t, r) ? (typeof r.getBoundingClientRect !== Te && (n = r.getBoundingClientRect()), i = W(s), {
-                top: n.top + (i.pageYOffset || t.scrollTop) - (t.clientTop || 0),
+                // top: n.top + (i.pageYOffset || t.scrollTop) - (t.clientTop || 0),
                 left: n.left + (i.pageXOffset || t.scrollLeft) - (t.clientLeft || 0)
             }) : n) : void 0
         },
@@ -6267,20 +6269,23 @@ var _gsScope = "undefined" != typeof module && module.exports && "undefined" != 
                     force3D: !0,
                     onComplete: function() {
                         $(".preloader").remove(), window.melanieClient.mobile ? e.animTypoMobile() : $(window).width() <= 1024 ? e.animTypoMobile() : e.animTypo()
-                    }
+                    },
+                    delay: 0
                 }), s.to(".gradient-splash", .2, {
                     alpha: 1,
                     delay: 0.9
                 })
             }, e.prototype.animTypo = function() {
-                $(".mobile-lookbook").addClass("no-anim"), this.spriteAnim(".sprite-lookbook img", 400, 807, 2, 84, k), s.to(".baseline h4", 1, {
+                // $(".mobile-lookbook").addClass("no-anim"),
+                // this.spriteAnim(".sprite-lookbook img", 400, 807, 2, 84, k, 50),
+                s.to(".baseline h4", 1, {
                     alpha: 1,
                     ease: "easeOut",
-                    delay: 2.5
+                    delay: 0.5
                 }), s.to(".scroll-text", .8, {
                     alpha: 1,
                     ease: "easeOut",
-                    delay: 2.8
+                    delay: 0.8
                 }), s.to(".line", 1, {
                     yPercent: 100,
                     ease: "easeOut",
@@ -6297,7 +6302,7 @@ var _gsScope = "undefined" != typeof module && module.exports && "undefined" != 
                 }), s.to(".scroll-text", .8, {
                     alpha: 1,
                     ease: "easeOut",
-                    delay: 1
+                    delay: 0.2
                 }), s.to(".line", 1, {
                     yPercent: 100,
                     ease: "easeOut",
@@ -6867,7 +6872,8 @@ var _gsScope = "undefined" != typeof module && module.exports && "undefined" != 
             e.preventDefault(), l = !1, window.melanieClient.mobile ? (p.hasClass("hide") || (p.addClass("hide"), s.to(p, .8, {
                 alpha: 0,
                 ease: "easeIn"
-            })), u = 6375 + $(window).height() / 1.25) : window.scroll(0, 12750 + $(window).height() + $(window).height() / 2)
+            })),
+        u = 6375 + $(window).height() / 1.25) : window.scroll(0, 12750 + $(window).height() + $(window).height() / 2)
         }), $(".half-screen").on(window.melanieClient.click, function() {
             a.animFlag || a.close()
         }), $(".sound").on("click", function() {

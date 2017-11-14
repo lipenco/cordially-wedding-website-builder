@@ -1,6 +1,6 @@
 ---
 title: "Hidden cost of free wedding websites"
-cover: "http://cordially.co/img/free-wedding-websites.jpg"
+cover: "https://www.cordially.co/img/free-wedding-websites.jpg"
 date: "17/10/2017"
 category: "free wedding websites"
 tags:
@@ -22,7 +22,7 @@ Cordially Wedding Website makes it really obvious the main attention is put on y
 ## They’re a pain for your guests
 
 Free services don’t allow you to create a custom subdomain. “popular-wedding-platform.com/something/something” is usually a lot harder for your guests to remember than something shorter and 100% unique. Also email with the invitation coming from a website they don't know cannot be compared with the personal message from your own email address. Cordially makes it so easy.
-![free-wedding-websites](http://cordially.co/img/free-wedding-websites.jpg)
+![free-wedding-websites](https://www.cordially.co/img/free-wedding-websites.jpg)
 
 
 ## You are becoming a target

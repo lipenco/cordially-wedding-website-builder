@@ -14,19 +14,19 @@ function GetNavList(config) {
     divider: false,
     subheader: false,
     primaryText: "Login",
-    onClick() { window.location.href = 'https://app.cordially.co/admin/login'; },
+    to: '/admin/login'
   },
   {
     divider: false,
     subheader: false,
     primaryText: "Sign Up",
-    onClick() { window.location.href = 'https://app.cordially.co/admin/register'; },
+    to: '/admin/register'
   },
   {
     divider: false,
     subheader: false,
     primaryText: "Build your website",
-    onClick() { window.location.href = 'https://app.cordially.co/template/vintage'; },
+    to: '/template/vintage'
   },
   {
     divider: true,
@@ -40,35 +40,35 @@ function GetNavList(config) {
       subheader: false,
       primaryText: 'Greenery Template',
       component: Link,
-      onClick() { window.location.href = 'http://app.cordially.co/template/greenery'; },
+      to: '/template/greenery'
     },
     {
       divider: false,
       subheader: false,
       primaryText: 'Vintage Template',
       component: Link,
-      onClick() { window.location.href = 'http://app.cordially.co/template/vintage'; },
+      to: '/template/vintage'
     },
     {
       divider: false,
       subheader: false,
       primaryText: 'Modern Template',
       component: Link,
-      onClick() { window.location.href = 'http://app.cordially.co/template/modern'; },
+      to: '/template/modern'
     },
     {
       divider: false,
       subheader: false,
       primaryText: 'Rustic Template',
       component: Link,
-      onClick() { window.location.href = 'http://app.cordially.co/template/rustic'; },
+      to: '/template/rustic'
     },
     {
       divider: false,
       subheader: false,
       primaryText: 'Romantic Template',
       component: Link,
-      onClick() { window.location.href = 'http://app.cordially.co/template/romantic'; },
+      to: '/template/romantic'
     },
     {
       divider: true,

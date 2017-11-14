@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 var path = require('path');
 var proxy = require('http-proxy-middleware');
+var port = process.env.PORT || 9000
 
 var options = {
         target: 'https://app.cordially.co/', // target host
@@ -18,4 +19,4 @@ app.use('/*.js', exampleProxy);
 app.use('/*.css', exampleProxy);
 app.use('/*/*', exampleProxy);
 
-app.listen(8080);
+app.listen(port);

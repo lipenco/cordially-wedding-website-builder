@@ -19,10 +19,10 @@ class Landing extends React.Component {
         <Helmet title={`Cordially Creator - Boutique Wedding Website Builder.`}>
         <meta property="og:site_name" content="Cordially.co"/>
         <meta name="description" content="Build your personal wedding website with the best creator. Collect RSVPs online and choose from modern wedding websites templates available on Cordially builder."/>
-        <meta content="http://cordially.co/img/cordially-logo-new.jpg" property="og:image"/>
-        <meta content="http://cordially.co/img/cordially-logo-new.jpg" property="og:image:url"/>
+        <meta content="https://www.cordially.co/img/cordially-logo-new.jpg" property="og:image"/>
+        <meta content="https://www.cordially.co/img/cordially-logo-new.jpg" property="og:image:url"/>
         <meta content="image/jpeg" property="og:image:type"/>
-        <link rel="canonical" href="http://cordially.co" />
+        <link rel="canonical" href="https://www.cordially.co" />
         </Helmet>
 
         <div className="usual-nav" />
@@ -168,7 +168,7 @@ class Landing extends React.Component {
                 <p>Looking for eclectic charm from some bygone era?  Then our Vintage style is perfect for you.
                   Create a design that is both appealing and memorable, conjuring up the image of those lovely days long gone.
                 </p>
-                <a href="https://app.cordially.co/template/vintage" target="_blank" className="link-shop" data-color="#ff4f59">
+                <a href="/template/vintage" target="_blank" className="link-shop" data-color="#ff4f59">
                   <div className="overlay-color" />
                   <span>P</span>
                   <span>r</span>
@@ -196,7 +196,7 @@ class Landing extends React.Component {
                 <p>Think lush green countryside, fresh flowers and the scent of grass sprinkled with early-morning dew and you have our Greenery theme.
                   Great at any time of year but loved by those with spring and summer weddings.
                 </p>
-                <a href="https://app.cordially.co/template/greenery" target="_blank" className="link-shop" data-color="#a7a4b0">
+                <a href="/template/greenery" target="_blank" className="link-shop" data-color="#a7a4b0">
                   <div className="overlay-color" />
                   <span>P</span>
                   <span>r</span>
@@ -224,7 +224,7 @@ class Landing extends React.Component {
                   Modern style is all that you need and more.
                   Ideal for those that want to keep their wedding minimalistic.
                 </p>
-                <a href="https://app.cordially.co/template/modern" target="_blank" className="link-shop" data-color="#e0b15c">
+                <a href="/template/modern" target="_blank" className="link-shop" data-color="#e0b15c">
                   <div className="overlay-color" />
                   <span>P</span>
                   <span>r</span>
@@ -251,7 +251,7 @@ class Landing extends React.Component {
                 <p>Charming homespun barns with countrified and homely surroundings give a hint of what our Rustic theme is based upon.
                   If you love the smell of natural wood and prefer your wedding plain and simple, this is for you.
                 </p>
-                <a href="https://app.cordially.co/template/rustic" target="_blank" className="link-shop" data-color="#f3bbc3">
+                <a href="/template/rustic" target="_blank" className="link-shop" data-color="#f3bbc3">
                   <div className="overlay-color" />
                   <span>P</span>
                   <span>r</span>
@@ -449,7 +449,7 @@ class Landing extends React.Component {
                     <br/>
                     </h3>
                   <p>Do it. With Love. Make your wedding planing easier with Cordially wedding website builder!</p>
-                  <a target="_blank" href="https://app.cordially.co/template/modern" className="link-footer" style={{fontWeight:600}} data-color="#000000">
+                  <a target="_blank" href="/template/modern" className="link-footer" style={{fontWeight:600}} data-color="#000000">
                     <div className="overlay-color" />
                     <span>C</span>
                     <span>r</span>
@@ -496,11 +496,11 @@ class Landing extends React.Component {
                 </a>
               </div>
               <div className="right">
-                <a target="_blank" href="/wedding-website-builder-about">
+                <a href="/wedding-website-builder-about/">
                   <span className="text-link">About</span>
                   <span className="line-link" />
                 </a>
-                <a target="_blank" href="/wedding-website-builder-pricing">
+                <a href="/wedding-website-builder-pricing/">
                   <span className="text-link">Pricing</span>
                   <span className="line-link" />
                 </a>
@@ -553,7 +553,7 @@ class Landing extends React.Component {
         </div>
         <div className="logo-wrapper">
           <style dangerouslySetInnerHTML={{__html: "\n            .header-link {\n            border: 1px solid #84ACE1;\n            position: relative;\n            text-decoration: none;\n            padding:11px 50px;\n            border-radius: 25px;\n            font-size: 18px;\n            font-family: DidotItalic;\n            color: #84ACE1;\n            top: 20px;\n            line-height: 40px;\n            transition: all 1s ease;\n            }\n            .header-link:hover {\n            background-color: #84ACE1;\n            color: #fff;\n            z-index: 9\n            }\n         " }} />
-          <a target="_blank" style={{fontWeight: 600}} href="https://app.cordially.co/template/modern" className="header-link">
+          <a target="_blank" style={{fontWeight: 600}} href="/template/modern" className="header-link">
             Browse Templates
           </a>
           <div className="scroll" style={{paddingTop: 40}}>

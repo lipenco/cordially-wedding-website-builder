@@ -11,7 +11,9 @@ class Navigation extends Component {
     return (
       <NavigationDrawer
         drawerStyle={{backgroundColor: 'rgb(123, 231, 215)', boxShadow: 'none'}}
-        drawerHeader={(<a className="logo-cordially" href="/"><img src="https://app.cordially.co/cordially-logo-new.jpg" style={{width: 100, paddingTop:9}}/></a>)}
+        drawerHeader={(<a className="logo-cordially" href="/"><img
+        src="https://app.cordially.co/app/cordially-logo-new.jpg" 
+        style={{width: 100, paddingTop:9}}/></a>)}
         toolbarTitle={LocalTitle}
         toolbarStyle={{
           boxShadow: 'none',

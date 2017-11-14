@@ -60,7 +60,7 @@ class Pricing extends Component {
                     flex: '1 1 0%',
                     margin: '10px 30px'
                  }}>
-                   <a target="_blank" href="http://app.cordially.co/template/vintage" type="button"
+                   <a target="_blank" href="/template/vintage" type="button"
                  className="link"><div>
                      <div className="get-started-button" className="outerButton">
                        <span className="button">Build Your Wedding Webiste Now</span>

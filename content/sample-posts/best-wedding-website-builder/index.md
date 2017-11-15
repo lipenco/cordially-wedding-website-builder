@@ -44,4 +44,4 @@ The information function needs to be well-executed too. Add location pins to the
 There are many wedding website creators out there, but they all seem to forget the important role of guest personalization. Not to mention their mass-produced designs. Here comes Cordially—fresh and brand new. We’d be happy to hear your feedback and product suggestions. Drop us a line at: support@cordially.co.
 
 
-##[Build your stunning wedding website](/template/modern)
+##[Build your stunning wedding website](https://www.cordially.co/template/modern)

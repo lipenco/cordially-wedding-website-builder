@@ -14,19 +14,15 @@ function GetNavList(config) {
     divider: false,
     subheader: false,
     primaryText: "Login",
-    to: '/admin/login'
+    onClick() { window.location.href = 'https://www.cordially.co//admin/login'; },
+
   },
   {
     divider: false,
     subheader: false,
     primaryText: "Sign Up",
-    to: '/admin/register'
-  },
-  {
-    divider: false,
-    subheader: false,
-    primaryText: "Build your website",
-    to: '/template/vintage'
+    onClick() { window.location.href = 'https://www.cordially.co//admin/register'; },
+
   },
   {
     divider: true,
@@ -40,35 +36,35 @@ function GetNavList(config) {
       subheader: false,
       primaryText: 'Greenery Template',
       component: Link,
-      to: '/template/greenery'
+      onClick() { window.location.href = 'https://www.cordially.co/template/greenery'; }
     },
     {
       divider: false,
       subheader: false,
       primaryText: 'Vintage Template',
       component: Link,
-      to: '/template/vintage'
+      onClick() { window.location.href = 'https://www.cordially.co/template/vintage'; }
     },
     {
       divider: false,
       subheader: false,
       primaryText: 'Modern Template',
       component: Link,
-      to: '/template/modern'
+      onClick() { window.location.href = 'https://www.cordially.co/template/modern'; }
     },
     {
       divider: false,
       subheader: false,
       primaryText: 'Rustic Template',
       component: Link,
-      to: '/template/rustic'
+      onClick() { window.location.href = 'https://www.cordially.co/template/rustic'; }
     },
     {
       divider: false,
       subheader: false,
       primaryText: 'Romantic Template',
       component: Link,
-      to: '/template/romantic'
+      onClick() { window.location.href = 'https://www.cordially.co/template/romantic'; }
     },
     {
       divider: true,
@@ -98,7 +94,7 @@ function GetNavList(config) {
       divider: false,
       subheader: false,
       primaryText: "Our blog",
-      to: "/blog/",
+      onClick() { window.location.href = 'https://www.cordially.co/blog'; }
     }
   );
   return NavList;

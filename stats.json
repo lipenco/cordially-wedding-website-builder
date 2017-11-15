@@ -1,5 +1,13 @@
 {
   "assetsByChunkName": {
+    "path---tags-rustic": [
+      "path---tags-rustic-16f50184685209a7d396.js",
+      "path---tags-rustic-16f50184685209a7d396.js.map"
+    ],
+    "path---rustic-wedding-why-do-we-love-it-so-much": [
+      "path---rustic-wedding-why-do-we-love-it-so-much-a0fd5fa0d8c04a3c2ad9.js",
+      "path---rustic-wedding-why-do-we-love-it-so-much-a0fd5fa0d8c04a3c2ad9.js.map"
+    ],
     "path---categories-online-wedding-invitations": [
       "path---categories-online-wedding-invitations-44368433e4423f9e2be4.js",
       "path---categories-online-wedding-invitations-44368433e4423f9e2be4.js.map"
@@ -13,8 +21,8 @@
       "component---src-pages-pricing-jsx-867e94492974b6cbf6c5.js.map"
     ],
     "path---blog": [
-      "path---blog-8d3cf8a4f09b034aef02.js",
-      "path---blog-8d3cf8a4f09b034aef02.js.map"
+      "path---blog-18ef357c16479e2c8717.js",
+      "path---blog-18ef357c16479e2c8717.js.map"
     ],
     "path---online-wedding-invitations-how-to-choose-the-best-one-for-you": [
       "path---online-wedding-invitations-how-to-choose-the-best-one-for-you-d1f6175ce89a5e80c1f6.js",
@@ -84,6 +92,10 @@
       "commons-064eae856e6148447c71.js",
       "commons-064eae856e6148447c71.js.map"
     ],
+    "path---categories-rustic-wedding": [
+      "path---categories-rustic-wedding-7d920bf475faf3b7edbb.js",
+      "path---categories-rustic-wedding-7d920bf475faf3b7edbb.js.map"
+    ],
     "path---wedding-website-builder-pricing": [
       "path---wedding-website-builder-pricing-1db04e5021b40904aca6.js",
       "path---wedding-website-builder-pricing-1db04e5021b40904aca6.js.map"
@@ -121,8 +133,8 @@
       "component---src-pages-wedding-website-builder-about-jsx-c6aed1a447f8824dbdea.js.map"
     ],
     "app": [
-      "app-b9e2be673fbe865a3dd6.js",
-      "app-b9e2be673fbe865a3dd6.js.map"
+      "app-94354737a3d96dfd75bc.js",
+      "app-94354737a3d96dfd75bc.js.map"
     ],
     "path---hidden-cost-of-free-wedding-websites": [
       "path---hidden-cost-of-free-wedding-websites-4da8ba925bf30b9f2ed4.js",

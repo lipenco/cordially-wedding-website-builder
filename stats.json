@@ -21,8 +21,8 @@
       "component---src-pages-pricing-jsx-867e94492974b6cbf6c5.js.map"
     ],
     "path---blog": [
-      "path---blog-18ef357c16479e2c8717.js",
-      "path---blog-18ef357c16479e2c8717.js.map"
+      "path---blog-3211175ab22b8e7e2367.js",
+      "path---blog-3211175ab22b8e7e2367.js.map"
     ],
     "path---online-wedding-invitations-how-to-choose-the-best-one-for-you": [
       "path---online-wedding-invitations-how-to-choose-the-best-one-for-you-d1f6175ce89a5e80c1f6.js",
@@ -44,6 +44,10 @@
       "path---all-about-a-greenery-wedding-theme-37c53f9279945e4fe25f.js",
       "path---all-about-a-greenery-wedding-theme-37c53f9279945e4fe25f.js.map"
     ],
+    "path---categories-vintage-wedding": [
+      "path---categories-vintage-wedding-531108d9052a3c8da8c0.js",
+      "path---categories-vintage-wedding-531108d9052a3c8da8c0.js.map"
+    ],
     "path---categories-wedding-website": [
       "path---categories-wedding-website-34942b0131555db41969.js",
       "path---categories-wedding-website-34942b0131555db41969.js.map"
@@ -55,6 +59,10 @@
     "path---tags-online-wedding-invitations": [
       "path---tags-online-wedding-invitations-e1f1d89fc1cab838f03a.js",
       "path---tags-online-wedding-invitations-e1f1d89fc1cab838f03a.js.map"
+    ],
+    "path---how-to-have-a-perfectly-modern-vintage-wedding": [
+      "path---how-to-have-a-perfectly-modern-vintage-wedding-e390d5be344517a1e75a.js",
+      "path---how-to-have-a-perfectly-modern-vintage-wedding-e390d5be344517a1e75a.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -133,8 +141,8 @@
       "component---src-pages-wedding-website-builder-about-jsx-c6aed1a447f8824dbdea.js.map"
     ],
     "app": [
-      "app-94354737a3d96dfd75bc.js",
-      "app-94354737a3d96dfd75bc.js.map"
+      "app-81a8cdd75cca2bdf6c47.js",
+      "app-81a8cdd75cca2bdf6c47.js.map"
     ],
     "path---hidden-cost-of-free-wedding-websites": [
       "path---hidden-cost-of-free-wedding-websites-4da8ba925bf30b9f2ed4.js",
@@ -151,6 +159,10 @@
     "path---about": [
       "path---about-1db04e5021b40904aca6.js",
       "path---about-1db04e5021b40904aca6.js.map"
+    ],
+    "path---tags-vintage": [
+      "path---tags-vintage-b8658fb4126e7cc5391a.js",
+      "path---tags-vintage-b8658fb4126e7cc5391a.js.map"
     ]
   }
 }

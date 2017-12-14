@@ -49,9 +49,16 @@ A simple way to really add a touch of rustic charm to your wedding is with your 
 ## Don’t forget our template for your rustic wedding website
 
 When it comes to organizing a rustic wedding, you can’t go far wrong by setting up your own wedding website. Not only is this ideal for communicating with guests, and making sure that everyone knows the details. But it is also great if you want to really get the theme out there that you are going for.
-Our [rustic website theme](https://www.cordially.co/template/rustic)  is ideal. Not only does it contain all the information that you need, but it also looks amazing too. After all, when you are organizing a rustic wedding, it is all about the details!
+Our [rustic website theme](https://www.cordially.co/template/rustic) is ideal. Not only does it contain all the information that you need, but it also looks amazing too. After all, when you are organizing a rustic wedding, it is all about the details!
 
 
 ![rustic wedding website](https://cdn.filestackcontent.com/cWUxYsqdQricLOSVxW6M)
 
-[Build your Rustic Wedding Website](https://www.cordially.co/template/rustic)
+
+<div style="text-align: center; margin:40px">
+    <a  href="https://www.cordially.co/template/rustic" target='blank'><h3 class="call">Build your rustic wedding website</h3></a>
+
+    <a data-pin-do="embedBoard" data-pin-board-width="400" data-pin-scale-height="740" data-pin-scale-width="80" href="https://www.pinterest.com/cordiallyco/rustic-wedding-mood-board/"></a>
+    <script src ='//assets.pinterest.com/js/pinit.js'/>
+
+</div>

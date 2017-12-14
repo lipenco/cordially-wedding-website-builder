@@ -6827,7 +6827,7 @@ var _gsScope = "undefined" != typeof module && module.exports && "undefined" != 
         window.melanieClient.mobile ? ($(document).on("touchstart", function(e) {
             c = 2.5 * e.originalEvent.changedTouches[0].pageY
         }), $(document).on("touchmove", function(e) {
-            e.preventDefault(), d = 2.5 * e.originalEvent.changedTouches[0].pageY, h = c - d, u > 20 ? p.hasClass("hide") || (p.addClass("hide"), s.to(p, .8, {
+            e.preventDefault(), d = 2.5 * e.originalEvent.changedTouches[0].pageY, h = c - d, u > 800 ? p.hasClass("hide") || (p.addClass("hide"), s.to(p, .8, {
                 alpha: 0,
                 ease: "easeIn"
             })) : p.hasClass("hide") && (p.removeClass("hide"), s.to(p, .8, {
@@ -6835,7 +6835,8 @@ var _gsScope = "undefined" != typeof module && module.exports && "undefined" != 
                 ease: "easeIn"
             })), h > 0 ? u += Math.abs(h) : u -= Math.abs(h), u = window.melanieClient.util.betweenVal(0, m, u), c = d
         })) : $(window).on("scroll", function() {
-            l && (l = !1, window.scroll(0, 0)), u = $(this).scrollTop(), u > 200 ? p.hasClass("hide") || (p.addClass("hide"), s.to(p, .4, {
+
+            l && (l = !1, window.scroll(0, 0)), u = $(this).scrollTop(), u > 1300 ? p.hasClass("hide") || (p.addClass("hide"), s.to(p, .4, {
                 alpha: 0,
                 ease: "easeIn"
             })) : p.hasClass("hide") && (p.removeClass("hide"), s.to(p, .4, {

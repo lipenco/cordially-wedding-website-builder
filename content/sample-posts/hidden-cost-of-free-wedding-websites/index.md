@@ -35,3 +35,7 @@ Companies offering free sites have several paid services that they’re using th
 The goal of those big wedding platforms is to serve as many couples as possible, at the expense of personalization and individual attention. If you need something special for your site, our customer service team can make those custom changes for you. One-size-fits-all wedding platforms aren’t interested in providing custom corrections for you. Cordially team will be happy to help you.
 
 We’re obviously a bit biased :) but these pains are a big reason why we created Cordially in the first place.
+
+<div style="text-align: center; margin:40px">
+    <a href="https://www.cordially.co/template/modern" target='blank'><h3 class="call">Try Cordially for free</h3></a>
+</div>

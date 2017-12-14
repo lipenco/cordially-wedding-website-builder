@@ -14,14 +14,14 @@ function GetNavList(config) {
     divider: false,
     subheader: false,
     primaryText: "Login",
-    onClick() { window.location.href = 'https://www.cordially.co//admin/login'; },
+    onClick() { window.location.href = 'https://www.cordially.co/admin/login'; },
 
   },
   {
     divider: false,
     subheader: false,
     primaryText: "Sign Up",
-    onClick() { window.location.href = 'https://www.cordially.co//admin/register'; },
+    onClick() { window.location.href = 'https://www.cordially.co/admin/register'; },
 
   },
   {

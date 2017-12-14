@@ -26,3 +26,21 @@ p {
   font-size: 18px !important;
   font-family: "AvenirRegular", sans-serif !important;
 }
+
+.call {
+  background-color: #7fe7d7;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 40px 0;
+}
+.call:hover {
+  opacity: 0.8;
+}
+
+h2 {
+  margin: 40px 0 30px;
+}

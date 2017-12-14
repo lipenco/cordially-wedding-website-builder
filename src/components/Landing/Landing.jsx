@@ -1,7 +1,10 @@
 import React from 'react';
 import './Landing.scss';
 import Helmet from 'react-helmet';
+import Slider from 'react-slick';
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 class Landing extends React.Component {
 
@@ -14,11 +17,22 @@ class Landing extends React.Component {
  }
 
   render() {
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 2,
+        centerMode:true,
+        focusOnSelect:true,
+        responsive: [ { breakpoint: 768, settings: { slidesToShow: 1, slidesToScroll: 1 } }, { breakpoint: 1024, settings: { slidesToShow: 3 } } ]
+    };
+
     return (
       <div>
-        <Helmet title={`Cordially Creator - Boutique Wedding Website Builder.`}>
+        <Helmet title={`Cordially - Boutique Wedding Website Creator.`}>
         <meta property="og:site_name" content="Cordially.co"/>
-        <meta name="description" content="Build your personal wedding website with the best creator. Collect RSVPs online and choose from modern wedding websites templates available on Cordially builder."/>
+        <meta name="description" content="Build your wedding website with love. Collect wedding RSVPs online and choose from modern wedding websites templates designed by Cordially - the best wedding website builder."/>
         <meta content="https://www.cordially.co/img/cordially-logo-new.jpg" property="og:image"/>
         <meta content="https://www.cordially.co/img/cordially-logo-new.jpg" property="og:image:url"/>
         <meta content="image/jpeg" property="og:image:type"/>
@@ -154,10 +168,11 @@ class Landing extends React.Component {
                     <span className="top">Y</span>
                   </h3>
                 </div>
-                <h1>Create your <br/> wedding  website <br/> with love</h1>
+                <h1>Boutique wedding website<br/>creator</h1>
               </div>
             </div>
           </section>
+
           <section className="content-wrapper slipper one">
             <div className="content-slipper">
               <div className="gradient red" />
@@ -272,10 +287,9 @@ class Landing extends React.Component {
           <section className="content-wrapper slipper five">
             <div className="content-slipper">
               <div className="gradient victoria" style={{width: '100%'}} />
-              <iframe className="slipper-object object-video1 vimeo" src="https://player.vimeo.com/video/223828928?autoplay=1&loop=1&title=0&byline=0&portrait=0" width={640} height={360} frameBorder={0}  />
-                {/*<img className="slipper-object object-video2" src="img/ekran.png" />*/}
-              <div className="description-slipper">
-                <h2>Advanced RSVPs</h2>
+
+              <div className="description-slipper" style={{width: '100%',top: '40%'}}>
+                <h2>ADVANCED RSVPS</h2>
                 <p>
                   What better way of keeping track of your guests and the RSVPs than using our
                   personalized online invitations? Each one gets sent by email incorporating your wedding
@@ -301,9 +315,7 @@ class Landing extends React.Component {
               <div className="gradient blue" style={{width: '100%'}} />
               <style dangerouslySetInnerHTML={{__html: "\n            .slipper-object.object-video2 {\n            margin-top: -140px;\n            }\n            .slipper-object.object-video3 {\n            margin-top: -80px;\n            }\n            .description-slipper  {\n            top:40%;\n            }\n            .slipper.five .description-slipper h2 {\n            color: #fff;\n            }\n            #player {\n            background-color: #fff;\n            }\n            @media screen and (max-width: 550px) {\n            .slipper.six .slipper-object.object-video3, .slipper.six .slipper-object.object-video3 {\n            top: 20%;\n            width: 90%;\n            left: 5%;\n            }\n            .slipper.six .description-slipper h2 {\n            color: inherit;\n            }\n            }\n         " }} />
               {/*  <img className="slipper-object object-video2" src="img/ekran.png" />*/}
-
-              <iframe style={{marginTop: -120}} className="slipper-object object-video3 vimeo" src="https://player.vimeo.com/video/237052963?autoplay=0&loop=1&title=0&byline=0&portrait=0" width={640} height={340} frameBorder={0}  />
-              <div className="description-slipper" style={{top: '50%'}}>
+              <div className="description-slipper" style={{width: '100%',top: '40%'}}>
                 <h2 style={{color: '#fff'}}>EASY TO SET UP</h2>
                 <p>
                   You don’t have to be a website whizz to set up your own wedding website.  Each template is super-easy to customize; simply click on text to edit.  Add maps, registries and choose which sections of the page you want to use.  Don’t want something?  Simply hide it.
@@ -552,11 +564,98 @@ class Landing extends React.Component {
           </a>
         </div>
         <div className="logo-wrapper">
-          <style dangerouslySetInnerHTML={{__html: "\n            .header-link {\n            border: 1px solid #84ACE1;\n            position: relative;\n            text-decoration: none;\n            padding:11px 50px;\n            border-radius: 25px;\n            font-size: 18px;\n            font-family: DidotItalic;\n            color: #84ACE1;\n            top: 20px;\n            line-height: 40px;\n            transition: all 1s ease;\n            }\n            .header-link:hover {\n            background-color: #84ACE1;\n            color: #fff;\n            z-index: 9\n            }\n         " }} />
+
+          <style dangerouslySetInnerHTML={{__html: "\n            .header-link {\n            border: 1px solid #84ACE1;\n            position: relative;\n            text-decoration: none;\n            padding:11px 50px;\n            border-radius: 25px;\n            font-size: 18px;\n            font-family: DidotItalic;\n            color: #84ACE1;\n            top: 11%;\n            line-height: 40px;\n            transition: all 1s ease;\n            }\n            .header-link:hover {\n            background-color: #84ACE1;\n            color: #fff;\n            z-index: 9\n            }\n         " }} />
           <a target="_blank" style={{fontWeight: 600}} href="/template/modern" className="header-link">
             Browse Templates
           </a>
-          <div className="scroll" style={{paddingTop: 40}}>
+          <div className="scroll">
+          <div style={{
+            width:'100%',
+            position: 'absolute',
+            top: '77%',
+            zIndex:9
+          }}>
+
+          <Slider  {...settings}>
+            <div>
+            <div className="template-screenshot" >
+               <div className="template-screenshot-browser"/>
+               <img className="poster-image"
+               src="/img/romantic-wedding-website-template.png"/>
+               <div className="template-screenshot-overlay">
+                  <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/romantic" className="header-link">
+                  Start with Romantic
+                 </a>
+                 <div class="mobile-click-screen"></div>
+               </div>
+            </div>
+            </div>
+            <div>
+             <div className="template-screenshot" >
+                <div className="template-screenshot-browser"/>
+                <img className="poster-image"
+                src="/img/modern-wedding-website-template.png"/>
+                <div className="template-screenshot-overlay">
+                <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/modern" className="header-link">
+                Start with Modern
+               </a>
+                </div>
+             </div>
+             </div>
+             <div>
+             <div className="template-screenshot" >
+                <div className="template-screenshot-browser"/>
+                <img className="poster-image"
+                src="/img/rustic-wedding-website-template.png"/>
+                <div className="template-screenshot-overlay">
+                  <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/rustic" className="header-link">
+                  Start with Rustic
+                 </a>
+                </div>
+             </div>
+             </div>
+             <div>
+             <div className="template-screenshot" >
+                <div className="template-screenshot-browser"/>
+                <img className="poster-image"
+                src="/img/magical-garden-wedding-website.png"/>
+                <div className="template-screenshot-overlay is-active">
+                  <a target="_blank" style={{fontWeight: 500, lineHeight:"18px", fontFamily: 'AvenirRegular'}} href="/template/magical-garden" className="header-link">
+                  Start with Magical Gardern
+                 </a>
+                </div>
+             </div>
+             </div>
+             <div>
+             <div className="template-screenshot" >
+                <div className="template-screenshot-browser"/>
+                <img className="poster-image"
+                src="/img/greenery-wedding-websites.png"/>
+                <div className="template-screenshot-overlay is-active">
+                <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/greenery" className="header-link">
+                Start with Greenery
+               </a>
+                </div>
+             </div>
+             </div>
+             <div>
+             <div className="template-screenshot" >
+                <div className="template-screenshot-browser"/>
+                <img className="poster-image"
+                src="/img/vintage-wedding-website-theme.png"/>
+                <div className="template-screenshot-overlay is-active">
+                  <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/vintage" className="header-link">
+                  Start with Vintage
+                 </a>
+                </div>
+             </div>
+             </div>
+           </Slider>
+           </div>
+
+
+
             <div className="scroll-text">or</div>
             <div className="scroll-text">scroll</div>
             <div className="line-wrapper">
@@ -564,9 +663,7 @@ class Landing extends React.Component {
             </div>
           </div>
         </div>
-        <noscript>&lt;img height="1" width="1" style="display:none"
-          src="https://www.facebook.com/tr?id=680330822129856&amp;ev=PageView&amp;noscript=1"
-          /&gt;</noscript>
+
 
       </div>
     );

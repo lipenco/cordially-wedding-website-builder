@@ -44,14 +44,11 @@ export default class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
-          <script src ='//cordially-wedding-website.refersion.com/tracker/v3/pub_4ea2ddb407e82eb17d96.js'/>
-          <script
-            dangerouslySetInnerHTML={{ __html: `
-              !function(w,d){
-                _refersion();
-              }(window, document);
-            `}}
-          />
+
+ <script
+  dangerouslySetInnerHTML={{ __html: `
+    (function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src='https://cdn.firstpromoter.com/fprom.js',t.onload=t.onreadystatechange=function(){var t=this.readyState;if(!t||"complete"==t||"loaded"==t)try{$FPROM.init("53d3b5xb",".cordially.co")}catch(t){}};var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)})();
+  `}}/>
         </body>
       </html>
     );

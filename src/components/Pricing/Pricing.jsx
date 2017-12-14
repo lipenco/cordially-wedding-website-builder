@@ -45,29 +45,17 @@ class Pricing extends Component {
 
                  </div>
 
-                 <div style={{width: '100%'}}>
-                   <div style={{
-                     color: 'rgba(0, 0, 0, 0.870588)',
-                     textAlign: 'center',
-                     backgroundColor: 'rgb(255, 255, 255)',
-                   transition: 'all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms',
-                   boxSizing: 'border-box',
-                   boxShadow: 'rgba(0, 0, 0, 0.117647) 0px 1px 6px,rgba(0, 0, 0, 0.117647) 0px 1px 4px',
-                    borderRadius: 2,
-                   textAlign: 'center',
-                   display: 'inline-block',
-                    minWidth: 88,
-                    flex: '1 1 0%',
-                    margin: '10px 30px'
-                 }}>
-                   <a target="_blank" href="/template/vintage" type="button"
-                 className="link"><div>
-                     <div className="get-started-button" className="outerButton">
-                       <span className="button">Build Your Wedding Webiste Now</span>
-                     </div></div></a></div>
-                   </div>
+
 
           </div>
+          <div style={{margin: '30px 0', textAlign:'center'}}>
+
+
+          <a href="https://www.cordially.co/template/modern" target='blank'>
+          <h3 className="call">Build Your Wedding Website</h3>
+          </a>
+
+         </div>
         </div>
 
       </div>

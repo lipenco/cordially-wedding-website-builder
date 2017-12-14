@@ -39,6 +39,13 @@ Quite a few couples like the idea of saying their vows in an archway, so why not
 
 Think that you like the idea of a greenery wedding theme? Want to try out how it would look for yourself? Why not check out our wedding website creator? Perfect for those who want to make a wedding website, we can help you to create a website that not only looks beautiful, but that gives your guests all the information that they need.
 
-##[Build your Greenery Wedding Website](https://www.cordially.co/greenery)
 
 ![greenery wedding website](https://www.cordially.co/img/greenery-wedding-website-template.jpg)
+
+<div style="text-align: center; margin:40px">
+    <a  href="https://www.cordially.co/template/greenery" target='blank'><h3 class="call">Build your greenery wedding website</h3></a>
+
+    <a data-pin-do="embedBoard" data-pin-board-width="400" data-pin-scale-height="740" data-pin-scale-width="80" href="https://www.pinterest.com/cordiallyco/greenery-wedding-mood-board/"></a>
+    <script src ='//assets.pinterest.com/js/pinit.js'/>
+
+</div>

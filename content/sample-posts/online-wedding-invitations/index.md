@@ -30,3 +30,8 @@ At least this is what we believe in. If your goal is to make your guest feel spe
 ![wedding website creator](https://www.cordially.co/img/wedding-website-creator.png)
 
 We know that NO information from the invited guest is the WORST information. This is why we build Cordially to avoid this situation. We will let you know if your email was not delivered. A quick glimpse through your guest list will make it clear for you who opened the email, who clicked on the invitation link and who's email was not delivered because the email address was simply not correct. To our knowledge, none of our competitors are tracking the invitation emails for you.
+
+<div style="text-align: center; margin:40px">
+    <a  href="https://www.cordially.co/template/modern" target='blank'><h3 class="call">Build your stunning wedding website</h3></a>
+
+</div>

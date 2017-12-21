@@ -1,8 +1,22 @@
 import React, { Component } from 'react';
 import './AllThemes.scss';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 class About extends Component {
   render() {
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        centerMode:true,
+        slidesToScroll: 1,
+        focusOnSelect:true,
+    };
+
+
     return (
       <div className="about">
           <div className="inner">
@@ -12,124 +26,81 @@ class About extends Component {
                 <p>Get inspired to take your wedding planning
                 from ho-hum to um-woah with your favorite wedding theme.</p>
               <br/>
-              <div className="gallery-container">
-              <h2>1. Website for modern wedding</h2>
-              <div className="thumb">
-              	<div className="thumb-image">
-              		<a href="/template/modern" title="Modern Wedding Website Theme">
-                    <img src="https://cdn.filestackcontent.com/2Hl8Mm5WQkCvNjleUZy5" alt="Modern Wedding Website Theme"/>
-                  </a>
-              	</div>
 
-              	<div className="thumb-info">
-              		<div className="thumb-title">
-              	        <div className="thumb-name">
-              				<h2><a href="/template/modern" title="Modern Wedding Website Theme">Modern Wedding Website Template</a>
-                      <a style={{float: 'right'}} href="/template/modern" target="_blank" title="Launch Website">
-                      Preview
-                      </a></h2>
-              			</div>
-              	  	</div>
-              	</div>
-	               <div class="clear"></div>
+              <Slider  {...settings}>
+                <div>
+                <div className="template-screenshot" >
+                   <div className="template-screenshot-browser"/>
+                   <img className="poster-image"
+                   src="/img/romantic-wedding-website-template.png"/>
+                   <div className="template-screenshot-overlay">
+                      <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/romantic" className="header-link">
+                      Start with Romantic
+                     </a>
+                   </div>
+                </div>
+                </div>
+                <div>
+                 <div className="template-screenshot" >
+                    <div className="template-screenshot-browser"/>
+                    <img className="poster-image"
+                    src="/img/modern-wedding-website-template.png"/>
+                    <div className="template-screenshot-overlay">
+                    <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/modern" className="header-link">
+                    Start with Modern
+                   </a>
+                    </div>
                  </div>
-
-
-              <div className="gallery-container">
-              <h2>2. Website for rustic barn wedding</h2>
-              <div className="thumb">
-                <div className="thumb-image">
-                  <a href="/template/rustic" title="Rustic Wedding Website Theme">
-                    <img src="https://cdn.filestackcontent.com/cWUxYsqdQricLOSVxW6M" alt="Rustic Wedding Website Theme"/>
-                  </a>
-                </div>
-
-                <div className="thumb-info">
-                  <div className="thumb-title">
-                        <div className="thumb-name">
-                      <h2><a href="/template/rustic" title="Romantic Wedding Website Theme">Rustic Wedding Website Template</a>
-                      <a style={{float: 'right'}} href="https://app.cordially.co/template/rustic" target="_blank" title="Launch Website">
-                      Preview
-                      </a></h2>
-                    </div>
-                    </div>
-                </div>
-                 <div class="clear"></div>
                  </div>
-              </div>
-              </div>
-
-              <div className="gallery-container">
-              <h2>3. Website for greenery wedding</h2>
-              <div className="thumb">
-                <div className="thumb-image">
-                  <a href="/template/greenery" title="Greenery Wedding Website Theme">
-                    <img src="https://cdn.filestackcontent.com/ogCS07jTq6N79nWyxgMw" alt="Greenery Wedding Website Theme"/>
-                  </a>
-                </div>
-
-                <div className="thumb-info">
-                  <div className="thumb-title">
-                        <div className="thumb-name">
-                      <h2><a href="/template/greenery" title="Greenery Wedding Website Theme">Greenery Wedding Wesbite Template</a>
-                      <a style={{float: 'right'}} href="/template/greenery" target="_blank" title="Launch Website">
-                      Preview
-                      </a></h2>
+                 <div>
+                 <div className="template-screenshot" >
+                    <div className="template-screenshot-browser"/>
+                    <img className="poster-image"
+                    src="/img/rustic-wedding-website-template.png"/>
+                    <div className="template-screenshot-overlay">
+                      <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/rustic" className="header-link">
+                      Start with Rustic
+                     </a>
                     </div>
-                    </div>
-                </div>
-                 <div class="clear"></div>
                  </div>
-              </div>
-
-              <div className="gallery-container">
-              <h2>4. Website for modern vintage wedding</h2>
-              <div className="thumb">
-                <div className="thumb-image">
-                  <a href="/template/vinatge" title="Vinatge Wedding Website Theme">
-                    <img src="https://cdn.filestackcontent.com/l5NHfzKR9HCdl63RbVkQ" alt="Vinatge Wedding Website Theme"/>
-                  </a>
-                </div>
-
-                <div className="thumb-info">
-                  <div className="thumb-title">
-                        <div className="thumb-name">
-                      <h2><a href="/template/vinatge" title="Vinatge Wedding Website Theme">Vinatge Theme</a>
-                      <a style={{float: 'right'}} href="https://app.cordially.co/template/vinatge" target="_blank" title="Launch Website">
-                      Preview
-                      </a></h2>
-                    </div>
-                    </div>
-                </div>
-                 <div class="clear"></div>
                  </div>
-
-              </div>
-
-
-              <div className="gallery-container">
-              <h2>5. Website for romantic style wedding </h2>
-              <div className="thumb">
-                <div className="thumb-image">
-                  <a href="/template/romantic" title="Romantic Wedding Website Theme">
-                    <img src="https://cdn.filestackcontent.com/X9wUF76dSXyrgX3RPzkK" alt="Romantic Wedding Website Theme"/>
-                  </a>
-                </div>
-
-                <div className="thumb-info">
-                  <div className="thumb-title">
-                        <div className="thumb-name">
-                      <h2><a href="/template/romantic" title="Romantic Wedding Website Theme">Romantic Theme</a>
-                      <a style={{float: 'right'}} href="/template/romantic" target="_blank" title="Launch Website">
-                      Preview
-                      </a></h2>
+                 <div>
+                 <div className="template-screenshot" >
+                    <div className="template-screenshot-browser"/>
+                    <img className="poster-image"
+                    src="/img/magical-garden-wedding-website.png"/>
+                    <div className="template-screenshot-overlay is-active">
+                      <a target="_blank" style={{fontWeight: 500, lineHeight:"18px", fontFamily: 'AvenirRegular'}} href="/template/magical-garden" className="header-link">
+                      Start with Magical Gardern
+                     </a>
                     </div>
-
-                    </div>
-                </div>
-                 <div class="clear"></div>
                  </div>
-              </div>
+                 </div>
+                 <div>
+                 <div className="template-screenshot" >
+                    <div className="template-screenshot-browser"/>
+                    <img className="poster-image"
+                    src="/img/greenery-wedding-websites.png"/>
+                    <div className="template-screenshot-overlay is-active">
+                    <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/greenery" className="header-link">
+                    Start with Greenery
+                   </a>
+                    </div>
+                 </div>
+                 </div>
+                 <div>
+                 <div className="template-screenshot" >
+                    <div className="template-screenshot-browser"/>
+                    <img className="poster-image"
+                    src="/img/vintage-wedding-website-theme.png"/>
+                    <div className="template-screenshot-overlay is-active">
+                      <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/vintage" className="header-link">
+                      Start with Vintage
+                     </a>
+                    </div>
+                 </div>
+                 </div>
+               </Slider>
 
 
 

@@ -6,6 +6,48 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 300 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+
 class Landing extends React.Component {
 
   componentDidMount() {
@@ -14,6 +56,15 @@ class Landing extends React.Component {
      script.async = true;
 
      document.body.appendChild(script);
+
+     var elements = document.getElementsByClassName('txt-rotate');
+     for (var i=0; i<elements.length; i++) {
+       var toRotate = elements[i].getAttribute('data-rotate');
+       var period = elements[i].getAttribute('data-period');
+       if (toRotate) {
+         new TxtRotate(elements[i], JSON.parse(toRotate), period);
+       }
+     }
  }
 
   render() {
@@ -22,11 +73,13 @@ class Landing extends React.Component {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         centerMode:true,
         focusOnSelect:true,
+        autoplay: true,
         responsive: [ { breakpoint: 768, settings: { slidesToShow: 1, slidesToScroll: 1 } }, { breakpoint: 1024, settings: { slidesToShow: 3 } } ]
     };
+
 
     return (
       <div>
@@ -168,7 +221,21 @@ class Landing extends React.Component {
                     <span className="top">Y</span>
                   </h3>
                 </div>
-                <h1>Boutique wedding website<br/>creator</h1>
+                <h1 style={{
+                  textTransform: 'uppercase',
+                  fontSize: 22,
+                  letterSpacing: '2px',
+                  marginTop: 100,
+                  marginBottom: 40
+                }}>Boutique wedding website creator</h1>
+                <h1>Build your wedding website
+                 <br/>
+                  <span
+                     className="txt-rotate"
+                     data-period="1000"
+                     data-rotate='[ "with love.", "and match your theme.",  "and impress your guests.", "and collect RSVPs.", "to set the mood for your big day." ]'></span>
+                </h1>
+
               </div>
             </div>
           </section>
@@ -288,13 +355,16 @@ class Landing extends React.Component {
             <div className="content-slipper">
               <div className="gradient victoria" style={{width: '100%'}} />
 
-              <div className="description-slipper" style={{width: '100%',top: '40%'}}>
-                <h2>ADVANCED RSVPS</h2>
+              <div className="description-slipper" style={{width: '100%',top: '45%'}}>
+                <h1 style={{color: '#fff'}}>ADVANCED RSVPS OPTIONS</h1>
+
                 <p>
                   What better way of keeping track of your guests and the RSVPs than using our
                   personalized online invitations? Each one gets sent by email incorporating your wedding
-                  details and with the guest’s name included in the design. Custome RSVP questions and +1 options are all here.
+                  details and with the guest’s name included in the design.
+                  Custome RSVP questions and +1 options are all here.
                 </p>
+                <img style={{maxWidth: '90%',  width: 700, marginTop:30 }} src="./img/cordially-wedding-website-builder.png"/>
                 {/* <a href="http://store.melanie-f.com/product/victoria" target="_blank" class="link-shop" data-color="#296269">
                      <div class="overlay-color"></div>
                      <span>W</span>
@@ -315,11 +385,92 @@ class Landing extends React.Component {
               <div className="gradient blue" style={{width: '100%'}} />
               <style dangerouslySetInnerHTML={{__html: "\n            .slipper-object.object-video2 {\n            margin-top: -140px;\n            }\n            .slipper-object.object-video3 {\n            margin-top: -80px;\n            }\n            .description-slipper  {\n            top:40%;\n            }\n            .slipper.five .description-slipper h2 {\n            color: #fff;\n            }\n            #player {\n            background-color: #fff;\n            }\n            @media screen and (max-width: 550px) {\n            .slipper.six .slipper-object.object-video3, .slipper.six .slipper-object.object-video3 {\n            top: 20%;\n            width: 90%;\n            left: 5%;\n            }\n            .slipper.six .description-slipper h2 {\n            color: inherit;\n            }\n            }\n         " }} />
               {/*  <img className="slipper-object object-video2" src="img/ekran.png" />*/}
-              <div className="description-slipper" style={{width: '100%',top: '40%'}}>
-                <h2 style={{color: '#fff'}}>EASY TO SET UP</h2>
-                <p>
-                  You don’t have to be a website whizz to set up your own wedding website.  Each template is super-easy to customize; simply click on text to edit.  Add maps, registries and choose which sections of the page you want to use.  Don’t want something?  Simply hide it.
-                </p>
+              <div className="description-slipper" style={{width: '100%',top: '-1%'}}>
+                <div style={{
+                  width:'100%',
+                  position: 'absolute',
+                  top: '0',
+                  left:0,
+                  zIndex:9
+                }}>
+                <h1 style={{color: '#fff'}}>ONE-OF-A-TYPE DESIGNS</h1>
+
+
+                <Slider  {...settings}>
+                  <div>
+                  <div className="template-screenshot" >
+                     <div className="template-screenshot-browser"/>
+                     <img className="poster-image"
+                     src="/img/romantic-wedding-website-template.png"/>
+                     <div className="template-screenshot-overlay">
+                        <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/romantic" className="header-link">
+                        Start with Romantic
+                       </a>
+                     </div>
+                  </div>
+                  </div>
+                  <div>
+                   <div className="template-screenshot" >
+                      <div className="template-screenshot-browser"/>
+                      <img className="poster-image"
+                      src="/img/modern-wedding-website-template.png"/>
+                      <div className="template-screenshot-overlay">
+                      <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/modern" className="header-link">
+                      Start with Modern
+                     </a>
+                      </div>
+                   </div>
+                   </div>
+                   <div>
+                   <div className="template-screenshot" >
+                      <div className="template-screenshot-browser"/>
+                      <img className="poster-image"
+                      src="/img/rustic-wedding-website-template.png"/>
+                      <div className="template-screenshot-overlay">
+                        <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/rustic" className="header-link">
+                        Start with Rustic
+                       </a>
+                      </div>
+                   </div>
+                   </div>
+                   <div>
+                   <div className="template-screenshot" >
+                      <div className="template-screenshot-browser"/>
+                      <img className="poster-image"
+                      src="/img/magical-garden-wedding-website.png"/>
+                      <div className="template-screenshot-overlay is-active">
+                        <a target="_blank" style={{fontWeight: 500, lineHeight:"18px", fontFamily: 'AvenirRegular'}} href="/template/magical-garden" className="header-link">
+                        Start with Magical Gardern
+                       </a>
+                      </div>
+                   </div>
+                   </div>
+                   <div>
+                   <div className="template-screenshot" >
+                      <div className="template-screenshot-browser"/>
+                      <img className="poster-image"
+                      src="/img/greenery-wedding-websites.png"/>
+                      <div className="template-screenshot-overlay is-active">
+                      <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/greenery" className="header-link">
+                      Start with Greenery
+                     </a>
+                      </div>
+                   </div>
+                   </div>
+                   <div>
+                   <div className="template-screenshot" >
+                      <div className="template-screenshot-browser"/>
+                      <img className="poster-image"
+                      src="/img/vintage-wedding-website-theme.png"/>
+                      <div className="template-screenshot-overlay is-active">
+                        <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/vintage" className="header-link">
+                        Start with Vintage
+                       </a>
+                      </div>
+                   </div>
+                   </div>
+                 </Slider>
+                 </div>
                 {/* <a href="http://store.melanie-f.com/product/celeste" target="_blank" class="link-shop" data-color="#6eaccd">
                      <div class="overlay-color"></div>
                      <span>W</span>
@@ -540,7 +691,7 @@ class Landing extends React.Component {
                   </span> */}
             </div>
           </section>
-          <a target="_blank" href="https://app.cordially.co/admin/guest-list" className="nav-login"
+          <a target="_blank" href="https://www.cordially.co/admin/guest-list" className="nav-login"
           style={{paddingRight: 80, width: 150, display: 'block', opacity: 1, fontWeight:600}}>
             <span className="wrapper-letters">
               <span>L</span>
@@ -570,93 +721,25 @@ class Landing extends React.Component {
             Browse Templates
           </a>
           <div className="scroll">
-          <div style={{
-            width:'100%',
-            position: 'absolute',
-            top: '77%',
-            zIndex:9
-          }}>
+            <div className="scroll-text">
+            <div id="header-slider" className="gradient red" style={{
+              width:'40%',
+              position: 'absolute',
+              top: '-210%',
+              right: '1%',
+              perspective: '500px',
+              display: 'none',
+              // transform: 'translateX(-50%)',
+              zIndex:9
+            }}>
 
-          <Slider  {...settings}>
-            <div>
-            <div className="template-screenshot" >
-               <div className="template-screenshot-browser"/>
-               <img className="poster-image"
-               src="/img/romantic-wedding-website-template.png"/>
-               <div className="template-screenshot-overlay">
-                  <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/romantic" className="header-link">
-                  Start with Romantic
-                 </a>
-                 <div class="mobile-click-screen"></div>
-               </div>
+
+
+             </div>
+             <div style={{marginTop: 20}}>
+            or
             </div>
             </div>
-            <div>
-             <div className="template-screenshot" >
-                <div className="template-screenshot-browser"/>
-                <img className="poster-image"
-                src="/img/modern-wedding-website-template.png"/>
-                <div className="template-screenshot-overlay">
-                <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/modern" className="header-link">
-                Start with Modern
-               </a>
-                </div>
-             </div>
-             </div>
-             <div>
-             <div className="template-screenshot" >
-                <div className="template-screenshot-browser"/>
-                <img className="poster-image"
-                src="/img/rustic-wedding-website-template.png"/>
-                <div className="template-screenshot-overlay">
-                  <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/rustic" className="header-link">
-                  Start with Rustic
-                 </a>
-                </div>
-             </div>
-             </div>
-             <div>
-             <div className="template-screenshot" >
-                <div className="template-screenshot-browser"/>
-                <img className="poster-image"
-                src="/img/magical-garden-wedding-website.png"/>
-                <div className="template-screenshot-overlay is-active">
-                  <a target="_blank" style={{fontWeight: 500, lineHeight:"18px", fontFamily: 'AvenirRegular'}} href="/template/magical-garden" className="header-link">
-                  Start with Magical Gardern
-                 </a>
-                </div>
-             </div>
-             </div>
-             <div>
-             <div className="template-screenshot" >
-                <div className="template-screenshot-browser"/>
-                <img className="poster-image"
-                src="/img/greenery-wedding-websites.png"/>
-                <div className="template-screenshot-overlay is-active">
-                <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/greenery" className="header-link">
-                Start with Greenery
-               </a>
-                </div>
-             </div>
-             </div>
-             <div>
-             <div className="template-screenshot" >
-                <div className="template-screenshot-browser"/>
-                <img className="poster-image"
-                src="/img/vintage-wedding-website-theme.png"/>
-                <div className="template-screenshot-overlay is-active">
-                  <a target="_blank" style={{fontWeight: 500, lineHeight:"15px", fontFamily: 'AvenirRegular'}} href="/template/vintage" className="header-link">
-                  Start with Vintage
-                 </a>
-                </div>
-             </div>
-             </div>
-           </Slider>
-           </div>
-
-
-
-            <div className="scroll-text">or</div>
             <div className="scroll-text">scroll</div>
             <div className="line-wrapper">
               <div className="line" />

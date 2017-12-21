@@ -960,6 +960,23 @@ body.ready {
     line-height:60px;
     font-family: DidotItalic
 }
+
+.slipper .description-slipper h1 {
+    font-size: 100px;
+    line-height:100px;
+    font-family: DidotItalic !important;
+    color: black !important;
+    @media screen and (max-width: 950px) {
+      font-size: 60px;
+      line-height:60px;
+      margin-top: -100px;
+    }
+    @media screen and (max-width: 450px) {
+      font-size: 40px;
+      line-height:40px;
+    }
+}
+
 @media screen and (max-width: 768px) and (min-width: 551px) {
     .slipper .description-slipper h2 {
         font-size: 35px
@@ -1207,7 +1224,7 @@ body.ready {
     position: absolute;
     width: 100%;
     left: 0;
-    top: 34%;
+    top: 47%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%)
@@ -1221,8 +1238,9 @@ body.ready {
 // }
 .splash .baseline {
     position: relative;
-    width: 100%;
-    text-align: center
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
 .splash .desktop-lookbook {
     position: relative;
@@ -1346,12 +1364,12 @@ body.ready {
     // top: -60px;
     padding: 0;
     text-align: center;
-    font-size: 35px;
-    letter-spacing: -2px;
+    font-size: 40px;
+    // letter-spacing: -2px;
     // font-family: DidotItalic !important;
-    line-height: 1;
+    line-height: 1.1;
     font-weight: 400;
-    color: #70e4d0;
+    color: black;
     opacity: 1
 }
 @media screen and (max-width: 768px) and (min-width: 551px) {
@@ -1383,11 +1401,11 @@ body.ready {
 
 .logo-wrapper {
   position: fixed;
-  height: 12%;
+  height: 17%;
   width: 100%;
   text-align: center;
   left: 50%;
-  top: 100px;
+  top: 140px;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -1515,6 +1533,8 @@ body.ready {
 .slipper.one .description-slipper .link-shop span {
     color: #ff4f59
 }
+
+
 @media screen and (max-width: 1024px) and (min-width: 551px) {
     .slipper.one .letter {
         left: 52%
@@ -2531,6 +2551,13 @@ body.ready {
         left: 15%
     }
 }
+
+#header-slider {
+  @media screen and (max-width: 1000px) {
+    display: none;
+ }
+}
+
 @media screen and (max-width: 550px) {
     .block-design.style {
         width: 87%;
@@ -2617,7 +2644,7 @@ body.ready {
     border-bottom: 1px solid #e5e5e5;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    background: #fff;
+    background: #eaeaea;
 }
 .template-screenshot-browser:before {
     content: "\2022\2022\2022";
@@ -2625,9 +2652,9 @@ body.ready {
     padding-left: 10px;
     line-height: 20px;
     font-family: Gotham SSm,sans-serif;
-    font-size: 10px;
+    font-size: 19px;
     letter-spacing: .2em;
-    color: #d9d9d9;
+    color: #86a4e3;
 }
 
 .poster-image {
@@ -2664,4 +2691,27 @@ body.ready {
 .template-screenshot:hover .template-screenshot-overlay {
   opacity: 1;
   visibility: visible;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #7FE7D7 !important;
+  font-size: 38px !important;
+}
+
+.slick-prev {
+  left: 25px !important;
+}
+
+.slick-next {
+  right: 25px !important;
+}
+
+
+.slick-prev, .slick-next {
+    z-index: 99999 !important;
+}
+
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #70e4d0;
+  color: #70e4d0;
 }

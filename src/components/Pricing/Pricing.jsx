@@ -9,7 +9,7 @@ class Pricing extends Component {
           <h1>Build your stunning wedding website. Try it for free.</h1>
           <h4>Try it for free up to 5 invited guests. No reccuring payments. Send "Save the date" as soon as you want without worrring about the cost.</h4>
           <div className='md-grid md-cell--12 align-spaced pricing pricing--karma' style={{padding: '10px 0'}}>
-                 <div className="pricing__item md-grid md-cell md-cell--6">
+                 <div className="pricing__item md-grid md-cell md-cell--4">
                      <h3 className="pricing__title">Discounted</h3>
                      <p className="pricing__sentence">With branding</p>
                      <div className="pricing__price"><span className="pricing__currency">$</span>49<span className="pricing__period">/ 1 website</span></div>
@@ -20,13 +20,11 @@ class Pricing extends Component {
                          <li className="pricing__feature">Sharing with COLLABORATATOS</li>
                          <li className="pricing__feature">All templates to choose from</li>
                          <li className="pricing__feature">Website footer with codially.co branding</li>
-                         <li className="pricing__feature" style={{visibility: 'hidden'}}>Possibility to add your own domain</li>
-                         <li className="pricing__feature" style={{visibility: 'hidden'}}>Visible on google search</li>
 
                      </ul>
 
                  </div>
-                 <div className="pricing__item md-grid md-cell md-cell--6">
+                 <div className="pricing__item md-grid md-cell md-cell--4">
                      <h3 className="pricing__title">Standard</h3>
                      <p className="pricing__sentence">No Branding</p>
                      <div className="pricing__price"><span className="pricing__currency">$</span>79<span className="pricing__period">/ 1 website</span></div>
@@ -37,11 +35,23 @@ class Pricing extends Component {
                          <li className="pricing__feature">Sharing with COLLABORATATOS</li>
                          <li className="pricing__feature">All templates to choose from</li>
                          <li className="pricing__feature" style={{fontWeight: 'bold'}}>No cordially branding in the footer</li>
-                         <li className="pricing__feature" style={{fontWeight: 'bold'}}>Visible on google search</li>
-                         <li className="pricing__feature" style={{fontWeight: 'bold'}}>Possibility to add your own domain</li>
                      </ul>
 
+                 </div>
+                 <div className="pricing__item md-grid md-cell md-cell--4">
+                     <h3 className="pricing__title">Premium</h3>
+                     <p className="pricing__sentence">Custom Domain</p>
+                     <div className="pricing__price"><span className="pricing__currency">$</span>84<span className="pricing__period">/ 1 website</span></div>
+                     <ul className="pricing__feature-list">
+                         <li className="pricing__feature">Unlimited invitations</li>
+                         <li className="pricing__feature">No time limit</li>
+                         <li className="pricing__feature">No recurring payments</li>
+                         <li className="pricing__feature">Sharing with COLLABORATATOS</li>
+                         <li className="pricing__feature">All templates to choose from</li>
+                         <li className="pricing__feature" style={{fontWeight: 'bold'}}>No cordially branding in the footer</li>
+                         <li className="pricing__feature" style={{fontWeight: 'bold'}}>Custom domain for 1 year</li>
 
+                     </ul>
 
                  </div>
 

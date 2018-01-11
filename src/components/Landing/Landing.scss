@@ -1227,15 +1227,28 @@ body.ready {
     top: 47%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%)
+    transform: translateY(-50%);
+    @media screen and (max-width: 750px) {
+      top: 40%;
+    }
+    @media screen and (max-width: 115px) {
+      top: 47%;
+    }
+
+    @media screen and (max-width: 414px) {
+      top: 47%;
+    }
+
+    @media screen and (max-width: 350px) {
+      top: 45%;
+    }
+    @media screen and (max-width: 375px) {
+      top: 48%;
+    }
+
 }
 
 
-// @media screen and (max-width: 550px) {
-//     .splash .content-splash {
-//         top: 4%
-//     }
-// }
 .splash .baseline {
     position: relative;
     width: 80%;
@@ -1324,6 +1337,7 @@ body.ready {
 @media screen and (max-width: 768px) {
   .splash .mobile-lookbook h3 {
     top:40px;
+    letter-spacing: -3px;
   }
 
 
@@ -1333,7 +1347,7 @@ body.ready {
         margin: -15px 0 0 0;
     }
     .splash .mobile-lookbook h3 span, .splash .mobile-lookbook-mock h3 span {
-        font-size: 50px
+        font-size: 40px
     }
 }
 
@@ -1401,11 +1415,11 @@ body.ready {
 
 .logo-wrapper {
   position: fixed;
-  height: 17%;
+  height: 22%;
   width: 100%;
   text-align: center;
   left: 50%;
-  top: 140px;
+  top: 50px;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -1415,7 +1429,6 @@ body.ready {
     // height: 100%;
     // width: 240px;
     // left: 50%;
-    // top: 90%;
     // -webkit-transform: translateX(-50%);
     // -ms-transform: translateX(-50%);
     // transform: translateX(-50%);
@@ -1444,7 +1457,7 @@ body.ready {
     width: 2px;
     height: 100%;
     left: 50%;
-    top: 80%;
+    top: 60%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -1857,7 +1870,7 @@ body.ready {
     width: 200px;
     left: 50%;
     bottom: 5%;
-    margin: 0 0 0 -100px;
+    margin: 0 0 0 -114px;
     text-align: center
 }
 @media screen and (max-width: 768px) {
@@ -2424,7 +2437,7 @@ body.ready {
     color: #f4a9c0
 }
 .block-design.maintien {
-    width: 460px;
+    width: 555px;
     top: 72%;
     left: 24%
 }
@@ -2452,34 +2465,25 @@ body.ready {
 .block-design.maintien h3 span:nth-child(8) {
     color: #e39467
 }
-.block-design.maintien.en h3 span:nth-child(1) {
-    color: #ddaf51
-}
-.block-design.maintien.en h3 span:nth-child(2) {
-    color: #dfa857
-}
-.block-design.maintien.en h3 span:nth-child(3) {
-    color: #dfa559;
-    padding: 0 2px 20px 10px;
-    margin: 0 0 0 -10px
-}
-.block-design.maintien.en h3 span:nth-child(4) {
-    color: #e1a05e;
-    padding: 0 2px 20px 10px;
-    margin: 0 0 0 -10px
-}
-.block-design.maintien.en h3 span:nth-child(5) {
-    color: #e19e5f
-}
-.block-design.maintien.en h3 span:nth-child(6) {
-    color: #e29b62
-}
-.block-design.maintien.en h3 span:nth-child(7) {
-    color: #e29765
-}
-.block-design.maintien.en h3 span:nth-child(8) {
+.block-design.maintien h3 span:nth-child(9) {
     color: #e39467
 }
+.block-design.maintien h3 span:nth-child(10) {
+    color: #e39467
+}
+.block-design.maintien h3 span:nth-child(11) {
+    color: #e39467
+}
+.block-design.maintien h3 span:nth-child(12) {
+    color: #e39467
+}
+.block-design.maintien h3 span:nth-child(13) {
+    color: #e39467
+}
+.block-design.maintien h3 span:nth-child(14) {
+    color: #e39467
+}
+
 .block-design.raffinement {
     width: 490px;
     top: 93%;

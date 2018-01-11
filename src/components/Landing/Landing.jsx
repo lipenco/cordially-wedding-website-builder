@@ -52,7 +52,7 @@ class Landing extends React.Component {
 
   componentDidMount() {
      const script = document.createElement("script");
-     script.src = "cordially-landing.js";
+     script.src = "cordially-landing-optimized.js";
      script.async = true;
 
      document.body.appendChild(script);
@@ -243,7 +243,7 @@ class Landing extends React.Component {
           <section className="content-wrapper slipper one">
             <div className="content-slipper">
               <div className="gradient red" />
-              <img className="slipper-object" src="img/vintage-wedding-website2.png" />
+              <img className="slipper-object" src="img/vintage-wedding-website-sm.png" />
               <div className="description-slipper">
                 <span>like</span>
                 <h2>Vintage</h2>
@@ -271,7 +271,7 @@ class Landing extends React.Component {
           <section className="content-wrapper slipper two">
             <div className="content-slipper">
               <div className="gradient grey" />
-              <img className="slipper-object" src="img/greenery-wedding-website.png" />
+              <img className="slipper-object" src="img/greenery-wedding-website-sm.png" />
               <div className="description-slipper">
                 <span>like</span>
                 <h2>Greenery</h2>
@@ -298,7 +298,7 @@ class Landing extends React.Component {
           <section className="content-wrapper slipper three">
             <div className="content-slipper">
               <div className="gradient yellow" />
-              <img className="slipper-object" src="img/modern-wedding-website.png" />
+              <img className="slipper-object" src="img/modern-wedding-website-sm.png" />
               <div className="description-slipper">
                 <span>like</span>
                 <h2>Modern</h2>
@@ -326,7 +326,7 @@ class Landing extends React.Component {
           <section className="content-wrapper slipper four">
             <div className="content-slipper">
               <div className="gradient pink" />
-              <img className="slipper-object" src="img/rustic-wedding-website.png" />
+              <img className="slipper-object" src="img/rustic-wedding-website-sm.png" />
               <div className="description-slipper">
                 <span>like</span>
                 <h2>Rustic</h2>
@@ -364,7 +364,7 @@ class Landing extends React.Component {
                   details and with the guest’s name included in the design.
                   Custome RSVP questions and +1 options are all here.
                 </p>
-                <img style={{maxWidth: '90%',  width: 700, marginTop:30 }} src="./img/cordially-wedding-website-builder.png"/>
+                <img style={{maxWidth: '90%',  width: 700, marginTop:30 }} src="./img/cordially-wedding-website-builder-sm.png"/>
                 {/* <a href="http://store.melanie-f.com/product/victoria" target="_blank" class="link-shop" data-color="#296269">
                      <div class="overlay-color"></div>
                      <span>W</span>
@@ -557,18 +557,27 @@ class Landing extends React.Component {
                   Your website allows you to translate any parts of the application that are exposed to the guest to be easily converted into your language.
                 </p>
               </div>
-              <div className="block-design maintien en">
+              <div className="block-design maintien">
                 <h3>
-                  <span>S</span>
+                  <span>C</span>
                   <span>u</span>
-                  <span>p</span>
-                  <span>p</span>
-                  <span>o</span>
-                  <span>r</span>
+                  <span>s</span>
                   <span>t</span>
+                  <span>o</span>
+                  <span>m</span>
+                  <span> </span>
+                  <span>D</span>
+                  <span>o</span>
+                  <span>m</span>
+                  <span>a</span>
+                  <span>i</span>
+                  <span>n</span>
                 </h3>
                 <p>
-                  Need help? We are here to help solve any problem you may encounter whilst working on your wedding website.  Don’t get worried or tie yourself into knots, simply email us at: support@cordially.co and we’ll be right in touch!
+                  Make your wedding website trully your own using your easy-to-remember domain.
+                  Setting the domain with Cordially no hussle. Not sure how to fix dns?
+                  No problem, we are here to make it work for you.
+                  And our ulitmate promise: no advertisements on your website. Nada!
                 </p>
               </div>
               <div className="block-design raffinement">
@@ -634,9 +643,9 @@ class Landing extends React.Component {
                 </div>
               </div>
               <div className="social-menu">
-                {/* <a target="_blank" href="https://twitter.com/miel_anis">
-                     <img class="twitter" onerror="this.src = this.src.replace(/svg/g,'png')" src="""img/twitter.svg" />
-                     </a> */}
+                 <a target="_blank" href="https://www.instagram.com/cordially.co/">
+                     <img class="instagram" onerror="this.src = this.src.replace(/svg/g,'png')" src="img/instagram.png" />
+                     </a>
                 <a target="_blank" href="https://www.pinterest.com/cordiallyco/">
                   <img className="fb" src="img/pinterest.png" />
                 </a>
@@ -716,7 +725,7 @@ class Landing extends React.Component {
         </div>
         <div className="logo-wrapper">
 
-          <style dangerouslySetInnerHTML={{__html: "\n            .header-link {\n            border: 1px solid #84ACE1;\n            position: relative;\n            text-decoration: none;\n            padding:11px 50px;\n            border-radius: 25px;\n            font-size: 18px;\n            font-family: DidotItalic;\n            color: #84ACE1;\n            top: 11%;\n            line-height: 40px;\n            transition: all 1s ease;\n            }\n            .header-link:hover {\n            background-color: #84ACE1;\n            color: #fff;\n            z-index: 9\n            }\n         " }} />
+          <style dangerouslySetInnerHTML={{__html: "\n            .header-link {\n            border: 1px solid #84ACE1;\n            position: relative;\n            text-decoration: none;\n            padding:11px 50px;\n            border-radius: 25px;\n            font-size: 18px;\n            font-family: DidotItalic;\n            color: #84ACE1;\n            top: 2%;\n            line-height: 40px;\n            transition: all 1s ease;\n            }\n            .header-link:hover {\n            background-color: #84ACE1;\n            color: #fff;\n            z-index: 9\n            }\n         " }} />
           <a target="_blank" style={{fontWeight: 600}} href="/template/modern" className="header-link">
             Browse Templates
           </a>

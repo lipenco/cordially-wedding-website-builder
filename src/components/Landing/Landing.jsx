@@ -50,7 +50,8 @@ TxtRotate.prototype.tick = function() {
 
 class Landing extends React.Component {
 
-  componentDidMount() {
+  componentWillMount() {
+    if (typeof window !== 'undefined') {
      const script = document.createElement("script");
      script.src = "cordially-landing-optimized.js";
      script.async = true;
@@ -65,6 +66,7 @@ class Landing extends React.Component {
          new TxtRotate(elements[i], JSON.parse(toRotate), period);
        }
      }
+   }
  }
 
   render() {
@@ -211,14 +213,14 @@ class Landing extends React.Component {
                 <div className="mobile-lookbook">
                   <h3>
                     <span className="top">C</span>
-                    <span className="bottom">O</span>
-                    <span className="top">R</span>
-                    <span className="bottom">D</span>
-                    <span className="top">I</span>
-                    <span className="bottom">A</span>
-                    <span className="top">L</span>
-                    <span className="bottom">L</span>
-                    <span className="top">Y</span>
+                    <span className="bottom">o</span>
+                    <span className="top">r</span>
+                    <span className="bottom">d</span>
+                    <span className="top">i</span>
+                    <span className="bottom">a</span>
+                    <span className="top">l</span>
+                    <span className="bottom">l</span>
+                    <span className="top">y</span>
                   </h3>
                 </div>
                 <h1 style={{

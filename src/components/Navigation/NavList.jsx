@@ -3,7 +3,15 @@ import FontIcon from 'react-md/lib/FontIcons';
 import Link from 'gatsby-link';
 
 function GetNavList(config) {
-  const NavList = [{
+  const NavList = [
+    {
+    divider: false,
+    subheader: false,
+    primaryText: '',
+    component: Link,
+    to: '/',
+  },
+    {
     divider: false,
     subheader: false,
     primaryText: 'Home',
@@ -44,6 +52,13 @@ function GetNavList(config) {
       primaryText: 'Vintage Template',
       component: Link,
       onClick() { window.location.href = 'https://www.cordially.co/template/vintage'; }
+    },
+    {
+      divider: false,
+      subheader: false,
+      primaryText: 'Secret Garden',
+      component: Link,
+      onClick() { window.location.href = 'https://www.cordially.co/template/secret-garden'; }
     },
     {
       divider: false,

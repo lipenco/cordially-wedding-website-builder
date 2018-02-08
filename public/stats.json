@@ -5,8 +5,8 @@
       "path---tags-rustic-16f50184685209a7d396.js.map"
     ],
     "path---rustic-wedding-why-do-we-love-it-so-much": [
-      "path---rustic-wedding-why-do-we-love-it-so-much-27a7ac520bf77f4f618f.js",
-      "path---rustic-wedding-why-do-we-love-it-so-much-27a7ac520bf77f4f618f.js.map"
+      "path---rustic-wedding-why-do-we-love-it-so-much-14d010f29b6b892fb2a0.js",
+      "path---rustic-wedding-why-do-we-love-it-so-much-14d010f29b6b892fb2a0.js.map"
     ],
     "path---categories-online-wedding-invitations": [
       "path---categories-online-wedding-invitations-44368433e4423f9e2be4.js",
@@ -25,24 +25,24 @@
       "path---blog-ec77a145b687221531d0.js.map"
     ],
     "path---online-wedding-invitations-how-to-choose-the-best-one-for-you": [
-      "path---online-wedding-invitations-how-to-choose-the-best-one-for-you-1b1a22517f221b574965.js",
-      "path---online-wedding-invitations-how-to-choose-the-best-one-for-you-1b1a22517f221b574965.js.map"
+      "path---online-wedding-invitations-how-to-choose-the-best-one-for-you-7eb8f1b143b14133e7cf.js",
+      "path---online-wedding-invitations-how-to-choose-the-best-one-for-you-7eb8f1b143b14133e7cf.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---meet-truly-personal-wedding-website-builder": [
-      "path---meet-truly-personal-wedding-website-builder-e084a3a3a8e87245e085.js",
-      "path---meet-truly-personal-wedding-website-builder-e084a3a3a8e87245e085.js.map"
+      "path---meet-truly-personal-wedding-website-builder-6299923f655e8c7c6594.js",
+      "path---meet-truly-personal-wedding-website-builder-6299923f655e8c7c6594.js.map"
     ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-652b15d9702f0a0f5941.js",
-      "component---src-layouts-index-jsx-652b15d9702f0a0f5941.js.map"
+      "component---src-layouts-index-jsx-c1e7b9edab30aa4d50a6.js",
+      "component---src-layouts-index-jsx-c1e7b9edab30aa4d50a6.js.map"
     ],
     "path---all-about-a-greenery-wedding-theme": [
-      "path---all-about-a-greenery-wedding-theme-78b7a1c2bf34c921eebb.js",
-      "path---all-about-a-greenery-wedding-theme-78b7a1c2bf34c921eebb.js.map"
+      "path---all-about-a-greenery-wedding-theme-46eb1be10529e2e8f078.js",
+      "path---all-about-a-greenery-wedding-theme-46eb1be10529e2e8f078.js.map"
     ],
     "path---categories-vintage-wedding": [
       "path---categories-vintage-wedding-7d6f623a066b5294bd1a.js",
@@ -61,12 +61,16 @@
       "path---tags-online-wedding-invitations-e1f1d89fc1cab838f03a.js.map"
     ],
     "path---how-to-have-a-perfectly-modern-vintage-wedding": [
-      "path---how-to-have-a-perfectly-modern-vintage-wedding-a1fc8064dc4ed3eb5aac.js",
-      "path---how-to-have-a-perfectly-modern-vintage-wedding-a1fc8064dc4ed3eb5aac.js.map"
+      "path---how-to-have-a-perfectly-modern-vintage-wedding-fff7017ac2359b04a033.js",
+      "path---how-to-have-a-perfectly-modern-vintage-wedding-fff7017ac2359b04a033.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "path---themes-wedding-website": [
+      "path---themes-wedding-website-1db04e5021b40904aca6.js",
+      "path---themes-wedding-website-1db04e5021b40904aca6.js.map"
     ],
     "path---categories-greenery-wedding": [
       "path---categories-greenery-wedding-5d34ce27d92a990cb788.js",
@@ -135,26 +139,30 @@
       "component---src-templates-post-jsx-5426b406dd0c9359ed67.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-2e110d89ffbda91a87c9.js",
-      "component---src-pages-index-jsx-2e110d89ffbda91a87c9.js.map"
+      "component---src-pages-index-jsx-d95755c5588583af1e59.js",
+      "component---src-pages-index-jsx-d95755c5588583af1e59.js.map"
     ],
     "component---src-pages-wedding-website-builder-about-jsx": [
       "component---src-pages-wedding-website-builder-about-jsx-c6aed1a447f8824dbdea.js",
       "component---src-pages-wedding-website-builder-about-jsx-c6aed1a447f8824dbdea.js.map"
     ],
     "app": [
-      "app-c00a2abcdf0af89db70e.js",
+      "app-0f2241cf683ece60185e.js",
       "build-js-styles.css",
-      "app-c00a2abcdf0af89db70e.js.map",
+      "app-0f2241cf683ece60185e.js.map",
       "build-js-styles.css.map"
     ],
     "path---hidden-cost-of-free-wedding-websites": [
-      "path---hidden-cost-of-free-wedding-websites-f4daaba655c8b02fadcb.js",
-      "path---hidden-cost-of-free-wedding-websites-f4daaba655c8b02fadcb.js.map"
+      "path---hidden-cost-of-free-wedding-websites-3cd7c042b09bb267fee9.js",
+      "path---hidden-cost-of-free-wedding-websites-3cd7c042b09bb267fee9.js.map"
     ],
     "component---src-pages-wedding-website-builder-pricing-jsx": [
       "component---src-pages-wedding-website-builder-pricing-jsx-a69a910c6c26755b1903.js",
       "component---src-pages-wedding-website-builder-pricing-jsx-a69a910c6c26755b1903.js.map"
+    ],
+    "component---src-pages-themes-wedding-website-jsx": [
+      "component---src-pages-themes-wedding-website-jsx-827013ff2b18418b0229.js",
+      "component---src-pages-themes-wedding-website-jsx-827013ff2b18418b0229.js.map"
     ],
     "path---categories-free-wedding-websites": [
       "path---categories-free-wedding-websites-07352f82136315fea26b.js",

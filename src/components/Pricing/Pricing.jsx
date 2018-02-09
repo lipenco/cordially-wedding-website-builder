@@ -19,7 +19,7 @@ class Pricing extends Component {
                          <li className="pricing__feature">No recurring payments</li>
                          <li className="pricing__feature">Sharing with COLLABORATATOS</li>
                          <li className="pricing__feature">All templates to choose from</li>
-                         <li className="pricing__feature">Website footer with codially.co branding</li>
+                         <li className="pricing__feature">Website footer with cordially.co branding</li>
 
                      </ul>
 
@@ -57,8 +57,11 @@ class Pricing extends Component {
 
 
 
+
           </div>
           <div style={{margin: '30px 0', textAlign:'center'}}>
+          <p>                 You can relax knowing you're covered by a full 30 Day Money Back Guarantee!</p>
+          <br/>
 
 
           <a href="https://www.cordially.co/template/modern" target='blank'>

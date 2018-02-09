@@ -37,6 +37,24 @@ export default class HTML extends React.Component {
           {this.props.headComponents}
           <link rel="shortcut icon" href={favicon} />
           {css}
+
+          <script
+           dangerouslySetInnerHTML={{ __html: `
+                !function(f,b,e,v,n,t,s)
+                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                n.queue=[];t=b.createElement(e);t.async=!0;
+                t.src=v;s=b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t,s)}(window, document,'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+                fbq('init', '181622019268612');
+                fbq('track', 'PageView');
+              <noscript><img height="1" width="1" style="display:none"
+                src="https://www.facebook.com/tr?id=181622019268612&ev=PageView&noscript=1"
+              /></noscript>
+           `}}/>
+
         </head>
         <body>
           <div
@@ -44,11 +62,11 @@ export default class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
-
  <script
   dangerouslySetInnerHTML={{ __html: `
     (function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src='https://cdn.firstpromoter.com/fprom.js',t.onload=t.onreadystatechange=function(){var t=this.readyState;if(!t||"complete"==t||"loaded"==t)try{$FPROM.init("53d3b5xb",".cordially.co")}catch(t){}};var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)})();
   `}}/>
+
         </body>
       </html>
     );

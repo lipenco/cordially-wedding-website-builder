@@ -3,6 +3,7 @@ import './Landing.scss';
 import Helmet from 'react-helmet';
 import Slider from 'react-slick';
 
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -83,15 +84,21 @@ class Landing extends React.Component {
     };
 
 
+    // <Helmet title={`Cordially - Boutique Wedding Website Creator.`}>
+    // <meta property="og:site_name" content="Cordially.co"/>
+    // <meta name="description" content="Build your wedding website with love. Collect wedding RSVPs online and choose from modern wedding websites templates designed by Cordially - the best wedding website builder."/>
+    // <meta content="https://www.cordially.co/img/cordially-logo-new.jpg" property="og:image"/>
+    // <meta content="https://www.cordially.co/img/cordially-logo-new.jpg" property="og:image:url"/>
+    // <meta content="image/jpeg" property="og:image:type"/>
+    // <link rel="canonical" href="https://www.cordially.co" />
+    // </Helmet>
+
     return (
       <div>
-        <Helmet title={`Cordially - Boutique Wedding Website Creator.`}>
-        <meta property="og:site_name" content="Cordially.co"/>
-        <meta name="description" content="Build your wedding website with love. Collect wedding RSVPs online and choose from modern wedding websites templates designed by Cordially - the best wedding website builder."/>
-        <meta content="https://www.cordially.co/img/cordially-logo-new.jpg" property="og:image"/>
-        <meta content="https://www.cordially.co/img/cordially-logo-new.jpg" property="og:image:url"/>
-        <meta content="image/jpeg" property="og:image:type"/>
-        <link rel="canonical" href="https://www.cordially.co" />
+        <Helmet title={`Modern wedding website | Cordially - Boutique Wedding Website Creator`}>
+          <meta content="https://www.cordially.co/img/modern/modern-wedding.jpg" property='og:image' />
+          <meta property="og:title"  content={`How to have a perfectly modern wedding`} />
+          <meta property="og:description" content="With our help, you can make sure that your wedding website is a modern wedding website and that it perfectly reflects your theme."/>
         </Helmet>
 
         <div className="usual-nav" />
@@ -608,21 +615,21 @@ class Landing extends React.Component {
                 <div className="footer-shop">
                   <h2>Try It For Free</h2>
                   <h3 style={{ whiteSpace: 'inherit'}}>
-                  Create your stunning wedding website with the best builder using top online RSVP websites creator.</h3>
+                  Create your stunning wedding website with the best builder using top online RSVP websites creator. You're even covered by our <b>full 30 day money back guarantee</b>...</h3>
                     <h3>
+
                     <a target="_blank" style={{
                         position: 'relative',
                         fontSize: 18,
                         fontFamily: 'DidotItalic',
                         color: '#000',
-                        fontWeight: 'bold'
+                        fontWeight: 'bold',
+                        textDecoration: 'underline'
                       }} href={`/wedding-website-builder-pricing`} >
-                      <span className="text-link">See Pricing</span>
-                      <span className="line-link" />
+                      <span className="text-link" style={{lineHeight: '42px'}}>See Pricing</span>
                     </a>
                     <br/>
                     </h3>
-                  <p>Do it. With Love. Make your wedding planing easier with Cordially wedding website builder!</p>
                   <a target="_blank" href="/template/modern" className="link-footer" style={{fontWeight:600}} data-color="#000000">
                     <div className="overlay-color" />
                     <span>C</span>
@@ -646,7 +653,7 @@ class Landing extends React.Component {
               </div>
               <div className="social-menu">
                  <a target="_blank" href="https://www.instagram.com/cordially.co/">
-                     <img class="instagram" onerror="this.src = this.src.replace(/svg/g,'png')" src="img/instagram.png" />
+                     <img className="instagram" src="img/instagram.png" />
                      </a>
                 <a target="_blank" href="https://www.pinterest.com/cordiallyco/">
                   <img className="fb" src="img/pinterest.png" />

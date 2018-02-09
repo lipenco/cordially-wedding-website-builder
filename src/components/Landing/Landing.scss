@@ -1337,25 +1337,23 @@ padding-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
   .splash .mobile-lookbook h3 {
-    top:40px;
+    top:20px;
     letter-spacing: -3px;
   }
-
-
 }
 @media screen and (max-width: 550px) {
     .splash .mobile-lookbook h3.second, .splash .mobile-lookbook-mock h3.second {
         margin: -15px 0 0 0;
     }
     .splash .mobile-lookbook h3 span, .splash .mobile-lookbook-mock h3 span {
-        font-size: 40px
+        font-size: 70px
     }
 }
 
 @media screen and (max-width: 400px) {
 
     .splash .mobile-lookbook h3 span, .splash .mobile-lookbook-mock h3 span {
-        font-size: 38px
+        font-size: 58px
     }
 }
 .splash .mobile-lookbook.no-anim h3 {
@@ -1395,7 +1393,7 @@ padding-bottom: 20px;
 }
 @media screen and (max-width: 550px) {
     .splash h1 {
-        font-size: 32px;
+        font-size: 22px;
         margin-top: 70px;
     }
 }
@@ -2663,7 +2661,8 @@ padding-bottom: 20px;
 }
 
 .poster-image {
-  max-width: 100%
+  max-width: 100%;
+  width: 100%;
 }
 
 .template-screenshot-overlay {

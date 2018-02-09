@@ -11,7 +11,7 @@ class Navigation extends Component {
     return (
       <NavigationDrawer
         drawerStyle={{backgroundColor: 'rgb(123, 231, 215)', boxShadow: 'none'}}
-        drawerHeader={(<a className="logo-cordially" href="/">
+        drawerHeader={(<a href="/">
         <h2 style={{
           fontFamily: 'DidotItalic',
           margin: 0,

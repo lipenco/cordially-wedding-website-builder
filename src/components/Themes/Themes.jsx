@@ -228,7 +228,7 @@ class Themes extends Component {
   componentWillMount() {
     if (typeof window !== 'undefined') {
       const script = document.createElement("script");
-      script.src = "./themes.js";
+      script.src = "/themes.js";
       script.async = true;
 
       document.body.appendChild(script);
@@ -375,9 +375,9 @@ class Themes extends Component {
                         <div className="home-carousel__images">
                           <div className="main-screenshot main-screenshot--home-carousel">
                             <a tabIndex={-1} href="/themes/brooklyn/styles/classic">
-                              <img className="themes main-screenshot__image lazyload" alt="Desktop preview for the Brooklyn - Classic theme" data-src="https://s3.amazonaws.com/shopify-theme-store/screenshots/1140/main/original.jpg" />
+                              <img className="themes main-screenshot__image lazyload" alt="Desktop preview for the Romantic" data-src="https://s3.amazonaws.com/shopify-theme-store/screenshots/1140/main/original.jpg" />
                               <noscript>
-                                &lt;img alt="Desktop preview for the Brooklyn - Classic theme" src="https://s3.amazonaws.com/shopify-theme-store/screenshots/1140/main/original.jpg" /&gt;
+                                &lt;img alt="Desktop preview for the Romantic wedding website theme" src="https://s3.amazonaws.com/shopify-theme-store/screenshots/1140/main/original.jpg" /&gt;
                               </noscript>
                             </a>                </div>
                           <div className="iphone-wrapper iphone-wrapper--home">
@@ -386,7 +386,7 @@ class Themes extends Component {
                                 <a tabIndex={-1} href="/themes/brooklyn/styles/classic">
                                   <img className=" themes lazyload" alt="Mobile preview for the Brooklyn - Classic theme" data-src="https://s3.amazonaws.com/shopify-theme-store/screenshots/1140/mobile/original.jpg" />
                                   <noscript>
-                                    &lt;img alt="Mobile preview for the Brooklyn - Classic theme" src="https://s3.amazonaws.com/shopify-theme-store/screenshots/1140/mobile/original.jpg" /&gt;
+                                    &lt;img alt="Mobile preview for the Romantic" src="https://s3.amazonaws.com/shopify-theme-store/screenshots/1140/mobile/original.jpg" /&gt;
                                   </noscript>
                                 </a>                    </div>
                             </div>
@@ -394,7 +394,7 @@ class Themes extends Component {
                         </div>
                       </div>            <div className="grid__item grid__item--mobile-up-4 grid__item--tablet-up-2 grid__item--desktop-up-5 home-carousel__details-grid">
                         <div className="home-carousel__details">
-                          <h3 className="heading--1">Brooklyn</h3>
+                          <h3 className="heading--1">Romantic</h3>
                           <p className="home-carousel__tagline heading--3">Tailor-made for modern apparel stores</p>
                           <p className="home-carousel__ctas">
                             <a className="marketing-button marketing-button--lowlight" href="/themes/brooklyn/styles/classic">More details</a>
@@ -422,7 +422,7 @@ class Themes extends Component {
                           <div className="iphone-wrapper iphone-wrapper--home">
                             <div className="iphone">
                               <div className="iphone__screenshot">
-                                <a tabIndex={-1} href="/themes/providence/styles/seaside">
+                                <a tabIndex={-1} href="/template/romantic">
                                   <img className=" themes lazyload" alt="Mobile preview for the Providence - Seaside theme" data-src="https://s3.amazonaws.com/shopify-theme-store/screenshots/653/mobile/original.jpg" />
                                   <noscript>
                                     &lt;img alt="Mobile preview for the Providence - Seaside theme" src="https://s3.amazonaws.com/shopify-theme-store/screenshots/653/mobile/original.jpg" /&gt;
@@ -433,10 +433,10 @@ class Themes extends Component {
                         </div>
                       </div>            <div className="grid__item grid__item--mobile-up-4 grid__item--tablet-up-2 grid__item--desktop-up-5 home-carousel__details-grid">
                         <div className="home-carousel__details">
-                          <h3 className="heading--1">Providence</h3>
+                          <h3 className="heading--1">Vintage</h3>
                           <p className="home-carousel__tagline heading--3">A clean, row-based theme that’s perfect for showcasing brand content</p>
                           <p className="home-carousel__ctas">
-                            <a className="marketing-button marketing-button--lowlight" href="/themes/providence/styles/seaside">More details</a>
+                            <a className="marketing-button marketing-button--lowlight" href="/template/vintage">More details</a>
                           </p>
                           <div className="text-center display--mobile gutter-bottom">
                             <a href="/themes/providence/styles/seaside">
@@ -461,7 +461,7 @@ class Themes extends Component {
                           <div className="iphone-wrapper iphone-wrapper--home">
                             <div className="iphone">
                               <div className="iphone__screenshot">
-                                <a tabIndex={-1} href="/themes/kingdom/styles/king">
+                                <a tabIndex={-1} href="/template/greenery">
                                   <img className=" themes lazyload" alt="Mobile preview for the Kingdom - King theme" data-src="https://s3.amazonaws.com/shopify-theme-store/screenshots/911/mobile/original.jpg" />
                                   <noscript>
                                     &lt;img alt="Mobile preview for the Kingdom - King theme" src="https://s3.amazonaws.com/shopify-theme-store/screenshots/911/mobile/original.jpg" /&gt;
@@ -472,10 +472,10 @@ class Themes extends Component {
                         </div>
                       </div>            <div className="grid__item grid__item--mobile-up-4 grid__item--tablet-up-2 grid__item--desktop-up-5 home-carousel__details-grid">
                         <div className="home-carousel__details">
-                          <h3 className="heading--1">Kingdom</h3>
+                          <h3 className="heading--1">Greenery</h3>
                           <p className="home-carousel__tagline heading--3">An image-focused theme, designed around a stylish signature sidebar</p>
                           <p className="home-carousel__ctas">
-                            <a className="marketing-button marketing-button--lowlight" href="/themes/kingdom/styles/king">More details</a>
+                            <a className="marketing-button marketing-button--lowlight" href="/template/greenery">More details</a>
                           </p>
                           <div className="text-center display--mobile gutter-bottom">
                             <a href="/themes/kingdom/styles/king">

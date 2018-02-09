@@ -8,7 +8,7 @@ class About extends Component {
           <div className="inner">
             <figure>
               <figcaption>
-                <h1>Welcome to Codially, the truly personal wedding website builder</h1>
+                <h1>Welcome to Cordially, the truly personal wedding website builder</h1>
               <br/>
                 <p>
                   With such busy lives, planning a wedding can take a backseat – or become the chore you never wanted it to be. With so much to consider, plan, and arrange,
@@ -42,9 +42,7 @@ class About extends Component {
               </figcaption>
             </figure>
             <figure>
-              <div className="drawings iphone">
-                <img className="illustration" src="/img/iphone-rustic-wedding-invitation.png" alt="wedding website creator" />
-              </div>
+                <img className="illustration" src="https://www.cordially.co/img/modern-wedding-website.jpg" alt="wedding website creator" />
               <figcaption>
                 <h2>Build your truly one-of-a-kind wedding website.</h2>
 

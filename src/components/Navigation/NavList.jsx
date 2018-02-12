@@ -103,7 +103,7 @@ function GetNavList(config) {
       subheader: false,
       primaryText: 'See All Themes',
       component: Link,
-      to: '/wedding-website-themes/'
+      to: '/themes-wedding-website/'
     },
     {
       divider: false,

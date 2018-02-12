@@ -84,22 +84,19 @@ class Landing extends React.Component {
     };
 
 
-    // <Helmet title={`Cordially - Boutique Wedding Website Creator.`}>
-    // <meta property="og:site_name" content="Cordially.co"/>
-    // <meta name="description" content="Build your wedding website with love. Collect wedding RSVPs online and choose from modern wedding websites templates designed by Cordially - the best wedding website builder."/>
-    // <meta content="https://www.cordially.co/img/cordially-logo-new.jpg" property="og:image"/>
-    // <meta content="https://www.cordially.co/img/cordially-logo-new.jpg" property="og:image:url"/>
-    // <meta content="image/jpeg" property="og:image:type"/>
-    // <link rel="canonical" href="https://www.cordially.co" />
-    // </Helmet>
+
 
     return (
       <div>
-        <Helmet title={`Modern wedding website | Cordially - Boutique Wedding Website Creator`}>
-          <meta content="https://www.cordially.co/img/modern/modern-wedding.jpg" property='og:image' />
-          <meta property="og:title"  content={`How to have a perfectly modern wedding`} />
-          <meta property="og:description" content="With our help, you can make sure that your wedding website is a modern wedding website and that it perfectly reflects your theme."/>
-        </Helmet>
+
+        <Helmet title={`Cordially - Boutique Wedding Website Creator.`}>
+            <meta property="og:site_name" content="Cordially.co"/>
+            <meta name="description" content="Build your wedding website with love. Collect wedding RSVPs online and choose from modern wedding websites templates designed by Cordially - the best wedding website builder."/>
+            <meta content="https://www.cordially.co/img/cordially-logo-new.jpg" property="og:image"/>
+            <meta content="https://www.cordially.co/img/cordially-logo-new.jpg" property="og:image:url"/>
+            <meta content="image/jpeg" property="og:image:type"/>
+            <link rel="canonical" href="https://www.cordially.co" />
+            </Helmet>
 
         <div className="usual-nav" />
         <div className="preloader">

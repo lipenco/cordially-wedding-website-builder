@@ -534,6 +534,11 @@ class Themes extends Component {
                       </div></div></div>
               </section>
 
+              <h3 style={{textAlign:'center'}}>As featured in:</h3>
+
+              <img style={{width: '100%', padding: '20px 50px 40px'}} src="https://cdn.filestackcontent.com/zw0pwdfRRK2ye6wm9ZQ4"/>
+
+
 
               <section className="section-block--light grid--bleed section-block--border-top js-track-inline-signup section-block">
                 <div className="page-width" style={{textAlign: 'center'}}>

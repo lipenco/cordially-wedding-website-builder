@@ -62,11 +62,17 @@ class Pricing extends Component {
           <div style={{margin: '30px 0', textAlign:'center'}}>
           <p>                 You can relax knowing you're covered by a full 30 Day Money Back Guarantee!</p>
           <br/>
-
+          <img src="https://cdn.filestackcontent.com/JdtFr2qtRDG3uKvhSdQs"/>
+            <br/>
 
           <a href="https://www.cordially.co/template/modern" target='blank'>
           <h3 className="call">Build Your Wedding Website</h3>
           </a>
+          <h3 style={{textAlign:'center', paddingTop:100}}>As featured in:</h3>
+          <img style={{width: '100%', padding: '20px 50px 0'}} src="https://cdn.filestackcontent.com/zw0pwdfRRK2ye6wm9ZQ4"/>
+
+
+
 
          </div>
         </div>

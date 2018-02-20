@@ -287,7 +287,7 @@ class Themes extends Component {
                           <h3 className="heading--1">Modern</h3>
                           <p className="home-carousel__tagline heading--3">A minimalist theme, designed to keep your content accessible. Customize colors, fonts and wreath to match your style.</p>
                           <p className="home-carousel__ctas">
-                            <a className="marketing-button marketing-button--lowlight" href="https://www.cordially.co/template/modern">Live Preview</a>
+                            <a className="marketing-button marketing-button--lowlight" target="_blank" href="https://www.cordially.co/template/modern">Live Preview</a>
                           </p>
                           <div className="text-center display--mobile gutter-bottom">
                             <a target="_blank"  href="https://www.cordially.co/template/modern">

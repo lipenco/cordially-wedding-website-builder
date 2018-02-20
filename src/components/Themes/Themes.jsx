@@ -242,9 +242,9 @@ class Themes extends Component {
     return (
         <div>
         <Helmet title={`Modern wedding website | Cordially - Boutique Wedding Website Creator`}>
-          <meta content="https://www.cordially.co/img/modern/modern-wedding.jpg" property='og:image' />
+          <meta property='og:image' content="https://www.cordially.co/img/modern/modern-wedding-website.jpg" />
           <meta property="og:title"  content={`How to have a perfectly modern wedding - build your wedding website with Cordially.`} />
-          <meta property="og:description" content="With our help, you can make sure that your wedding website is a modern and perfectly reflects your wedding theme."/>
+          <meta property="og:description" content="With our help, you can make sure that your wedding website perfectly reflects your wedding theme."/>
         </Helmet>
 
           <div id="PageContainer">
@@ -264,7 +264,7 @@ class Themes extends Component {
                       <div className="grid__item grid__item--mobile-up-4 grid__item--tablet-up-4 grid__item--desktop-up-7 display--tablet display--desktop ">
                         <div className="home-carousel__images">
                           <div className="main-screenshot main-screenshot--home-carousel">
-                            <a tabIndex={-1} href="https://www.cordially.co/template/modern">
+                            <a tabIndex={-1} target="_blank"  href="https://www.cordially.co/template/modern">
                               <img className="themes main-screenshot__image lazyload" alt="Desktop preview for the Modern Wedding Website Theme" data-src="/img/modern/modern-wedding-website.jpg" />
                               <noscript>
                                 &lt;img alt="Desktop preview for the Modern wedding website theme" src="https://www.cordially.co/img/modern/modern-wedding-website.jpg" /&gt;
@@ -273,7 +273,7 @@ class Themes extends Component {
                           <div className="iphone-wrapper iphone-wrapper--home">
                             <div className="iphone">
                               <div className="iphone__screenshot">
-                                <a tabIndex={-1} href="/template/modern">
+                                <a tabIndex={-1} target="_blank" href="https://www.cordially.co/template/modern">
                                   <img className="themes lazyload" alt="Mobile preview for the Pop - Bone theme" data-src="/img/modern/modern-wedding-website-mobile.jpg" />
                                   <noscript>
                                     &lt;img alt="Mobile preview for the Modern wedding website theme" src="https://www.cordially.co/img/modern/modern-wedding-website-mobile.jpg" /&gt;
@@ -287,11 +287,11 @@ class Themes extends Component {
                           <h3 className="heading--1">Modern</h3>
                           <p className="home-carousel__tagline heading--3">A minimalist theme, designed to keep your content accessible. Customize colors, fonts and wreath to match your style.</p>
                           <p className="home-carousel__ctas">
-                            <a className="marketing-button marketing-button--lowlight" href="/template/modern">Live Preview</a>
+                            <a className="marketing-button marketing-button--lowlight" href="https://www.cordially.co/template/modern">Live Preview</a>
                           </p>
                           <div className="text-center display--mobile gutter-bottom">
-                            <a href="/templates/modern">
-                              <img className="themes lazyload theme-carousel__mobile-image" alt="Desktop preview for Bone" data-src="https://www.cordially.co/img/modern/modern-wedding-website.jpg" />
+                            <a target="_blank"  href="https://www.cordially.co/template/modern">
+                              <img className="themes lazyload theme-carousel__mobile-image" alt="Desktop preview for Modern wedding website builder" data-src="https://www.cordially.co/img/modern/modern-wedding-website.jpg" />
                               <noscript>
                                 &lt;img alt="Desktop preview for Modern wedding website template" src="https://www.cordially.co/img/modern/modern-wedding-website.jpg" /&gt;
                               </noscript>
@@ -303,7 +303,7 @@ class Themes extends Component {
                       <div className="grid__item grid__item--mobile-up-4 grid__item--tablet-up-4 grid__item--desktop-up-7 display--tablet display--desktop ">
                         <div className="home-carousel__images">
                           <div className="main-screenshot main-screenshot--home-carousel">
-                            <a tabIndex={-1} href="/template/secret-garden">
+                            <a tabIndex={-1} target="_blank"  href="https://www.cordially.co/template/secret-garden">
                               <img className="themes main-screenshot__image lazyload" alt="Desktop preview for the Secret Garden wedding theme theme" data-src="/img/secret-garden/secret-garden-wedding-website.jpg" />
                               <noscript>
                                 &lt;img alt="Desktop preview for the Secret Garden wedding website theme" src="https://www.cordially.co/img/secret-garden/secret-garden-wedding-website.jpg" /&gt;
@@ -312,7 +312,7 @@ class Themes extends Component {
                           <div className="iphone-wrapper iphone-wrapper--home">
                             <div className="iphone">
                               <div className="iphone__screenshot">
-                                <a tabIndex={-1} href="/template/secret-garden">
+                                <a tabIndex={-1} target="_blank"  href="https://www.cordially.co/template/secret-garden">
                                   <img className=" themes lazyload" alt="Mobile preview for the Secret Garden wedding website theme" data-src="/img/secret-garden/secret-garden-wedding-website-mobile.jpg" />
                                   <noscript>
                                     &lt;img alt="Mobile preview for the Secret Garden theme" src="https://www.cordially.co/img/secret-garden/secret-garden-wedding-website-mobile.jpg" /&gt;
@@ -326,7 +326,7 @@ class Themes extends Component {
                           <h3 className="heading--1">Secret Garden</h3>
                           <p className="home-carousel__tagline heading--3">Playful and original theme. Amazing for outdoor, garden weddings.</p>
                           <p className="home-carousel__ctas">
-                            <a className="marketing-button marketing-button--lowlight" href="/template/secret-garden">Live Preview</a>
+                            <a className="marketing-button marketing-button--lowlight" target="_blank"  href="https://www.cordially.co/template/secret-garden">Live Preview</a>
                           </p>
                           <div className="text-center display--mobile gutter-bottom">
                             <a href="/themes/simple/styles/light">
@@ -342,7 +342,7 @@ class Themes extends Component {
                       <div className="grid__item grid__item--mobile-up-4 grid__item--tablet-up-4 grid__item--desktop-up-7 display--tablet display--desktop ">
                         <div className="home-carousel__images">
                           <div className="main-screenshot main-screenshot--home-carousel">
-                            <a tabIndex={-1} href="/template/rustic">
+                            <a tabIndex={-1} target="_blank"  href="https://www.cordially.co/template/rustic">
                               <img className="themes main-screenshot__image lazyload" alt="Desktop preview for the Rustic wedding website theme" data-src="/img/rustic/rustic-wedding-website.jpg" />
                               <noscript>
                                 &lt;img alt="Desktop preview for the Rustic wedding website theme" src="https://www.cordially.co/img/rustic/rustic-wedding-website.jpg" /&gt;
@@ -351,7 +351,7 @@ class Themes extends Component {
                           <div className="iphone-wrapper iphone-wrapper--home">
                             <div className="iphone">
                               <div className="iphone__screenshot">
-                                <a tabIndex={-1} href="/template/rustic">
+                                <a tabIndex={-1} target="_blank" target="_blank"  href="https://www.cordially.co/template/rustic">
                                   <img className="themes lazyload" alt="Mobile preview for the Rustic wedding website theme" data-src="/img/rustic/rustic-wedding-website-mobile.jpg" />
                                   <noscript>
                                     &lt;img alt="Mobile preview for the Rustic wedding website theme" src="https://www.cordially.co/img/rustic/rustic-wedding-website-mobile.jpg" /&gt;
@@ -365,10 +365,10 @@ class Themes extends Component {
                           <h3 className="heading--1">Rustic</h3>
                           <p className="home-carousel__tagline heading--3">A simple, clean design that keeps the focus on your products</p>
                           <p className="home-carousel__ctas">
-                            <a className="marketing-button marketing-button--lowlight" href="/template/rustic">Live Preview</a>
+                            <a className="marketing-button marketing-button--lowlight" target="_blank"  href="https://www.cordially.co/template/rustic">Live Preview</a>
                           </p>
                           <div className="text-center display--mobile gutter-bottom">
-                            <a href="/template/rustic">
+                            <a target="_blank"  href="https://www.cordially.co/template/rustic">
                               <img className="themes lazyload theme-carousel__mobile-image" alt="Desktop preview for rustic weddinf website template" data-src="/img/rustic/rustic-wedding-website.jpg" />
                               <noscript>
                                 &lt;img alt="Desktop preview for Rustic wedding website theme" src="https://www.cordially.co/img/rustic/rustic-wedding-website-mobile.jpg" /&gt;
@@ -381,7 +381,7 @@ class Themes extends Component {
                       <div className="grid__item grid__item--mobile-up-4 grid__item--tablet-up-4 grid__item--desktop-up-7 display--tablet display--desktop ">
                         <div className="home-carousel__images">
                           <div className="main-screenshot main-screenshot--home-carousel">
-                            <a tabIndex={-1} href="/template/romantic">
+                            <a tabIndex={-1} target="_blank"  href="https://www.cordially.co/template/romantic">
                               <img className="themes main-screenshot__image lazyload" alt="Desktop preview for the Romantic" data-src="/img/romantic/romantic-wedding-website.jpg" />
                               <noscript>
                                 &lt;img alt="Desktop preview for the Romantic wedding website theme" src="https://www.cordially.co/img/romantic/romantic-wedding-website.jpg" /&gt;
@@ -390,7 +390,7 @@ class Themes extends Component {
                           <div className="iphone-wrapper iphone-wrapper--home">
                             <div className="iphone">
                               <div className="iphone__screenshot">
-                                <a tabIndex={-1} href="/template/romantic">
+                                <a tabIndex={-1} target="_blank"  href="https://www.cordially.co/template/romantic">
                                   <img className=" themes lazyload" alt="Mobile preview for the Brooklyn - Classic theme" data-src="/img/romantic/romantic-wedding-website-mobile.jpg" />
                                   <noscript>
                                     &lt;img alt="Mobile preview for the Romantic" src="https://www.cordially.co/img/romantic/romantic-wedding-website-mobile.jpg" /&gt;
@@ -404,7 +404,7 @@ class Themes extends Component {
                           <h3 className="heading--1">Romantic</h3>
                           <p className="home-carousel__tagline heading--3">Romantic flowers are perfect for your lovely wedding theme.</p>
                           <p className="home-carousel__ctas">
-                            <a className="marketing-button marketing-button--lowlight" href="/template/romantic">Live Preview</a>
+                            <a className="marketing-button marketing-button--lowlight" target="_blank"  href="https://www.cordially.co/template/romantic">Live Preview</a>
                           </p>
                           <div className="text-center display--mobile gutter-bottom">
                             <a href="/themes/brooklyn/styles/classic">
@@ -420,7 +420,7 @@ class Themes extends Component {
                       <div className="grid__item grid__item--mobile-up-4 grid__item--tablet-up-4 grid__item--desktop-up-7 display--tablet display--desktop ">
                         <div className="home-carousel__images">
                           <div className="main-screenshot main-screenshot--home-carousel">
-                            <a tabIndex={-1} href="/template/vintage">
+                            <a tabIndex={-1} target="_blank" href="https://www.cordially.co/template/vintage">
                               <img className="themes main-screenshot__image lazyload" alt="Desktop preview for the vintage wedding website template" data-src="/img/vintage/vintage-wedding-website.jpg" />
                               <noscript>
                                 &lt;img alt="Desktop preview for the Vintage wedding theme" src="https://www.cordially.co/img/vintage/vintage-wedding-website.jpg" /&gt;
@@ -429,7 +429,7 @@ class Themes extends Component {
                           <div className="iphone-wrapper iphone-wrapper--home">
                             <div className="iphone">
                               <div className="iphone__screenshot">
-                                <a tabIndex={-1} href="/template/vintage">
+                                <a tabIndex={-1} target="_blank"  href="https://www.cordially.co/template/vintage">
                                   <img className=" themes lazyload" alt="Mobile preview for the vintage wedding website template" data-src="/img/vintage/vintage-wedding-website-mobile.jpg" />
                                   <noscript>
                                     &lt;img alt="Mobile preview for the Vintage weeding website" src="/img/vintage/vintage-wedding-website-mobile.jpg" /&gt;
@@ -443,7 +443,7 @@ class Themes extends Component {
                           <h3 className="heading--1">Vintage</h3>
                           <p className="home-carousel__tagline heading--3">A moody template with vintage-inspired flowers. Original and delightful.</p>
                           <p className="home-carousel__ctas">
-                            <a className="marketing-button marketing-button--lowlight" href="/template/vintage">Live Preview</a>
+                            <a className="marketing-button marketing-button--lowlight" target="_blank" href="https://www.cordially.co/template/vintage">Live Preview</a>
                           </p>
                           <div className="text-center display--mobile gutter-bottom">
                             <a href="/themes/providence/styles/seaside">
@@ -459,7 +459,7 @@ class Themes extends Component {
                       <div className="grid__item grid__item--mobile-up-4 grid__item--tablet-up-4 grid__item--desktop-up-7 display--tablet display--desktop ">
                         <div className="home-carousel__images">
                           <div className="main-screenshot main-screenshot--home-carousel">
-                            <a tabIndex={-1} href="/template/greenery">
+                            <a tabIndex={-1} target="_blank" href="https://www.cordially.co/template/greenery">
                               <img className="themes main-screenshot__image lazyload" alt="Desktop preview for the Greenery wedding website" data-src="/img/greenery/greenery-wedding-website.jpg" />
                               <noscript>
                                 &lt;img alt="Desktop preview for the Greenery theme" src="/img/greenery/greenery-wedding-website.jpg" /&gt;
@@ -468,7 +468,7 @@ class Themes extends Component {
                           <div className="iphone-wrapper iphone-wrapper--home">
                             <div className="iphone">
                               <div className="iphone__screenshot">
-                                <a tabIndex={-1} href="/template/greenery">
+                                <a tabIndex={-1} target="_blank"  href="https://www.cordially.co/template/greenery">
                                   <img className=" themes lazyload" alt="Mobile preview for the Greenery wedding website template" data-src="/img/greenery/greenery-wedding-website-mobile.jpg" />
                                   <noscript>
                                     &lt;img alt="Mobile preview for the Greenery wedding website template" src="/img/greenery/greenery-wedding-website-mobile.jpg" /&gt;
@@ -482,10 +482,10 @@ class Themes extends Component {
                           <h3 className="heading--1">Greenery</h3>
                           <p className="home-carousel__tagline heading--3">Minimalistic and clean, perfect for modern Greenery wedding theme.</p>
                           <p className="home-carousel__ctas">
-                            <a className="marketing-button marketing-button--lowlight" href="/template/greenery">Live Preview</a>
+                            <a className="marketing-button marketing-button--lowlight" target="_blank"  href="https://www.cordially.co/template/greenery">Live Preview</a>
                           </p>
                           <div className="text-center display--mobile gutter-bottom">
-                            <a href="/template/greenery">
+                            <a target="_blank"  href="https://www.cordially.co/template/greenery">
                               <img className="themes lazyload theme-carousel__mobile-image" alt="Desktop preview for King" data-src="/img/greenery/greenery-wedding-website.jpg" />
                               <noscript>
                                 &lt;img alt="Desktop preview for  Greenery wedding website" src="/img/greenery/greenery-wedding-website.jpg" /&gt;
@@ -523,7 +523,7 @@ class Themes extends Component {
                   <div className="grid__item grid__item--tablet-up-half gutter-bottom--mobile">
                     <h1 className="heading--2">Find the perfect theme for your wedding website</h1>
                     <p className="text-major">Explore our range of beautiful themes to find the right look and feel for your wedding. Find inspiration, discover styles, and set up the mood for your big day.</p>
-                    <a href="/template/modern" className="marketing-button marketing-button--small marketing-button--secondary">Explore themes</a>
+                    <a target="_blank"  href="https://www.cordially.co/template/modern" className="marketing-button marketing-button--small marketing-button--secondary">Explore themes</a>
                   </div>    <div className="grid__item grid__item--tablet-up-half">
                     <div className="grid grid--bleed grid--equal-height">
                       <div className="grid__item">
@@ -546,7 +546,7 @@ class Themes extends Component {
                   <div style={{display: 'inline-block'}}>
                       <div>
                       <div>
-                      <a href="https://www.cordially.co/admin/register?templateName=modern">
+                      <a target="_blank"  href="https://www.cordially.co/admin/register?templateName=modern">
                       <button className="marketing-button marketing-form__button marketing-input-button-pair__button " name="button"  >
 
                       <span className="translation_missing" title="translation missing: en.nav.get_started">Get Started</span></button>  </a></div><span className="marketing-form__messages" /></div>

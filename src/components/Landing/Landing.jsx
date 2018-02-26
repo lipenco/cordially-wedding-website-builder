@@ -588,20 +588,20 @@ class Landing extends React.Component {
               </div>
               <div className="block-design raffinement">
                 <h3>
-                  <span>F</span>
+                  <span>R</span>
                   <span>i</span>
-                  <span>n</span>
-                  <span>e</span>
+                  <span>c</span>
+                  <span>h</span>
                   <span>-</span>
-                  <span>d</span>
+                  <span>m</span>
                   <span>e</span>
-                  <span>s</span>
+                  <span style={{paddingRight: 7}}>d</span>
                   <span>i</span>
-                  <span>g</span>
-                  <span>n</span>
+                  <span>a</span>
                 </h3>
                 <p>
-                  Beautifully subtle and finely tailored design, bespoke to suit you.  You will find our schemes pixel perfect, wonderfully crafted and sensitively and skillfully drawn.
+                  Engage your guests through rich media embeds. Share images, video, polls, slideshows, music, live video, forms,
+                  gifs, infographics and more on your wedding website.
                   No two weddings are the same and neither are our websites. Cordially wedding website builder it really is all about you.
                 </p>
               </div>

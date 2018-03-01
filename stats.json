@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---videos-gifs-playlists-maps-and-instagram-photos-on-your-wedding-website": [
-      "path---videos-gifs-playlists-maps-and-instagram-photos-on-your-wedding-website-7aabe94dff155915a743.js",
-      "path---videos-gifs-playlists-maps-and-instagram-photos-on-your-wedding-website-7aabe94dff155915a743.js.map"
+      "path---videos-gifs-playlists-maps-and-instagram-photos-on-your-wedding-website-6ee9946b516159d9bb1c.js",
+      "path---videos-gifs-playlists-maps-and-instagram-photos-on-your-wedding-website-6ee9946b516159d9bb1c.js.map"
     ],
     "path---tags-rustic": [
       "path---tags-rustic-16f50184685209a7d396.js",
@@ -25,8 +25,8 @@
       "component---src-pages-pricing-jsx-cfac0f9cbc4ed3810667.js.map"
     ],
     "path---blog": [
-      "path---blog-1261b69a2f56e8d0e10c.js",
-      "path---blog-1261b69a2f56e8d0e10c.js.map"
+      "path---blog-d897821a5e2420cea24d.js",
+      "path---blog-d897821a5e2420cea24d.js.map"
     ],
     "path---online-wedding-invitations-how-to-choose-the-best-one-for-you": [
       "path---online-wedding-invitations-how-to-choose-the-best-one-for-you-7eb8f1b143b14133e7cf.js",
@@ -89,8 +89,8 @@
       "component---src-templates-category-jsx-ff1e4e5076ebfe00f3d4.js.map"
     ],
     "path---tags-wedding-website": [
-      "path---tags-wedding-website-54076616ade3c18750cf.js",
-      "path---tags-wedding-website-54076616ade3c18750cf.js.map"
+      "path---tags-wedding-website-edb1751df4584c2776cc.js",
+      "path---tags-wedding-website-edb1751df4584c2776cc.js.map"
     ],
     "path---index": [
       "path---index-1db04e5021b40904aca6.js",
@@ -123,8 +123,8 @@
       "component---src-templates-tag-jsx-b23b828f160bd660d039.js.map"
     ],
     "path---categories-wedding-website-builder": [
-      "path---categories-wedding-website-builder-b89a4205af3ad8a0e028.js",
-      "path---categories-wedding-website-builder-b89a4205af3ad8a0e028.js.map"
+      "path---categories-wedding-website-builder-8d013594d91bb03890f6.js",
+      "path---categories-wedding-website-builder-8d013594d91bb03890f6.js.map"
     ],
     "component---src-pages-blog-jsx": [
       "component---src-pages-blog-jsx-383170ce1150a794a6c8.js",
@@ -155,9 +155,9 @@
       "component---src-pages-wedding-website-builder-about-jsx-c6aed1a447f8824dbdea.js.map"
     ],
     "app": [
-      "app-9503e64031d7e69c83d9.js",
+      "app-d8bdcc218f272bbef392.js",
       "build-js-styles.css",
-      "app-9503e64031d7e69c83d9.js.map",
+      "app-d8bdcc218f272bbef392.js.map",
       "build-js-styles.css.map"
     ],
     "path---hidden-cost-of-free-wedding-websites": [

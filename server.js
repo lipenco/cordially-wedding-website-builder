@@ -5,7 +5,7 @@ var proxy = require("http-proxy-middleware");
 var port = process.env.PORT || 9000;
 
 var options = {
-  target: "https://app.cordially.co/", // target host
+  target: "http://app.cordially.co/", // target host
   changeOrigin: true, // needed for virtual hosted sites
   secure: false
 };

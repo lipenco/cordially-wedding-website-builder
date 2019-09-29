@@ -1,2 +1,0 @@
-webpackJsonp([19033029736672],{475:function(n,t){n.exports={pathContext:{category:"online wedding invitations",_PARENT:"SOURCE"}}}});
-//# sourceMappingURL=path---categories-online-wedding-invitations-f197d0af997eeb663704.js.map

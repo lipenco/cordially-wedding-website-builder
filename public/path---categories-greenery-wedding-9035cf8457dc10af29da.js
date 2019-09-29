@@ -1,2 +1,0 @@
-webpackJsonp([0x6c003b8d3f35],{474:function(e,n){e.exports={pathContext:{category:"greenery wedding",_PARENT:"SOURCE"}}}});
-//# sourceMappingURL=path---categories-greenery-wedding-9035cf8457dc10af29da.js.map

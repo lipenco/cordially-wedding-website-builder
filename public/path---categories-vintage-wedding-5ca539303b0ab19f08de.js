@@ -1,2 +1,0 @@
-webpackJsonp([86853090865956],{477:function(t,e){t.exports={pathContext:{category:"Vintage wedding",_PARENT:"SOURCE"}}}});
-//# sourceMappingURL=path---categories-vintage-wedding-5ca539303b0ab19f08de.js.map

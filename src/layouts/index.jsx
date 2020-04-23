@@ -39,6 +39,7 @@ export default class MainLayout extends React.Component {
     const currentPath = this.props.location.pathname.replace(pathPrefix, '').replace('/', '');
 
     if (currentPath === ('')) {
+      console.log("here")
       return (  <div>
           {children()}
         </div>)

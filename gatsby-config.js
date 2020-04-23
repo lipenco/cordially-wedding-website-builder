@@ -1,30 +1,40 @@
+const urljoin = require("url-join");
 const config = require("./data/SiteConfig");
 
-const pathPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
+const regexExcludeRobots = /^(?!\/(dev-404-page|404|offline-plugin-app-shell-fallback|tags|categories)).*$/;
 
 module.exports = {
-  pathPrefix: config.pathPrefix,
+  pathPrefix: config.pathPrefix === "" ? "/" : config.pathPrefix,
   siteMetadata: {
-    siteUrl: config.siteUrl + pathPrefix,
+    siteUrl: urljoin(config.siteUrl, config.pathPrefix),
     rssMetadata: {
-      site_url: config.siteUrl + pathPrefix,
-      feed_url: config.siteUrl + pathPrefix + config.siteRss,
+      site_url: urljoin(config.siteUrl, config.pathPrefix),
+      feed_url: urljoin(config.siteUrl, config.pathPrefix, config.siteRss),
       title: config.siteTitle,
       description: config.siteDescription,
-      image_url: `${config.siteUrl +
-        pathPrefix}/min/favicons/ms-icon-310x310.png`,
-      author: config.userName,
+      image_url: `${urljoin(
+        config.siteUrl,
+        config.pathPrefix
+      )}/logos/logo-512.png`,
       copyright: config.copyright
     }
   },
   plugins: [
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-lodash",
     "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "assets",
+        path: `${__dirname}/static/`
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "posts",
-        path: `${__dirname}/content/${config.blogPostDir}`
+        path: `${__dirname}/content`
       }
     },
     {
@@ -32,9 +42,12 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: "gatsby-remark-relative-images"
+          },
+          {
             resolve: "gatsby-remark-images",
             options: {
-              maxWidth: 1200
+              maxWidth: 672
             }
           },
           {
@@ -58,14 +71,43 @@ module.exports = {
         color: "#c62828"
       }
     },
+    "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     "gatsby-plugin-catch-links",
-    "gatsby-plugin-sitemap",
+    "gatsby-plugin-netlify-cms",
+    "gatsby-plugin-twitter",
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        output: "/sitemap.xml",
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+            allSitePage(
+              filter: {
+                path: {
+                  regex: "${regexExcludeRobots}"
+                }
+              }
+            ) {
+              edges {
+                node {
+                  path
+                }
+              }
+            }
+        }`
+      }
+    },
     {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: config.siteTitle,
-        short_name: config.siteTitle,
+        short_name: config.siteTitleShort,
         description: config.siteDescription,
         start_url: config.pathPrefix,
         background_color: "#e0e0e0",
@@ -73,12 +115,12 @@ module.exports = {
         display: "minimal-ui",
         icons: [
           {
-            src: "/img/favicon/ms-icon-310x310.png",
+            src: "/logos/logo-192.png",
             sizes: "192x192",
             type: "image/png"
           },
           {
-            src: "/img/favicon/ms-icon-310x310.png",
+            src: "/logos/logo-512.png",
             sizes: "512x512",
             type: "image/png"
           }
@@ -105,7 +147,6 @@ module.exports = {
                 title
                 description
                 image_url
-                author
                 copyright
               }
             }
@@ -115,16 +156,18 @@ module.exports = {
         feeds: [
           {
             serialize(ctx) {
-              const rssMetadata = ctx.query.site.siteMetadata.rssMetadata;
+              const { rssMetadata } = ctx.query.site.siteMetadata;
               return ctx.query.allMarkdownRemark.edges.map(edge => ({
                 categories: edge.node.frontmatter.tags,
                 date: edge.node.frontmatter.date,
                 title: edge.node.frontmatter.title,
                 description: edge.node.excerpt,
-                author: rssMetadata.author,
                 url: rssMetadata.site_url + edge.node.fields.slug,
                 guid: rssMetadata.site_url + edge.node.fields.slug,
-                custom_elements: [{ "content:encoded": edge.node.html }]
+                custom_elements: [
+                  { "content:encoded": edge.node.html },
+                  { author: config.userEmail }
+                ]
               }));
             },
             query: `
@@ -151,7 +194,8 @@ module.exports = {
               }
             }
           `,
-            output: config.siteRss
+            output: config.siteRss,
+            title: config.siteRssTitle
           }
         ]
       }

@@ -38,22 +38,11 @@ export default class MainLayout extends React.Component {
     const pathPrefix = config.pathPrefix ? config.pathPrefix : '/';
     const currentPath = this.props.title;
 
-    if (currentPath === ('')) {
-      console.log("here")
-      return (  <div>
-          <h1> here </h1>
-          {children()}
-        </div>)
-    } else {
-      console.log("here33")
-
-      return (<Navigation
-         config={config} LocalTitle={this.getLocalTitle(currentPath)}>
-
-              <div className="naj">
-                {children}
-              </div>
-            </Navigation>)
-    }
+    return <Navigation
+       config={config} LocalTitle={this.getLocalTitle(currentPath)}>
+            <div className="naj">
+              {children}
+            </div>
+          </Navigation>
   }
 }

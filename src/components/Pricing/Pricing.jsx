@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 import "./Pricing.scss";
+import Layout from "../../layout";
+
 
 class Pricing extends Component {
   render() {
     return (
-      <div className="about">
+      <Layout location={this.props.location} title="Pricing">
+      <div className="about naj">
         <div className="inner">
           <h1>Build your stunning wedding website. Try it for free.</h1>
           <h4>
@@ -118,6 +121,7 @@ class Pricing extends Component {
           </div>
         </div>
       </div>
+      </Layout>
     );
   }
 }

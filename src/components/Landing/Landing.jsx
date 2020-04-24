@@ -53,11 +53,11 @@ class Landing extends React.Component {
 
   componentWillMount() {
     if (typeof window !== 'undefined') {
-     const script = document.createElement("script");
-     script.src = "cordially-landing-optimized.js";
-     script.async = true;
-
-     document.body.appendChild(script);
+     // const script = document.createElement("script");
+     // script.src = "cordially-landing-optimized.js";
+     // script.async = true;
+     //
+     // document.body.appendChild(script);
 
      var elements = document.getElementsByClassName('txt-rotate');
      for (var i=0; i<elements.length; i++) {
@@ -88,7 +88,7 @@ class Landing extends React.Component {
 
     return (
       <div>
-
+      <div>
         <Helmet title={`Cordially - Boutique Wedding Website Creator.`}>
             <meta property="og:site_name" content="Cordially.co"/>
             <meta name="description" content="Build your wedding website with love. Collect wedding RSVPs online and choose from modern wedding websites templates designed by Cordially - the best wedding website builder."/>
@@ -96,7 +96,8 @@ class Landing extends React.Component {
             <meta content="https://www.cordially.co/img/cordially-logo-new.jpg" property="og:image:url"/>
             <meta content="image/jpeg" property="og:image:type"/>
             <link rel="canonical" href="https://www.cordially.co" />
-            </Helmet>
+            <script src='/cordially-landing-optimized.js'/>
+          </Helmet>
 
         <div className="usual-nav" />
         <div className="preloader">
@@ -233,7 +234,7 @@ class Landing extends React.Component {
                   letterSpacing: '2px',
                   marginTop: 100,
                   marginBottom: 40
-                }}>Boutique wedding website creator</h1>
+                }}>Boutique wedding website creator22</h1>
                 <h1>Build your wedding website
                  <br/>
                   <span
@@ -763,6 +764,7 @@ class Landing extends React.Component {
         </div>
 
 
+      </div>
       </div>
     );
   }

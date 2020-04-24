@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './About.scss';
-
+import Layout from "../../layout";
 class About extends Component {
   render() {
     return (
+      <Layout location={this.props.location} title="About">
       <div className="about">
           <div className="inner">
             <figure>
@@ -82,6 +83,7 @@ class About extends Component {
           </section>
           </div>
         </div>
+        </Layout>
     );
   }
 }

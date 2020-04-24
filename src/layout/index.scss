@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+    margin: 0;
+}
+
+
+// @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700|Material+Icons');
+@import '~react-md/src/scss/react-md';
+// @import 'theme.scss';
+
+@import '~react-md/src/scss/react-md';
+$md-primary-color: $md-grey-400;
+$md-secondary-color: $md-red-800;
+$md-tertiary-color: $md-grey-300;
+
+@import '~react-md/src/scss/react-md';
+$md-primary-color: $md-grey-400;
+$md-secondary-color: $md-red-800;
+$md-tertiary-color: $md-grey-300;
+
+.main-container,
+.darker-background {
+    background-color: #fff;
+}
+
+a:link {
+    // color: $md-secondary-color;
+    text-decoration: none;
+}
+
+h1 {
+  font-family: "AvenirRegular", sans-serif !important;
+  font-size: 60px;
+  line-height: 55px;
+  margin-bottom: 40px;
+  font-weight: 100 !important;
+  // color: #70e4d0 !important;
+}
+
+p {
+  font-size: 18px !important;
+  font-family: "AvenirRegular", sans-serif !important;
+}
+
+.md-text {
+  font-size: 16px !important;
+  font-family: "AvenirRegular", sans-serif !important;
+}
+
+.call {
+  background-color: #7fe7d7;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 40px 0;
+}
+.call:hover {
+  opacity: 0.8;
+}
+
+h2 {
+  margin: 40px 0 30px;
+}
+
+.main-container,
+.darker-background {
+    background-color: #fff;
+}
+
+a:link {
+    // color: $md-secondary-color;
+    text-decoration: none;
+}
+
+h1 {
+  font-family: "AvenirRegular", sans-serif !important;
+  font-size: 60px;
+  line-height: 55px;
+  margin-bottom: 40px;
+  font-weight: 100 !important;
+  // color: #70e4d0 !important;
+}
+
+p {
+  font-size: 18px !important;
+  font-family: "AvenirRegular", sans-serif !important;
+}
+
+.md-text {
+  font-size: 16px !important;
+  font-family: "AvenirRegular", sans-serif !important;
+}
+
+.call {
+  background-color: #7fe7d7;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 40px 0;
+}
+.call:hover {
+  opacity: 0.8;
+}
+
+h2 {
+  margin: 40px 0 30px;
+}
+
+
+@include react-md-everything;

@@ -52,7 +52,7 @@ When it comes to organizing a rustic wedding, you can’t go far wrong by settin
 Our [rustic website theme](https://www.cordially.co/template/rustic) is ideal. Not only does it contain all the information that you need, but it also looks amazing too. After all, when you are organizing a rustic wedding, it is all about the details!
 
 
-![rustic wedding website](https://cdn.filestackcontent.com/cWUxYsqdQricLOSVxW6M)
+![rustic wedding website](https://cordiallyco.s3.amazonaws.com/rustic.gif)
 
 
 <div style="text-align: center; margin:40px">

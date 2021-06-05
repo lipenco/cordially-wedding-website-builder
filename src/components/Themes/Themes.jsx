@@ -536,7 +536,7 @@ class Themes extends Component {
 
               <h3 style={{textAlign:'center'}}>As featured in:</h3>
 
-              <img style={{width: '100%', padding: '20px 50px 40px'}} src="https://cdn.filestackcontent.com/zw0pwdfRRK2ye6wm9ZQ4"/>
+              <img style={{width: '100%', padding: '20px 50px 40px'}} src="https://cordiallyco.s3.amazonaws.com/seenas-mediafeature.jpg"/>
 
 
 

@@ -105,7 +105,7 @@ class Pricing extends Component {
               Guarantee!
             </p>
             <br />
-            <img src="https://cdn.filestackcontent.com/JdtFr2qtRDG3uKvhSdQs" />
+            <img src="https://cordiallyco.s3.amazonaws.com/secure_cards.png" />
             <br />
 
             <a href="https://www.cordially.co/template/modern" target="blank">
@@ -116,7 +116,7 @@ class Pricing extends Component {
             </h3>
             <img
               style={{ width: "100%", padding: "20px 50px 0" }}
-              src="https://cdn.filestackcontent.com/zw0pwdfRRK2ye6wm9ZQ4"
+              src="https://cordiallyco.s3.amazonaws.com/seenas-mediafeature.jpg"
             />
           </div>
         </div>
